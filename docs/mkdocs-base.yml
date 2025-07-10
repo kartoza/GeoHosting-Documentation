@@ -73,7 +73,10 @@ nav:
           - Other Tools: products/geonode/other_tools.md
       - G3W:
           - products/g3w/index.md
+          - Overview: products/g3w/overview.md
           - Guide: products/g3w/guide.md
+          - Manual: products/g3w/manual.md
+          - Help: products/g3w/help.md
       #- BIMS:
       #    - products/bims/index.md
       #    - Introduction: products/bims/introduction.md

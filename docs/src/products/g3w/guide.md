@@ -13,7 +13,7 @@ context_id: nDU6LLGiXPTLADXY
 
 # G3W Guide
 
-## Using the Kartoza GeoSpatialHosting Dashboard
+## Creating Your Instance
 
 After your service has finished setting up, you will be redirected to the Hosted Services page of the GeoSpatial Hosting Dashboard. Here, you can view all your purchased services.
 
@@ -30,286 +30,46 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To access your login credentials:**
 
-1. Click the Get Credentials button under your hosted service.
-
-2. Your credentials will be copied to your clipboard.
-
-     > **Hint:** Paste and save your credentials in a secure location.
-
+1. Click the **Get Credentials** button under your hosted service.  
+2. Your credentials will be copied to your clipboard.  
+   > **Hint:** Paste and save your credentials in a secure location.  
 3. Click the application name you selected for your G3W instance to open it.
 
-     <br>
+<br>
 
-     <div style="text-align: center;">
-       <img src="../img/g3w-img-5.png" alt="Hosted Services" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geohosting.sta.do.kartoza.com/" target="_blank">Kartoza GeoSpatialHosting</a>
-       </div>
-     </div>
-     
+<div style="text-align: center;">
+  <img src="../img/g3w-img-5.png" alt="Hosted Services" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geohosting.sta.do.kartoza.com/" target="_blank">Kartoza GeoSpatialHosting</a>
+  </div>
+</div>
+
 <br>
 
 **To delete a hosted service:**
 
-1. Click the 3 dots in the corner of the hosted service pane.
-
+1. Click the three dots (⋮) in the corner of the hosted service pane.  
 2. From the dropdown menu, select **Delete**.
 
 <br>
 
-> **⚠️ IMPORTANT** 
-> 
+> **⚠️ IMPORTANT**  
 > Deleting a hosted service is **permanent**. All associated data will be irreversibly removed with **no option for recovery**.
 
----
+## First Log In & Setting Your Password
 
-## Getting Started
+To access the Administration Panel, log in using the credentials generated on the GeoSpatial Hosting Dashboard:
 
-### Accessing the Online Service
-
-G3W-SUITE includes a **front-end geographic portal** that allows public access to thematic WebGIS groups and services, making spatial data easy to explore and interact with.
-
-<br>
-
-You can access the portal in two ways:
-
-1. **Via direct URL**
-
-     Open your browser and navigate to:
-
-     ```
-     http://<application_name>.sta.do.kartoza.com/g3w
-     ```
-
-     <br>
-
-2. **Via the GeoSpatial Hosting Dashboard**
-
-     Click the application name you selected for your G3W instance.
+1. Click **Login** in the portal side panel.  
+2. Enter your credentials:  
+   - **Username:** `admin`  
+   - **Password:** *(paste your generated password)*  
+3. Click **Sign In**.
 
 <br>
 
 <div style="text-align: center;">
-  <img src="../img/g3w-img-6.png" alt="Front-End Geographic Portal" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-  </div>
-</div>
-
----
-
-### Portal Overview
-
-The **home page** serves as the main entry point to the platform. It includes a customizable welcome message and intuitive navigation menus that provide access to various functionalities.
-
-<br>
-
-**Right-Side Panel Menu**
-
- This panel contains quick-access links:
-
- - About It - view service-related information
- - Maps - explore available WebGIS services
- - Login - access additional services
-
----
-
-1. **About It**
-
-      This section can display a short description and key contact details relevant to your organization or project.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-7.png" alt="About It Section" width="auto">
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      --- 
-
-2. **Maps**
-
-      G3W-SUITE organizes WebGIS services in a **hierarchical containers**:
-
-      - Cartographic Macrogroups – top-level thematic categories
-      - Cartographic Groups – subcategories containing specific services
-
-      <br>
-
-      **Browsing Maps:**
-
-      1. Click on **Maps** from the panel.
-
-      2. Available Macrogroups (if any) will be displayed under **Thematic Groups**.
-
-      3. Selecting a Macrogroup shows its associated **Groups**.
-
-      4. Groups list the individual **WebGIS services**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-8.png" alt="Maps Section" width="auto">
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      ---
-
-3. **Login**
-
-      To access the Administration Panel it is necessary to log in using the administrator credentials.
-
-      <br>
-
-      **To log in:**
-
-      1. Click on **Login** from the panel.
-
-      2. Enter the credentials you generated earlier from the GeoSpatialHosting Dashboard:
-
-           - **Username:** `admin`
-           - **Password:** `*generate from dashboard*`
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-9.png" alt="Login" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-      **Once logged in**, additional services will be visible, including:
-
-      - Restricted Macrogroups
-      - Restricted Groups and WebGIS services based on your access permissions
-
-       <br>
-
-      > **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/g3w/guide/#using-the-kartoza-geospatialhosting-dashboard)
-      
-      <br>
-
-      ---
-
-4. **Admin**
-
-      Once logged in, the Login Section is replaced with the **Admin Section**. 
-
-      <br>
-
-      From here, you can:
-
-      - **Logout** of G3W-SUITE
-      - Access the **Administration Panel** through the **Backend** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-10.png" alt="Admin Section" width="auto">
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-         Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
- 
-<br>
-
-> **Note:** For more details, refer to the [G3W-FRONTEND](https://g3w-suite.readthedocs.io/en/latest/g3wsuite_access_portal.html#g3w-frontend-the-front-end-portal) section of the official G3W documentation.
-
----
-
-### Administration panel
-
-The **Administration Panel** is the control center for managing all key aspects of your G3W-SUITE instance. Through this interface, you can:
-
-- Customize the access portal
-- Create and manage users and user groups
-- Define Cartographic MacroGroups and Groups, along with access and management policies
-- Publish QGIS projects as WebGIS services
-- Maintain and enhance WebGIS services (e.g., search tools, custom functions)
-
-<br>
-
-You can access the Administration Panel in two ways:
-
-1. **Via the Administration button**
-
-      From any section in the portal interface, simply click the **Administration** button in the top-right corner.
-      
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-11.png" alt="Administration button" width="auto">
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-2. **Via the Admin Section**
-
-      Once logged in, navigate to the Admin Section and click the **Backend** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-12.png" alt="Backend button" width="auto">
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-> **Note:** Access to the Administration Panel requires logging in with administrator credentials. 
-
-> **Hint:** Need help logging in? Refer to the **Login** section under [Portal Overview](https://kartoza.github.io/GeoHosting/products/g3w/guide/#portal-overview). 
-
-<br>
-
-Upon logging into the Administration Panel, you’ll see the following elements:
-
-1. **Top Bar**
-
-      - **Frontend:** Return to the main public-facing portal
-      - **Username:** Access your profile or log out
-      - **Language:** Select your preferred interface language
-      - **Gear icon:**
-
-           - Edit General Data: Customize portal information
-           - Django Administration (admin-only): Access Django backend settings
-           - Files: Open the integrated File Manager tool
-
-       <br>
-
-2. **Left-Side Navigation Menu**
-
-      Provides access to all administration functions:
-
-      - **Dashboard:** Quick access to the Admin homepage
-      - **Cartographic Groups:** Create and manage WebGIS groups
-      - **Macro Cartographic Groups:** Create and manage high-level thematic containers
-      - **Users:** Manage individual users and user groups
-
-      <br>
-
-3. **Central Dashboard Area**
-
-      The center of the screen displays:
-     
-      - **Dashboard:** Displays an overview and quick links to Cartographic Groups
-      
-      <br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-13.png" alt="Administration panel" width="auto">
+  <img src="../img/g3w-img-9.png" alt="Login" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -317,11 +77,17 @@ Upon logging into the Administration Panel, you’ll see the following elements:
 
 <br>
 
-> **Note:** For more details, refer to the [G3W-ADMIN](https://g3w-suite.readthedocs.io/en/latest/g3wsuite_administration.html#g3w-admin-the-administration-panel) section of the official G3W documentation.
+**Changing your initial password (recommended):**
 
----
+1. Click your username in the top bar and select **Change password**.  
+2. Enter your current password and your new password twice.  
+3. Click **Change password** to save.
 
-## Tutorial
+<br>
+
+> **Hint:** Choose a strong, unique password and store it securely.
+
+## Quickstart: 5-Minute Tutorial
 
 ### Overview
 
@@ -1508,3 +1274,224 @@ Your new `Buildings` feature is now saved to the WebGIS.
 > **Note:** For more details, refer to the [Editing on line](https://g3w-suite.readthedocs.io/en/latest/g3wsuite_editing.html#editing-on-line) section of the official G3W documentation.
 
 ---
+
+## Navigating the Dashboard
+
+The **home page** serves as the main entry point to the platform. It includes a customizable welcome message and intuitive navigation menus that provide access to various functionalities.
+
+<br>
+
+**Right-Side Panel Menu**
+
+This panel contains quick-access links:
+
+- **About It** – view service-related information  
+- **Maps** – explore available WebGIS services  
+- **Login** – access additional services  
+
+<br>
+
+### About It
+
+This section can display a short description and key contact details relevant to your organization or project.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../img/g3w-img-7.png" alt="About It Section" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+### Maps
+
+G3W-SUITE organizes WebGIS services in hierarchical containers:
+
+- **Cartographic Macrogroups** – top-level thematic categories  
+- **Cartographic Groups** – subcategories containing specific services  
+
+<br>
+
+**Browsing Maps:**
+
+1. Click **Maps** in the panel.  
+2. Available macrogroups appear under **Thematic Groups**.  
+3. Select a macrogroup to view its associated **Groups**.  
+4. Click a group to list individual **WebGIS services**.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../img/g3w-img-8.png" alt="Maps Section" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+## Managing Users & Permissions
+
+The **Administration Panel** is the control center for managing user accounts, groups, and access policies.
+
+### Accessing the Administration Panel
+
+Once logged in, click the **Backend** button in the top-right corner, or use the **Gear** icon → **Django Administration**.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../img/g3w-img-13.png" alt="Administration panel" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+### Top Bar Controls
+
+- **Frontend:** Return to the public-facing portal  
+- **Username:** Access your profile or log out  
+- **Language:** Change interface language  
+- **Gear icon:**  
+  - Edit General Data  
+  - Django Administration  
+  - Files (File Manager)  
+
+<br>
+
+### Left-Side Navigation Menu
+
+Use the sidebar to navigate administration functions:
+
+- **Dashboard:** Overview & quick links  
+- **Macro Cartographic Groups:** Create/manage thematic containers  
+- **Cartographic Groups:** Create/manage service groups  
+- **Users:** Create, edit, and delete user accounts; assign users to groups  
+
+<br>
+
+### Central Dashboard Area
+
+The central panel displays:
+
+- **Dashboard Widget:** High-level overview  
+- **Quick Links:** Direct access to Cartographic Groups, Macro Cartographic Groups, Users  
+- **Status Panels:** Counts of existing groups, users, and services
+
+## Integrating With Other Tools
+
+Once your project is published, click the **Layers** icon to configure functional widgets for each layer:
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../img/g3w-img-42.png" alt="Functional Options" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+### Creating a Search Widget
+
+1. From **QGIS Project Layers**, click the **Widgets List** icon next to the `buildings` layer.  
+2. Click **Add New Widget**.  
+3. In the **Widget Creation Form**, set:  
+   - **Type:** `Search`  
+   - **Name:** `Search Widget`  
+   - **Search Title:** `Tutorial Search Widget`  
+4. Under **Search Field Settings**, click **Add** and configure:  
+   - **Field:** `type`  
+   - **Widget:** `SelectBox`  
+   - **Alias:** `Building Type`  
+   - **Operator:** `=`  
+5. Click **OK**.
+
+<br>
+
+### Creating a Plots Widget
+
+1. From **QGIS Project Layers**, click the **Qplotly Widgets** icon next to the `buildings` layer.  
+2. Click **New Qplotly Widget**.  
+3. In the pop-up, upload the plot definition (`.xml`) from your `plots/` folder: `Tutorial_Data_G3WSUITE/plots/qplotly_type-distribution.xml`.
+4. Click **OK**.
+
+<br>
+
+> **Note:** Search and plot widgets update dynamically based on map extent and feature selection.  
+
+## Glossary of Terms
+
+- **ACL (Access Control List)**  
+  A mechanism for defining which users or groups have permission to view or manage specific services, modules, or data within G3W-SUITE.
+
+- **Base Layer**  
+  The default map layer (e.g., OSM) that loads when a WebGIS service is opened.
+
+- **Cartographic Group**  
+  A subcategory within a MacroGroup that holds individual WebGIS services or projects.
+
+- **Cartographic MacroGroup**  
+  A top-level thematic container in G3W-SUITE used to organize collections of related WebGIS services.
+
+- **Feature Locking**  
+  A multi-user editing mechanism that locks visible features to the active editor to prevent conflicts.
+
+- **File Manager**  
+  The interface in the Administration Panel for uploading and organizing service data files.
+
+- **Front-End Geographic Portal**  
+  The public-facing portal in G3W-SUITE for browsing thematic macrogroups, groups, and services.
+
+- **G3W-ADMIN**  
+  The administration module of G3W-SUITE, providing project management, ACL, OGC proxy, and REST API functionality.
+
+- **G3W-CLIENT**  
+  The cartographic web client module of G3W-SUITE, enabling visualization and interaction with published OGC services.
+
+- **Geocoding Provider**  
+  An external service configured in G3W-SUITE for address-based searches.
+
+- **GetFeatureInfo**  
+  A WMS operation to retrieve attribute information for features at a clicked map location.
+
+- **Hosted Services**  
+  Instances of G3W-SUITE provisioned via the Kartoza GeoSpatialHosting Dashboard.
+
+- **Layer TOC**  
+  The table of contents panel listing all layers in a WebGIS service.
+
+- **OGC Proxy**  
+  A component in G3W-ADMIN that forwards OGC service requests to QGIS Server.
+
+- **OGC Services**  
+  Web services conforming to Open Geospatial Consortium standards, such as WMS (Web Map Service) and WFS (Web Feature Service).
+
+- **Panoramic Overview Map**  
+  A mini-map view displayed in the corner of the WebGIS interface for spatial context.
+
+- **REST API Server**  
+  The backend API provided by G3W-ADMIN for programmatic access and integrations.
+
+- **SpatiaLite**  
+  An extension of SQLite that adds support for spatial/geographic data storage in a single file.
+
+- **Thumbnail (Logo)**  
+  A small image representing a WebGIS project in list views.
+
+- **URL Alias**  
+  A human-readable path segment used to access a WebGIS service (e.g., `/g3w`).
+
+- **WebGIS Service**  
+  A QGIS project published as an OGC service (e.g., WMS/WFS) through G3W-SUITE.
+
+- **Widgets**  
+  Client-side tools configurable per layer in the cartographic client, such as:  
+  - **Search Widget**: Enables attribute-based queries.  
+  - **Plots (QPlotly) Widget**: Embeds interactive Plotly charts based on DataPlotly definitions.
