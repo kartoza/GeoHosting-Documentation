@@ -1,44 +1,77 @@
 ---
-title: Documentation
 summary: GeoHosting Controller
   - Irwan Fathurrahman
 date: 2024-06-19
 some_url: https://github.com/kartoza/GeoHosting-Controller.git
 copyright: Copyright 2024, Kartoza
 contact:
-license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+license: This programme is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the Licence, or (at your option) any later version.
 context_id: nDU6LLGiXPTLADXY
 hide:
   footer: true
 ---
 
+# 🌍 GeoSpatialHosting
 
-![Geohosting-full.sbg](./img/geohosting-full.svg)
+**GeoSpatialHosting (GSH)** is an on-demand platform that lets you spin up fully functional GIS tools like [GeoNode](https://geonode.org), [G3W-Suite](https://g3w-suite.readthedocs.io/), and [GeoServer](https://geoserver.org) — instantly.
 
-## Overview
+Whether you're a spatial analyst, developer, NGO, or municipality, GSH removes the complexity of server configuration and lets you focus on your project — not your infrastructure.
 
-GeoSpatialHosting is a specialized platform that offers high-performance hosting solutions tailored for geospatial applications and data. We provide secure, scalable, and reliable infrastructure to support the storage, management, and analysis of geographic information. Our services are designed to meet the unique needs of professionals in industries such as mapping, surveying, urban planning, and environmental science. With cutting-edge technology and exceptional customer support, GeoSpatialHosting ensures that your geospatial data is accessible, protected, and ready for real-time analysis anytime, anywhere.
+<!-- **Launch and manage your open-source GIS stack in minutes.** -->
 
-![GHS_home.png](./img/GHS_home.png)
+![GSH_home](./img/GHS_home.png)
 
-## Key Concepts
-1. **Geospatial Data Hosting**
-GeoSpatialHosting provides dedicated hosting solutions for geospatial data, ensuring fast and secure access to large datasets like maps, satellite imagery, and geographic information systems (GIS).
+> The fastest, most reliable way to deploy GeoNode, GeoServer, and G3W-Suite — no DevOps required.
 
-2. **Scalable Infrastructure**
-Our platform offers scalable cloud infrastructure that grows with your needs. Whether you're managing small datasets or large-scale geospatial projects, we provide flexible resources that can be easily adjusted for performance optimization.
+## 🎯 Why GSH?
 
-3. **High-Performance Data Processing**
-GeoSpatialHosting is optimized for high-speed processing of geospatial data, allowing for real-time rendering, analysis, and visualization. This is critical for applications that require quick insights from complex geographic datasets.
+Deploying open-source GIS tools can be time-consuming, technically complex, and costly to maintain. For smaller GIS teams, launching your own spatial platform with all the overheads can seem impossible.
 
-4. **Security & Data Integrity**
-Security is at the core of our platform. GeoSpatialHosting ensures that your data is protected with industry-standard encryption, regular backups, and strict access controls to maintain data integrity and confidentiality.
+GSH changes that — putting the power back in your hands by offering:
 
-5. **Seamless Integration**
-We support easy integration with popular geospatial tools, APIs, and software, allowing you to seamlessly connect and work with the applications and workflows you rely on.
+- **Pre-configured GIS stacks** tailored for production use
+- **One-click deployment** for common setups
+- **Managed infrastructure** backed by our expert team
 
-6. **Collaboration and Sharing**
-The platform enables collaboration across teams and organizations, offering shared access to geospatial data and the ability to work together on mapping projects in real-time.
+## 💡 What Makes GSH Different?
 
-Dedicated Customer Support
-Our expert support team is available to assist you with any technical issues, ensuring smooth operation of your geospatial applications and services.
+Unlike generic hosting providers, GSH is purpose-built for the spatial world. With more than a decade of expertise, we’ve been at the forefront of FOSS software development, hosting, maintenance, and support.
+
+**Key Advantages:**
+
+- 🌐 **Geospatial-first infrastructure**  
+  We don’t just host servers — we host *spatial tools and platforms that work* out of the box
+
+- 🔧 **Fully managed**  
+  Updates, patches, backups, monitoring — all handled for you.
+
+- 🚀 **Deployed in minutes**  
+  No configuration files, no CLI juggling — just choose your stack and go.
+
+- 📈 **99.9% uptime guarantee**  
+  Your services stay online, stable, and production-ready — always.
+
+<!-- ## ✨ Features at a Glance
+
+- ✅ Launch spatial products in minutes
+- 📦 Scalable cloud-native architecture
+- 🔒 HTTPS, backups, and monitoring included
+- 🛠️ Root access optional for advanced users
+- 🧠 Built and supported by the Kartoza team -->
+
+## 💰 Pricing
+
+We offer three flexible tiers to suit your budget and project requirements:
+
+| **Basic** | **Advanced** | **Gold** |
+|:--|:--|:--|
+| Ideal for personal use, learning, or small proof-of-concept projects | Designed for NGOs, academic research, and small teams needing reliable, low-maintenance deployments | Built for enterprise, government, and high-availability use cases requiring priority support, scaling, and customisation |
+| Single-instance deployments | Multi-instance support | Full-stack support & SLAs |
+| Community-level support | Enhanced monitoring & backups | Dedicated resources & expert onboarding |
+| Affordable monthly pricing | Balanced cost-to-performance | Premium tier with white-glove service |
+
+👉 [View full pricing & features](https://geospatialhosting.com/)
+
+## 🔧 Need a custom solution?
+
+[Contact our team](https://kartoza.com/contact-us/new) — We’ll help design, setup and deploy the right GeoSpatial solution for your needs.
