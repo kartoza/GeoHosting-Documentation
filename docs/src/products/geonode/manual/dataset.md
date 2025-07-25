@@ -27,7 +27,7 @@ In GeoNode, **datasets** represent either **vector** or **raster** spatial data 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-13.png" alt="Datasets Tab">
+  <img src="../../img/geonode-img-25.png" alt="Datasets Tab">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -59,7 +59,7 @@ GeoNode will display a progress bar while it uploads and unpacks the shapefile.
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-14.png" alt="Upload Datasets">
+  <img src="../../img/geonode-img-26.png" alt="Upload Datasets">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -83,7 +83,7 @@ This takes you to the <span class="ui-page-label">Dataset Detail</span> page, wh
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-15.png" alt="View Datasets">
+  <img src="../../img/geonode-img-27.png" alt="View Datasets">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

@@ -84,7 +84,7 @@ GeoNode allows you to upload and share a wide variety of **documents** that supp
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-18.png" alt="New Document Button">
+  <img src="../../img/geonode-img-31.png" alt="New Document Button">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -112,7 +112,7 @@ GeoNode allows you to upload and share a wide variety of **documents** that supp
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-19.png" alt="Selected Files">
+  <img src="../../img/geonode-img-32.png" alt="Selected Files">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -132,7 +132,7 @@ Once uploaded, click <span class="ui-generic-label">View</span> to open the <spa
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-20.png" alt="View Uploaded Document">
+  <img src="../../img/geonode-img-33.png" alt="View Uploaded Document">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

@@ -52,7 +52,7 @@ GeoNode is a ready-to-use Spatial Data Infrastructure (SDI) platform designed to
     Built on robust open-source components like Django, GeoServer, PostGIS, Celery, and optionally Elasticsearch, GeoNode’s modular design allows you to extend functionality and integrate additional services as your needs evolve.
 
 <div class="image-with-caption">
-  <img src="../img/geonode-img-2-1.png" alt="Why" style="width: 70%;">
+  <img src="../img/geonode-img-4.png" alt="Why" style="width: 70%;">
 </div>
 
 ## What Size Should I Buy?

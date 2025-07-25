@@ -18,9 +18,11 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 
 ## Step 1: Go to All Resources
 
-1. Navigate to the **All Resources** page.
-2. Click the **Add Resource** button.
-3. Select **Upload Dataset** from the dropdown.
+1. Navigate to the <span class="ui-page-label">All Resources</span> page.
+
+2. Click the <span class="ui-generic-label">Add Resource</span> button.
+
+3. Select <span class="ui-generic-label">Upload Dataset</span> from the dropdown.
 
 <br>
 
@@ -34,7 +36,7 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11.png" alt="Add Resource">
+  <img src="../../img/geonode-img-12.png" alt="Add Resource">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -44,15 +46,18 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 
 ## Step 2: Upload a Dataset
 
-1. On the **Upload a Dataset** page, click **Select files...**
-2. Choose a supported file type from your computer (e.g. SHP, GeoJSON).
-3. Click **Upload**. A progress bar will show the status.
-4. When done, click **View** to open your uploaded dataset.
+1. On the <span class="ui-page-label">Upload a Dataset</span> page, click <span class="ui-generic-label">Select files...</span>.
+
+2. Choose a supported file type from your computer (e.g. <span class="ui-filename">SHP</span>, <span class="ui-filename">GeoJSON</span>).
+
+3. Click <span class="ui-generic-label">Upload</span>. A progress bar will show the status.
+
+4. When done, click <span class="ui-generic-label">View</span> to open your uploaded dataset.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-1.png" alt="Upload Dataset">
+  <img src="../../img/geonode-img-13.png" alt="Upload Dataset">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -62,9 +67,9 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 
 ## Step 3: Create a Map
 
-1. In the top navigation bar, click **Resource > Save As...**
+1. In the top navigation bar, click <span class="ui-generic-label">Resource > Save As..</span>.
 2. Enter a name and description for your map.
-3. Click **Save**.
+3. Click <span class="ui-generic-label">Save</span>.
 
 <br>
 
@@ -78,7 +83,7 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-3.png" alt="Save Map">
+  <img src="../../img/geonode-img-14.png" alt="Save Map">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -86,14 +91,14 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 
 <br>
 
-## Step 5: Find Your Map
+## Step 4: Find Your Map
 
-Your saved map will now appear under both the **All Resources** and **Maps** pages.
+Your saved map will now appear under both the <span class="ui-page-label">All Resources</span> and <span class="ui-page-label">Maps</span> pages.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-4.png" alt="New Map">
+  <img src="../../img/geonode-img-15.png" alt="New Map">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

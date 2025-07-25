@@ -29,7 +29,7 @@ Maps help you understand data better by visualizing it in different ways. In **G
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-16.png" alt="Styles Panel">
+  <img src="../../img/geonode-img-28.png" alt="Styles Panel">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -55,7 +55,7 @@ Maps help you understand data better by visualizing it in different ways. In **G
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-16-1.png" alt="Updated Style">
+  <img src="../../img/geonode-img-29.png" alt="Updated Style">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -70,7 +70,7 @@ Click <span class="ui-generic-label">Go back to ...</span>  to view your updated
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-16-2.png" alt="Updated Style 2">
+  <img src="../../img/geonode-img-30.png" alt="Updated Style 2">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

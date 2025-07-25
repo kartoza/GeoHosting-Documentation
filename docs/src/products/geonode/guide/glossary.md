@@ -86,4 +86,3 @@ Not sure what a *layer*, *dashboard*, or *GeoStory* is? This quick glossary brea
 </table>
 
 <br>
->>>>>>> c359301 (Update: GeoNOde Guide 3)

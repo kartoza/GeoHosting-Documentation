@@ -16,48 +16,48 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Checkout Process
 
-Once you've selected your preferred product, simply click the **Order** button under the deployment size that best fits your needs. You’ll be redirected to the checkout page, where you’ll:
+Once you've selected your preferred product, simply click the <span class="ui-generic-label">Order</span> button under the deployment size that best fits your needs. You’ll be redirected to the checkout page, where you’ll:
 
-- Enter a name for your new application.
+- Enter a name for your new service.
 - Choose whether you're purchasing as an individual or on behalf of a company.
 - Complete the secure payment process.
 
 <br>
 
-After checkout, your instance will begin deploying automatically. You’ll receive a notification when it's ready for use.
+After checkout, your service will begin deploying automatically. You’ll receive a notification when it's ready for use.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-2-2.png" alt="Launch Instance">
+  <img src="../../img/geonode-img-5.png" alt="Launch Instance">
 </div>
 
 <br>
 
 ## Using the GSH Dashboard
 
-Once your instance has been successfully deployed, you'll be redirected to the **Hosted Services** section of the GeoSpatialHosting Dashboard. This is where you can view and manage all your purchased services.
+Once your service has been successfully deployed, you'll be redirected to the <span class="ui-page-label">Hosted Services</span> section of the GeoSpatialHosting Dashboard. This is where you can view and manage all your purchased services.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-3.png" alt="Dashboard">
+  <img src="../../img/geonode-img-6.png" alt="Dashboard">
 </div>
 
 <br>
 
 ### Retrieving Your Login Credentials
 
-To log in to your new GeoNode instance:
+To log in to your new GeoNode hosted service:
 
-1. Click the **Get Password** button under your hosted service.
+1. Click the <span class="ui-generic-label">Get Password</span> button under your service.
 
 2. The credentials will automatically be copied to your clipboard.
 
-3. Click the application name to launch your new GeoNode instance.
+3. Click the <span class="ui-generic-label">Service Name</span> to launch your new GeoNode.
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-4.png" alt="Hosted Service">
+  <img src="../../img/geonode-img-7.png" alt="Hosted Service">
 </div>
 
 <br>
@@ -66,9 +66,9 @@ To log in to your new GeoNode instance:
 
 To view details about your hosted service:
 
-1. Click on the tile representing your deployed instance.
+1. Click on the <span class="ui-generic-label">Hosted Service Tile</span>.
 
-2. The service details page will open, displaying:
+2. The <span class="ui-page-label">Service Details</span> page will open, displaying:
 
     - Instance Information
     - Enabled Features
@@ -78,7 +78,7 @@ To view details about your hosted service:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-4-1.png" alt="Instance Page">
+  <img src="../../img/geonode-img-8.png" alt="Instance Page">
 </div>
 
 <br>
@@ -87,11 +87,11 @@ To view details about your hosted service:
 
 To permanently remove a hosted instance:
 
-1. Navigate to the Service Details page of the instance you want to delete.
+1. Navigate to the <span class="ui-page-label">Service Details</span> page of the service you want to delete.
 
-2. Scroll to the Delete Instance section and click Delete this instance.
+2. Scroll to the Delete Instance section and click <span class="ui-generic-label">Delete this instance</span>.
 
-3. Confirm deletion by entering the instance name, then click Delete.
+3. Confirm deletion by entering the instance name, then click <span class="ui-generic-label">Delete</span>.
 
 <div class="alert alert-warning">
   <div class="alert-icon">⚠️</div>

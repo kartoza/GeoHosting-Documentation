@@ -27,7 +27,7 @@ In GeoNode, **maps** are interactive views made by combining multiple datasets (
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-23.png" alt="New Map Button">
+  <img src="../../img/geonode-img-34.png" alt="New Map Button">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -53,7 +53,7 @@ In GeoNode, **maps** are interactive views made by combining multiple datasets (
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-24.png" alt="Add Dataset">
+  <img src="../../img/geonode-img-35.png" alt="Add Dataset">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -72,7 +72,7 @@ In GeoNode, **maps** are interactive views made by combining multiple datasets (
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-25.png" alt="Save Map">
+  <img src="../../img/geonode-img-36.png" alt="Save Map">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

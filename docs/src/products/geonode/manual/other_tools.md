@@ -41,7 +41,7 @@ GeoNode offers two powerful tools to help you communicate your data more effecti
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-35.png" alt="Dashboard">
+  <img src="../../img/geonode-img-37.png" alt="Dashboard">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -70,7 +70,7 @@ GeoNode offers two powerful tools to help you communicate your data more effecti
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-36.png" alt="GeoStory">
+  <img src="../../img/geonode-img-38.png" alt="GeoStory">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

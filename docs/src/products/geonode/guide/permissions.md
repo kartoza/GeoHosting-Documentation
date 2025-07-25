@@ -59,12 +59,12 @@ Each resource can be assigned one of the following permission levels:
 
 ## Opening the Share Panel
 
-To manage who can access your resource, start by clicking **View** on the resource tile. Then, from the top navigation bar within the viewer, select **Resource → Share** to access the sharing options.
+To manage who can access your resource, start by clicking <span class="ui-generic-label">View</span> on the resource tile. Then, from the top navigation bar within the viewer, select <span class="ui-generic-label">Resource → Share</span> to access the sharing options.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-9.png" alt="Share Panel">
+  <img src="../../img/geonode-img-20.png" alt="Share Panel">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -74,14 +74,14 @@ To manage who can access your resource, start by clicking **View** on the resour
 
 ## Setting Permissions
 
-Within the **Share with people and groups** panel, you can define access levels for:
+Within the <span class="ui-page-label">Share with people and groups</span> panel, you can define access levels for:
 
 - Anyone (public access)
 - Registered members (all logged-in users)
 
 <br>
 
-To assign roles to specific individuals or groups, click the **Add Users / Groups** button and choose the appropriate permission level.
+To assign roles to specific individuals or groups, click the <span class="ui-generic-label">Add Users / Groups</span> button and choose the appropriate permission level.
 
 <br>
 
@@ -125,7 +125,7 @@ To assign roles to specific individuals or groups, click the **Add Users / Group
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-10.png" alt="Share Permissions">
+  <img src="../../img/geonode-img-21.png" alt="Share Permissions">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -133,12 +133,12 @@ To assign roles to specific individuals or groups, click the **Add Users / Group
 
 ## Saving Changes
 
-Once you've set the appropriate permissions, click **Resources → Save** to apply and confirm your updates.
+Once you've set the appropriate permissions, click <span class="ui-generic-label">Resources → Save</span> to apply and confirm your updates.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-11.png" alt="Save Changes">
+  <img src="../../img/geonode-img-22.png" alt="Save Changes">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
