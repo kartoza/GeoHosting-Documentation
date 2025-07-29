@@ -16,17 +16,36 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Home Page Layout
 
-When you log in, GeoNode opens on the **Home Page**. The layout features:
+After logging in, GeoNode opens to the <span class="ui-page-label">Homepage</span>. The layout includes the following key features:
 
-- **Top Navigation Bar** – quick access to Datasets, Maps, Documents, Search, and your user menu.
-- **Resource Tiles** – showcase the most recent or featured items.
-- **Search Box** – global, full-text search across all resource types.
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Top Navigation Bar</td>
+      <td>Provides quick access to Resources, Datasets, Maps, Documents, Search, and your User Menu.</td>
+    </tr>
+    <tr>
+      <td>Resource Tiles</td>
+      <td>Display the most recent or featured content for easy access.</td>
+    </tr>
+    <tr>
+      <td>Search Box</td>
+      <td>Enables global, full-text search across all available resources.</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/geonode-img-5.png" alt="GeoNode Home Page" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-16.png" alt="Homepage Layout">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
@@ -35,79 +54,174 @@ When you log in, GeoNode opens on the **Home Page**. The layout features:
 
 ## Top Navigation Bar
 
-| Button | Purpose |
-| ------ | ------- |
-| **Datasets** | Browse, upload, or manage spatial datasets. |
-| **Maps** | Create new maps or view existing ones. |
-| **Documents** | Upload and manage supporting documents. |
-| **Search Box** | Enter any keyword to jump straight to the Search page. |
-| **Avatar Menu** | Access Profile, Admin (if permitted), and Logout. |
+The <span class="ui-page-label">Top Navigation Bar</span> provides quick access to the main features and resource types within GeoNode.
+
+<br>
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Button</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All Resources</td>
+      <td>View and create resources of any type.</td>
+    </tr>
+    <tr>
+      <td>Datasets</td>
+      <td>Browse, upload, or manage spatial datasets.</td>
+    </tr>
+    <tr>
+      <td>Maps</td>
+      <td>Create new maps or view existing ones.</td>
+    </tr>
+    <tr>
+      <td>Documents</td>
+      <td>Upload and manage supporting documents.</td>
+    </tr>
+    <tr>
+      <td>GeoStories</td>
+      <td>Create immersive stories by combining text, interactive maps, and multimedia content.</td>
+    </tr>
+    <tr>
+      <td>Dashboards</td>
+      <td>Add and manage widgets such as charts, maps, tables, text blocks, and counters.</td>
+    </tr>
+    <tr>
+      <td>Avatar Menu</td>
+      <td>Access your Profile, Recent Activity, Favorites, Inbox, and Logout options.</td>
+    </tr>
+    <tr>
+      <td>About</td>
+      <td>Discover people and groups, and invite new users.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
 
 ## Quick Search
 
-Type any text in the top-bar **Search Box** and press **Enter** to see results across all resource types.
+Type any keyword or phrase into the top navigation <span class="ui-page-label">Search Box</span> and press <span class="ui-generic-label">Enter</span> to view results across all available resource types.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/geonode-img-32.png" alt="Quick Search" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-17.png" alt="Quick Search">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
 
 <br>
 
-## Search Page Filters
+### Search Page Filters
 
-On the Search page you can refine results using:
+Once on the <span class="ui-page-label">Search</span> page, you can refine your results by clicking the <span class="ui-generic-label">Filter</span> and selecting from the following options:
 
-- **Resource Types** (datasets, maps, documents…)
-- **Categories, Keywords, Owners, Groups**
-- **Date range**
-- **Spatial Extent** (drag a bounding box on the mini-map)
+- Resource Types
+- Categories, Keywords, Regions, Owners, or Groups
+- Date range
+- Spatial Extent
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/geonode-img-34.png" alt="Search Filters" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+You can also sort the results by clicking the <span class="ui-generic-label">Order by</span> dropdown and choosing from:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Sort Option</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>Most recent or Least recent</td>
+    </tr>
+    <tr>
+      <td>Alphabetical</td>
+      <td>A → Z or Z → A</td>
+    </tr>
+    <tr>
+      <td>Popularity</td>
+      <td>Most popular</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-18.png" alt="Search Filter">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
 
 <br>
 
-You can sort results by **Most Recent**, **Name**, or **Popularity** using the sort dropdown at the top right.
+## Resource Pages
 
-## All Resources Page
+Clicking on any of the following tabs will take you to its dedicated page and display all available items of that type:
 
-Selecting any tab (Datasets, Maps, Documents) brings you to its **All Resources** view. Each entry has:
-
-- **Thumbnail** preview
-- **Resource title** and owner
-- **View** button (opens detail page)
-- **More ⋮** menu for actions (Edit, Share, Delete – depending on permissions)
+- <span class="ui-page-label">All Resources</span>
+- <span class="ui-page-label">Datasets</span>
+- <span class="ui-page-label">Maps</span>
+- <span class="ui-page-label">Documents</span>
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/geonode-img-28.png" alt="All Resources View" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+Each resource tile includes:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Thumbnail</td>
+      <td>Visual preview of the resource, such as a map snapshot or file icon.</td>
+    </tr>
+    <tr>
+      <td>Title</td>
+      <td>Custom name given to the resource.</td>
+    </tr>
+    <tr>
+      <td>Owner</td>
+      <td>Username or organization that created or uploaded the resource.</td>
+    </tr>
+    <tr>
+      <td>View Button</td>
+      <td>Opens the resource in its appropriate viewer.</td>
+    </tr>
+    <tr>
+      <td>More Menu (⋮)</td>
+      <td>Provides extra options like Clone, Edit, Delete, and Share.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-19.png" alt="Resource Page">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
 
 <br>
 
-## Resource Detail Pages
+---
 
-Click **View** on any item to open its detail page, where you can:
+**Next up:** Learn how to manage users, assign roles, and configure permissions to control access across your GeoNode platform.
 
-- Inspect metadata
-- Preview the map or document
-- Download (if allowed)
-- Rate or comment
-- Access **Resource → Share** to adjust permissions
-
-Mastering these navigation tools lets you quickly locate, preview, and manage all content in your GeoNode portal.
+<br>

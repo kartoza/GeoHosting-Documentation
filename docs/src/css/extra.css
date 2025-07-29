@@ -106,31 +106,7 @@ h4 {
     padding-left: 8px;
 }
 
-/* Beautiful blockquote styling */
-blockquote {
-    background: #f9f9f9;
-    border-left: 6px solid var(--accent-color);
-    margin: 1.5em 0;
-    padding: 1em 1.5em;
-    font-style: italic;
-    position: relative;
-    color: #333 !important;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-}
 
-blockquote::before {
-    content: "";
-    font-size: 2em;
-    color: var(--accent-color);
-    position: absolute;
-    left: 10px;
-    top: -10px;
-}
-
-blockquote p {
-    margin: 0;
-}
 
 /* Material-inspired card style (no shadow) */
 .card {
@@ -443,4 +419,141 @@ blockquote p {
 /* Remove hover background */
 .my-table-style tbody tr:hover td {
   background-color: white;
+}
+
+/* Reusable Alert*/
+.alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8em;
+  border-left: 5px solid;
+  border-radius: 6px;
+  padding: 1em 1.2em;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+  background-color: #f9f9f9;
+  line-height: 1.5;
+}
+
+.alert-icon {
+  font-size: 1.4em;
+  line-height: 1;
+  margin-top: 0.15em; 
+  flex-shrink: 0;
+}
+
+.alert-text {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variants */
+.alert-warning {
+  border-color: #e57373;
+  background-color: #fff5f5;
+  color: #b71c1c;
+}
+
+.alert-hint {
+  border-color: #ffca28;
+  background-color: #fffde7;
+  color: #7b5e00;
+}
+
+.alert-note {
+  border-color: #57A0C7;
+  background-color: #f1faff;
+  color: #0d3c55;
+}
+
+/* UI generic label*/
+.ui-generic-label {
+  display: inline-block;
+  font-weight: 600;
+  color: #222;
+  background-color: #f1f1f1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  border: 1px solid #ddd;
+  font-family: system-ui, sans-serif;
+  vertical-align: middle;
+  line-height: 1.1;
+}
+
+/* UI page label*/
+.ui-page-label {
+  display: inline-block;
+  background-color: #e8f1fb;
+  color: #215a8e;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
+  line-height: 1.1;
+  border: 1px solid #c2d8ee;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  vertical-align: middle;
+}
+
+/* UI filename label */
+.ui-filename {
+  display: inline-block;
+  background-color: #f6f8fa;
+  color: #0f1117;
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #d0d7de;
+  vertical-align: middle;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* FAQ / Collapsible Styles */
+.faq-item {
+  margin: 1.2em 0;
+  border: 2px solid #57A0C7;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 0.8em 1em;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.04);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #0d3c55;
+  list-style: none;
+  position: relative;
+  padding-left: 1.4em;
+  line-height: 1.3;
+  user-select: none;
+}
+
+.faq-item summary::before {
+  content: "▶";
+  font-size: 0.9em;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #57A0C7;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.faq-answer {
+  margin-top: 0.8em;
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.6;
 }

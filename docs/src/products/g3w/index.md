@@ -15,121 +15,170 @@ context_id: nDU6LLGiXPTLADXY
 
 ## What is G3W?
 
-**G3W-SUITE** is a modular client-server application designed for the management and publication of interactive map projects. It was created to offer a simple, fast, and autonomous solution for publishing cartographic projects developed with [QGIS](https://qgis.org/) on a WebGIS client.
+**G3W-SUITE** is a comprehensive and modular WebGIS platform designed to simplify the management and publication of interactive geographic data. It provides a streamlined, fast, and autonomous solution for organizations and individuals who need to share their [QGIS](https://qgis.org/)-based cartographic projects with others via the web.
+
+Built using the **Django** web framework and developed in **Python**, G3W-SUITE seamlessly integrates with QGIS Server to bring desktop GIS capabilities into a web environment. It supports full interactivity, including data viewing, querying, editing, and analysis, all within a user-friendly interface accessible through any modern browser.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="./img/g3w-img-1.png" alt="G3W Logo" width="300">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="./img/g3w-img-1.png" alt="G3W Logo" style="width: 50%;">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-Built using the **Django** framework and written in **Python**, G3W-SUITE integrates the core components of QGIS to help users build and publish their own Geographic Information System (GIS) solutions in an intuitive way.
+## Core Technologies
+
+G3W-SUITE relies on proven, open-source software to deliver a reliable and scalable WebGIS solution. At the heart of the system is **QGIS**, which provides powerful tools for data management, editing, and map
 
 <br>
 
-<div style="text-align: center;">
-  <img src="./img/g3w-img-2.png" alt="QGIS and Django Logo" width="450 ">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
-    , <a href="https://www.djangoproject.com/" target="_blank">Django</a>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Role in G3W-SUITE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>QGIS Desktop</td>
+      <td>Manage cartographic data, perform edits, and design high-quality map projects.</td>
+    </tr>
+    <tr>
+      <td>QGIS Server</td>
+      <td>Publish QGIS projects as web services following <a href="http://www.opengeospatial.org/" target="_blank">OGC standards</a>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+## G3W-SUITE Architecture
+
+G3W-SUITE is built on a modular architecture consisting of **three core components**, each serving a distinct role in the platform’s functionality:
+
+<br>
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>G3W-ADMIN</td>
+      <td>
+        - Central administrative interface for project and service management<br>
+        - Manages Access Control Lists (ACL)<br>
+        - Integrates an OGC proxy server<br>
+        - Exposes a RESTful API for external integrations
+      </td>
+    </tr>
+    <tr>
+      <td>G3W-CLIENT</td>
+      <td>
+        - Interactive web cartographic client<br>
+        - Enables users to view and interact with published OGC services
+      </td>
+    </tr>
+    <tr>
+      <td>Front-End Portal</td>
+      <td>
+        - Public-facing access point<br>
+        - Facilitates discovery of WebGIS services and thematic content
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/g3w-img-2.png" alt="G3W Modules" style="width: 50%;">
+</div>
+
+<br>
+
+## Key Features & Capabilities
+
+Using the G3W-SUITE web interface, users can:
+
+- **Publish** QGIS projects seamlessly to the WebGIS environment with structured organization.
+- **Organize** WebGIS services into hierarchical thematic and functional containers.
+- **Manage** users and groups with customizable roles tailored to functional needs.
+- **Edit** spatial data directly within the browser for quick updates.
+- **Extent** functionality by enabling additional modular features.
+- **Define** granular access permissions for services and modules on a per-user basis.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/g3w-img-3.png" alt="Key" style="width: 55%;">
+</div>
+
+<br>
+
+## Community & Development
+
+G3W-SUITE is a **collaborative open-source project**, actively maintained and supported by a growing community of developers, organizations, and GIS professionals. Below are key resources to get involved, contribute, or learn more:
+
+<br>
+
+<div class="cards-grid">
+  <div class="card">
+    <div class="card-header">
+      🌐 <a href="https://g3wsuite.it/en/" target="_blank">Homepage</a>
+    </div>
+    <div class="card-body">
+      Visit the official G3W-SUITE site for product overviews, news, and use cases.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      💻 <a href="https://github.com/g3w-suite/g3w-suite" target="_blank">Source Code</a>
+    </div>
+    <div class="card-body">
+      Explore the full codebase and contribute via GitHub.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📚 <a href="https://docs.g3wsuite.it/en/" target="_blank">Documentation</a>
+    </div>
+    <div class="card-body">
+      Official user and developer documentation for setup, use, and extensions.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🐞 <a href="https://github.com/g3w-suite/g3w-suite/issues" target="_blank">Issue Tracker</a>
+    </div>
+    <div class="card-body">
+      Report bugs, request features, or track development progress.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🔧 <a href="https://github.com/g3w-suite/g3w-suite/blob/master/CONTRIBUTING.md" target="_blank">Contribute</a>
+    </div>
+    <div class="card-body">
+      Guidelines and tips for contributing to the G3W-SUITE project.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📢 <a href="https://g3wsuite.it/en/contacts/" target="_blank">Contact & Support</a>
+    </div>
+    <div class="card-body">
+      Reach out for support, collaboration, or commercial services.
+    </div>
   </div>
 </div>
 
----
-
-## Core Technologies
-
-G3W-SUITE is entirely based on well-established Open Source software components, centered around QGIS:
-
-- **QGIS Desktop**: For managing cartographic data, editing, and designing high-quality map projects.
-- **QGIS Server**: For publishing QGIS projects as [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/) services.
-
 <br>
-
-> **Current Compatibility:**
->
-> G3W-SUITE version 3.9 is compatible with QGIS 3.34 LTR (both Server and Desktop).
->
-> Only the latest LTR (Long-Term Release) version of QGIS is supported.
-
----
-
-## Modular Architecture of G3W-SUITE
-
-G3W-SUITE is composed of **three primary modules**:
-
-<br>
-
-1. **G3W-ADMIN**
-
-     - Administration interface for project management
-     - Handles ACL (Access Control List)
-     - Includes an OGC proxy server
-     - Provides a REST API server
-
-     <br>
-
-2. **G3W-CLIENT**
-
-     - A cartographic web client
-     - Enables viewing and interaction with published OGC services
-
-     <br>
-
-3. **Front-End Geographic Portal**
-
-     - Provides public access to thematic groups
-     - Allows exploration of WebGIS services and related information
-
-<br>
-
-<div style="text-align: center;">
-  <img src="./img/g3w-img-3.png" alt="G3W Modules" width="350">
-</div>
-
----
-
-## Key Features and Capabilities
-
-Through the G3W-SUITE web interface, users can:
-
-- **Publish** QGIS projects directly to the WebGIS environment in a structured manner
-- **Organize** WebGIS services into multi-level thematic and functional containers
-- **Manage** users and groups with customizable functional roles
-- **Create** and manage various search methods
-- **Edit** spatial data online
-- **Extent** capabilities by activating specific functional modules to extend.
-- **Define** access permissions for both services and functional modules per user
-
----
-
-## Version Compatibility and Branch Status
-
-Currently, G3W-SUITE does not follow a traditional versioning system. However, the following branches are available, each aligned with specific versions of Python, Django, and QGIS:
-
-<br>
-
-| **Branch** | **Python** | **Django** | **QGIS** | **QGIS API** | **Status**         |
-| ---------- | ---------- | ---------- | -------- | ------------ | ------------------ |
-| `dev`      | 3.12       | 4.2        | 3.34     | Used         | Active development |
-| `v3.9`     | 3.12       | 4.2        | 3.34     | Used         | Bug fixing         |
-| `v3.8`     | 3.10       | 3.2        | 3.34     | Used         | Bug fixing         |
-| `v3.7`     | 3.10       | 3.2        | 3.28     | Used         | End of support     |
-| `v3.6`     | 3.10       | 3.2        | 3.22     | Used         | End of support     |
-| `v3.5`     | 3.10       | 2.2        | 3.22     | Used         | End of support     |
-| `v3.4`     | 3.8        | 2.2        | 3.22     | Used         | End of support     |
-| `v3.3`     | 3.6        | 2.2        | 3.16     | Used         | End of support     |
-| `v3.2`     | 3.6        | 2.2        | 3.16     | Used         | End of support     |
-| `v3.1`     | 3.6        | 2.2        | 3.10     | Used         | End of support     |
-| `v3.0`     | 3.6        | 2.2        | 3.10     | Used         | End of support     |
-
----
-
-> **Note:** For more information, see the full [G3W-SUITE](https://g3w-suite.readthedocs.io/en/latest/) documentation.
-
----

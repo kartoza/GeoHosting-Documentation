@@ -12,78 +12,171 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-## Integrating With Other Tools
+# Integrating With Other Tools
 
-GeoNode exposes all datasets through standard **OGC** services, so you can easily consume layers in desktop GIS software or embed them in web maps.
+GeoNode makes it easy to work across platforms by exposing all datasets through standard **OGC** services, including **WMS**, **WFS**, and **WCS**. This means you can load layers directly into desktop GIS tools like QGIS or embed them in web applications with minimal setup.
 
----
+<br>
 
-### Consuming GeoNode WMS in QGIS
+## Connecting GeoNode to QGIS via WMS
 
-1. **Open QGIS** and choose **Layer → Add Layer → Add WMS/WMTS Layer…**
-2. Click **New**, then enter:
-   *Name*: `GeoNode WMS`
-   *URL*:
+You can easily load GeoNode layers into QGIS using the **WMS (Web Map Service)** protocol. This allows you to view and interact with published map layers directly from your GeoNode instance. To get started, open QGIS and navigate to: <span class="ui-generic-label">Layer → Add Layer → Add WMS/WMTS Layer…</span>
 
-   ```bash
-   http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
-   ```
+<br>
 
-3. Click **OK**, then **Connect**.
-4. Select the layer you want (e.g. `tutorial:buildings`) and click **Add**.
-5. The layer appears in the QGIS map canvas.
+Click <span class="ui-generic-label">New</span> and enter the connection details below:
 
-![QGIS Add WMS Layer](../img/geonode-img-37.png)
-*Image credit: User’s GeoNode instance*
+<table class="my-table-style">
+<thead>
+   <tr>
+      <th>Field</th>
+      <th>Value</th>
+   </tr>
+</thead>
+<tbody>
+   <tr>
+      <td>Name</td>
+      <td>GeoNode WMS</td>
+   </tr>
+   <tr>
+      <td>URL</td>
+      <td>http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities</td>
+   </tr>
+</tbody>
+</table>
 
----
+<br>
 
-### Embedding a GeoNode Layer in Leaflet
+Click <span class="ui-generic-label">OK</span>, then <span class="ui-generic-label">Connect</span> to fetch the list of available layers. Select the layer you want to view (e.g., <span class="ui-filename">geonode:landuse</span>), then click <span class="ui-generic-label">Add</span>. The layer will load into your QGIS map canvas and be ready for styling, analysis, or overlaying with other datasets.
 
-1. Include Leaflet’s CSS and JS in your HTML **`<head>`**:
+<br>
 
-   ```html
-   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-   ```
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-23.png" alt="Connect WMS">
+  <div class="caption">
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
+  </div>
+</div>
 
-2. In your **`<body>`**, add a map container:
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    Ensure that the layer is shared publicly in GeoNode or that you are authenticated to access restricted content.
+  </div>
+</div>
 
-   ```html
-   <div id="map" style="height: 400px;"></div>
-   ```
+<br>
 
-3. Initialise the map and add the WMS layer:
+## Embedding a GeoNode Layer in Leaflet
 
-   ```html
-   <script>
-     const map = L.map('map').setView([52.51, 13.40], 12); // Berlin centre
-     L.tileLayer.wms('http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows', {
-       layers: 'tutorial:buildings',
-       format: 'image/png',
-       transparent: true,
-       attribution: '© GeoNode'
-     }).addTo(map);
-   </script>
-   ```
+You can display GeoNode layers on a custom web map using **Leaflet** and **WMS**. Follow these steps to embed a published layer in your HTML page:
 
-4. Open the HTML file in a browser to see the GeoNode layer displayed via Leaflet.
+<br>
 
-![Leaflet WMS Example](../img/geonode-img-38.png)
-*Image credit: User’s web application*
+### Step 1: Include Leaflet’s CSS and JS
 
----
+In your HTML **`<head>`**, add the following:
 
-### Accessing GeoNode WFS
+```html
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+```
 
-To retrieve raw feature data (GeoJSON, GML) use **WFS**:
+<br>
+
+### Step 2: Add a Map Container
+
+In your **`<body>`**, create a container for the map:
+
+```html
+<div id="map" style="height: 400px;"></div>
+```
+
+<br>
+
+### Step 3: Initialise the Map and Add the WMS Layer
+
+Still within the **`<body>`**, insert a script that sets up your map and loads the GeoNode WMS layer:
+
+```html
+<script>
+const map = L.map('map').setView([52.51, 13.40], 12); // Berlin centre
+L.tileLayer.wms('http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows', {
+   layers: 'geonode:landuse',
+   format: 'image/png',
+   transparent: true,
+   attribution: '© GeoNode'
+}).addTo(map);
+</script>
+```
+
+<br>
+
+### Step 4: View the Map
+
+Save the file and open it in your browser. The GeoNode layer will be displayed in the Leaflet map.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-24.png" alt="Connect WMS">
+  <div class="caption">
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
+  </div>
+</div>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Be sure to update the application hostname and layer name to match your GeoNode instance.
+  </div>
+</div>
+
+<br>
+
+## Accessing GeoNode WFS
+
+To retrieve raw vector feature data such as GeoJSON or GML, use the **Web Feature Service (WFS)** endpoint exposed by GeoServer.
+
+<br>
+
+**Example WFS URL (GeoJSON Output):**
 
 ```bash
 http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=tutorial:buildings&outputFormat=application/json
 ```
 
-Paste this endpoint into tools such as **curl**, **Postman**, or any web-mapping library that supports WFS.
+<br>
+
+### How to Use
+
+You can paste this URL into:
+
+- **Postman** or any API testing tool to inspect feature responses
+- **curl** in your terminal to retrieve data directly
+- **Web mapping libraries** such as Leaflet or OpenLayers that support WFS
+
+<br>
+
+**Example with <span class="ui-filename">curl</span>:**
+
+```bash
+curl "http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=tutorial:buildings&outputFormat=application/json"
+```
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Replace both the application name and layer name with your actual GeoNode instance and dataset.
+  </div>
+</div>
+
+<br>
 
 ---
 
-GeoNode’s standards-compliant services make it straightforward to integrate with any desktop GIS, web-mapping framework, or data-analysis pipeline that speaks **WMS, WFS,** or **WCS**.
+**Next up:** A quick glossary of key terms used in this guide.
+
+<br>

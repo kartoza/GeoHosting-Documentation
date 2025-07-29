@@ -72,19 +72,32 @@ nav:
             - Integrating With Other Tools: products/geonode/guide/other_tools.md
             - Glossary of Terms: products/geonode/guide/glossary.md
           - Manual:
-            - Tutorial Setup: products/geonode/manual/tutorial_setup.md
-            - Datasets: products/geonode/manual/tutorial_dataset.md
-            - Documents: products/geonode/manual/tutorial_document.md
-            - Maps: products/geonode/manual/tutorial_map.md
-            - Share: products/geonode/manual/tutorial_share.md
-            - Search: products/geonode/manual/tutorial_search.md
+            - Data & Preparation: products/geonode/manual/data.md
+            - Datasets: products/geonode/manual/dataset.md
+            - Styling: products/geonode/manual/style.md
+            - Documents: products/geonode/manual/document.md
+            - Maps: products/geonode/manual/map.md
             - Other Tools: products/geonode/manual/other_tools.md
           - Help: products/geonode/help.md
       - G3W:
           - products/g3w/index.md
           - Overview: products/g3w/overview.md
-          - Guide: products/g3w/guide.md
-          - Manual: products/g3w/manual.md
+          - Guide:
+            - Creating Your Instance: products/g3w/guide/create_instance.md
+            - First Log In & Setting Your Password: products/g3w/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/g3w/guide/quickstart.md
+            - Navigating the Dashboard: products/g3w/guide/dashboard.md
+            - Managing Users & Permissions: products/g3w/guide/permissions.md
+            - Integrating With Other Tools: products/g3w/guide/other_tools.md
+            - Glossary of Terms: products/g3w/guide/glossary.md
+          - Manual:
+            - Data & Preparation: products/g3w/manual/data.md
+            - File Manager: products/g3w/manual/file_manager.md
+            - Macro Groups: products/g3w/manual/macro_group.md
+            - Groups: products/g3w/manual/group.md
+            - Projects: products/g3w/manual/project.md
+            - Widgets: products/g3w/manual/widget.md
+            - Editing: products/g3w/manual/editing.md
           - Help: products/g3w/help.md
       #- BIMS:
       #    - products/bims/index.md
