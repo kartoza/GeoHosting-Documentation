@@ -4,8 +4,8 @@ let url = '/';
 
 // Fill in your credentials here
 // Don'nt push this file with real credentials
-let user_email = 'jeff@kartoza.com';
-let password = 'manjaro*342';
+let user_email = process.env.GSH_USERNAME;
+let password = process.env.GSH_PASSWORD;
 const authFile = 'auth.json';
 
 
@@ -29,6 +29,8 @@ setup.describe('login', () => {
     await page.getByRole('textbox', { name: 'Password' }).fill(password);
 
     await page.getByRole('button', { name: 'Login' }).click();
+
+    await page.waitForLoadState('domcontentloaded');
 
     await expect(page.getByRole('button', { name: 'Dashboard' })).toBeVisible();
 

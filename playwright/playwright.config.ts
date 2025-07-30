@@ -2,6 +2,8 @@
 import { defineConfig, devices } from '@playwright/test';
 import path from 'node:path';
 
+require('dotenv').config()
+
 /** Repo root = two levels up from this config file */
 const REPO_ROOT = path.resolve(__dirname, '..');
 /** Absolute path to the docs source tree */
