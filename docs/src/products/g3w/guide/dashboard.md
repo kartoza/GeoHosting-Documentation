@@ -13,56 +13,108 @@ context_id: nDU6LLGiXPTLADXY
 
 # Navigating the Dashboard
 
-The **home page** serves as the main entry point to the platform. It includes a customizable welcome message and intuitive navigation menus that provide access to various functionalities.
+## Home Page Layout
+
+When you launch G3W, it opens to the <span class="ui-page-label">Homepage</span>, the central hub of the platform. This page features a customizable welcome message and user-friendly navigation menus that provide quick access to key functions.
 
 <br>
 
-**Right-Side Panel Menu**
+It contains quick-access links to:
 
-This panel contains quick-access links:
-
-- **About It** – view service-related information
-- **Maps** – explore available WebGIS services
-- **Login** – access additional services
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>About It</td>
+      <td>View detailed service information</td>
+    </tr>
+    <tr>
+      <td>Maps</td>
+      <td>Browse and explore available WebGIS services</td>
+    </tr>
+    <tr>
+      <td>Login</td>
+      <td>Sign in to access additional features</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
-## About It
-
-This section can display a short description and key contact details relevant to your organization or project.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-7.png" alt="About It Section" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-6-1.png" alt="Homepage">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-## Maps
+### About It
 
-G3W-SUITE organizes WebGIS services in hierarchical containers:
-
-- **Cartographic Macrogroups** – top-level thematic categories
-- **Cartographic Groups** – subcategories containing specific services
+This section offers a brief overview of your organization or project. It may include a short description, key contact information, or links to additional resources — helping users quickly understand the context of your WebGIS service.
 
 <br>
 
-**Browsing Maps:**
-
-1. Click **Maps** in the panel.
-2. Available macrogroups appear under **Thematic Groups**.
-3. Select a macrogroup to view its associated **Groups**.
-4. Click a group to list individual **WebGIS services**.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-6-2.png" alt="About It">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/g3w-img-8.png" alt="Maps Section" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+### Maps
+
+This section provides access to available WebGIS services, structured in a clear hierarchy to simplify navigation. This structure helps users easily locate and explore relevant datasets.
+
+<br>
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Macro Groups</td>
+      <td>Top-level thematic categories that group related map services.</td>
+    </tr>
+    <tr>
+      <td>Groups</td>
+      <td>Subcategories within macrogroups, each containing one or more specific services.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-6-3.png" alt="Maps">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+### Login
+
+This section lets you securely log in to the platform. Logging in is required to access the <span class="ui-page-label">Administration Panel</span>, where you can manage your projects, upload data, and configure settings. Signing in ensures that only authorized users can make changes and maintain the security of your WebGIS environment.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-6-4.png" alt="Login">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
@@ -71,17 +123,13 @@ G3W-SUITE organizes WebGIS services in hierarchical containers:
 
 ## Administration Panel
 
-The **Administration Panel** is the control center for managing user accounts, groups, and access policies.
+The <span class="ui-page-label">Administration Panel</span> is your central hub for managing user accounts, groups, and access policies. After logging in, you can access it by clicking the <span class="ui-generic-label">Backend</span> button or the <span class="ui-generic-label">Administration</span> button located in the top-right corner of the interface.
 
 <br>
 
-Once logged in, click the **Backend** button in the top-right corner, or use the **Gear** icon → **Django Administration**.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-13.png" alt="Administration panel" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-6-5.png" alt="Administration Panel">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
@@ -90,31 +138,72 @@ Once logged in, click the **Backend** button in the top-right corner, or use the
 
 ### Top Bar Controls
 
-- **Frontend:** Return to the public-facing portal
-- **Username:** Access your profile or log out
-- **Language:** Change interface language
-- **Gear icon:**
-  - Edit General Data
-  - Django Administration
-  - Files (File Manager)
+The top navigation bar contains quick links to various functions:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Control</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frontend</td>
+      <td>Return to the public-facing portal</td>
+    </tr>
+    <tr>
+      <td>Username</td>
+      <td>Access your profile or log out</td>
+    </tr>
+    <tr>
+      <td>Language</td>
+      <td>Switch the interface language</td>
+    </tr>
+    <tr>
+      <td>Gear icon</td>
+      <td>View System Information<br>Edit General Data<br>Access Django Administration<br>Manage Files (File Manager)</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
-### Left-Side Navigation Menu
+### Left-Side Menu
 
 Use the sidebar to navigate administration functions:
 
-- **Dashboard:** Overview & quick links
-- **Macro Cartographic Groups:** Create/manage thematic containers
-- **Cartographic Groups:** Create/manage service groups
-- **Users:** Create, edit, and delete user accounts; assign users to groups
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Menu Item</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dashboard</td>
+      <td>Overview & quick links</td>
+    </tr>
+    <tr>
+      <td>Macro Cartographic Groups</td>
+      <td>Create/manage thematic containers</td>
+    </tr>
+    <tr>
+      <td>Cartographic Groups</td>
+      <td>Create/manage service groups</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>Create, edit, and delete user accounts; assign users to groups</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
-### Central Dashboard Area
+---
 
-The central panel displays:
+**Next up:** Discover how to manage users, assign roles, and configure permissions to effectively control access throughout your G3W platform.
 
-- **Dashboard Widget:** High-level overview
-- **Quick Links:** Direct access to Cartographic Groups, Macro Cartographic Groups, Users
-- **Status Panels:** Counts of existing groups, users, and services
+<br>

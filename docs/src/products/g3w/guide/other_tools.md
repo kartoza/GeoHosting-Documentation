@@ -13,52 +13,73 @@ context_id: nDU6LLGiXPTLADXY
 
 # Integrating With Other Tools
 
-Once your project is published, click the **Layers** icon to configure functional widgets for each layer:
+G3W-SUITE supports a range of widgets and external tools that can enhance your published QGIS projects. These integrations allow you to provide a more dynamic and interactive experience for users, from advanced search functionality to powerful data visualizations.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/g3w-img-42.png" alt="Functional Options" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+## Search Widget
+
+To add a Search Widget to your project, go to the <span class="ui-page-label">Layers List</span>. Click the <span class="ui-generic-label">Widgets List</span> icon next to the desired layer, then select <span class="ui-generic-label">Add New Widget</span>. In the configuration window, choose <span class="ui-generic-label">Search</span> from the <span class="ui-filename">Type</span> dropdown.
+
+<br>
+
+You'll then need to fill out the following fields:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>Label that appears to end users</td>
+    </tr>
+    <tr>
+      <td>Search Title</td>
+      <td>Internal name of the widget</td>
+    </tr>
+    <tr>
+      <td>Search Field Settings</td>
+      <td>Field or expression to search against</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+Click <span class="ui-generic-label">Ok</span> to apply the widget to your layer.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-8-1.png" alt="Search Widget">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-## Search Widget
-
-1. From **QGIS Project Layers**, click the **Widgets List** icon next to the `buildings` layer.
-
-2. Click **Add New Widget**.
-
-3. In the **Widget Creation Form**, set:
-
-   - **Type:** `Search`
-   - **Name:** `Search Widget`
-   - **Search Title:** `Tutorial Search Widget`
-
-4. Under **Search Field Settings**, click **Add** and configure:
-
-   - **Field:** `type`
-   - **Widget:** `SelectBox`
-   - **Alias:** `Building Type`
-   - **Operator:** `=`
-
-5. Click **OK**.
-
-<br>
-
 ## Plots Widget
 
-1. From **QGIS Project Layers**, click the **Qplotly Widgets** icon next to the `buildings` layer.
-
-2. Click **New Qplotly Widget**.
-
-3. In the pop-up, upload the plot definition (`.xml`) from your `plots/` folder: `Tutorial_Data_G3WSUITE/plots/qplotly_type-distribution.xml`.
-
-4. Click **OK**.
+To integrate a Plots Widget, return to the <span class="ui-page-label">Layers List</span> and click the <span class="ui-generic-label">Qplotly Widgets</span> icon next to the relevant layer. Then click <span class="ui-generic-label">New Qplotly Widget</span>. Upload a preconfigured DataPlotly <span class="ui-filename">.xml</span> file for your desired chart or graph, and confirm with <span class="ui-generic-label">Ok</span>.
 
 <br>
 
-> **Note:** Search and plot widgets update dynamically based on map extent and feature selection.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-8-2.png" alt="Plots Widget">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+---
+
+**Next up:** Explore a quick-reference glossary of essential terms used throughout this guide to help you navigate the platform more confidently.
+
+<br>

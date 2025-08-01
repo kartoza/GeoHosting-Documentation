@@ -13,70 +13,107 @@ context_id: nDU6LLGiXPTLADXY
 
 # Glossary of Terms
 
-- **ACL (Access Control List)**
-  A mechanism for defining which users or groups have permission to view or manage specific services, modules, or data within G3W-SUITE.
+New to G3W-SUITE? This glossary defines the key concepts, tools, and components you'll encounter while managing or using the platform.
 
-- **Base Layer**
-  The default map layer (e.g., OSM) that loads when a WebGIS service is opened.
+<br>
 
-- **Cartographic Group**
-  A subcategory within a MacroGroup that holds individual WebGIS services or projects.
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔐 Access Control List (ACL)</td>
+      <td>A rule-based system that controls which users or groups can access or manage specific services, modules, or data in G3W-SUITE.</td>
+    </tr>
+    <tr>
+      <td>🗺️ Base Layer</td>
+      <td>The default background map (e.g., OpenStreetMap) displayed when a WebGIS service is loaded.</td>
+    </tr>
+    <tr>
+      <td>📁 Group</td>
+      <td>A sub-unit within a Macro Group that contains one or more published WebGIS services or QGIS projects.</td>
+    </tr>
+    <tr>
+      <td>🗃️ Macro Group</td>
+      <td>A top-level organizational container used to group related WebGIS services by theme or function.</td>
+    </tr>
+    <tr>
+      <td>🔒 Feature Locking</td>
+      <td>A mechanism that prevents editing conflicts by locking visible features during multi-user editing sessions.</td>
+    </tr>
+    <tr>
+      <td>🗂️ File Manager</td>
+      <td>The section of the Admin Panel used to upload, organize, and manage supporting data files for services.</td>
+    </tr>
+    <tr>
+      <td>🌐 Front-End Portal</td>
+      <td>The public-facing interface where users browse MacroGroups, Groups, and access available WebGIS services.</td>
+    </tr>
+    <tr>
+      <td>⚙️ G3W-ADMIN</td>
+      <td>The administrative backend of G3W-SUITE, used for configuring projects, managing ACLs, OGC proxy, and accessing the REST API.</td>
+    </tr>
+    <tr>
+      <td>🖥️ G3W-CLIENT</td>
+      <td>The front-end cartographic viewer where users interact with published WebGIS projects and tools.</td>
+    </tr>
+    <tr>
+      <td>📍 Geocoding Provider</td>
+      <td>An external service integrated into G3W-SUITE to enable location searches by address or place name.</td>
+    </tr>
+    <tr>
+      <td>🛈 GetFeatureInfo</td>
+      <td>A WMS request used to return attribute data for map features based on a clicked location.</td>
+    </tr>
+    <tr>
+      <td>☁️ Hosted Services</td>
+      <td>Managed G3W-SUITE deployments provided through Kartoza’s GeoSpatialHosting platform.</td>
+    </tr>
+    <tr>
+      <td>📋 Layer TOC</td>
+      <td>The layer tree or “Table of Contents” panel in the WebGIS client showing all active layers.</td>
+    </tr>
+    <tr>
+      <td>🔁 OGC Proxy</td>
+      <td>A service that forwards OGC requests (e.g., WMS/WFS) to the underlying QGIS Server instance.</td>
+    </tr>
+    <tr>
+      <td>🌐 OGC Services</td>
+      <td>Web services based on OGC standards, such as WMS (maps) and WFS (features), supported natively by G3W-SUITE.</td>
+    </tr>
+    <tr>
+      <td>🗺️ Overview Map</td>
+      <td>A mini-map displayed in the corner of the WebGIS client, providing a broader spatial reference.</td>
+    </tr>
+    <tr>
+      <td>🔗 REST API Server</td>
+      <td>The backend interface that allows programmatic access to G3W-ADMIN functionalities and service metadata.</td>
+    </tr>
+    <tr>
+      <td>🗃️ SpatiaLite</td>
+      <td>A lightweight spatial database format extending SQLite to support geographic data in a single file.</td>
+    </tr>
+    <tr>
+      <td>🖼️ Thumbnail (Logo)</td>
+      <td>A small preview image representing a WebGIS service in the client portal or admin dashboard.</td>
+    </tr>
+    <tr>
+      <td>🔗 URL Alias</td>
+      <td>A custom, human-readable web path used to access a specific WebGIS service (e.g., <code>/g3w</code>).</td>
+    </tr>
+    <tr>
+      <td>🗺️ WebGIS Service</td>
+      <td>A QGIS project published through G3W-SUITE and made available as an interactive web map via WMS/WFS.</td>
+    </tr>
+    <tr>
+      <td>🧩 Widgets</td>
+      <td>Interactive tools that enhance the map client (e.g. Search and Plots widgets)</td>
+    </tr>
+  </tbody>
+</table>
 
-- **Cartographic MacroGroup**
-  A top-level thematic container in G3W-SUITE used to organize collections of related WebGIS services.
-
-- **Feature Locking**
-  A multi-user editing mechanism that locks visible features to the active editor to prevent conflicts.
-
-- **File Manager**
-  The interface in the Administration Panel for uploading and organizing service data files.
-
-- **Front-End Geographic Portal**
-  The public-facing portal in G3W-SUITE for browsing thematic macrogroups, groups, and services.
-
-- **G3W-ADMIN**
-  The administration module of G3W-SUITE, providing project management, ACL, OGC proxy, and REST API functionality.
-
-- **G3W-CLIENT**
-  The cartographic web client module of G3W-SUITE, enabling visualization and interaction with published OGC services.
-
-- **Geocoding Provider**
-  An external service configured in G3W-SUITE for address-based searches.
-
-- **GetFeatureInfo**
-  A WMS operation to retrieve attribute information for features at a clicked map location.
-
-- **Hosted Services**
-  Instances of G3W-SUITE provisioned via the Kartoza GeoSpatialHosting Dashboard.
-
-- **Layer TOC**
-  The table of contents panel listing all layers in a WebGIS service.
-
-- **OGC Proxy**
-  A component in G3W-ADMIN that forwards OGC service requests to QGIS Server.
-
-- **OGC Services**
-  Web services conforming to Open Geospatial Consortium standards, such as WMS (Web Map Service) and WFS (Web Feature Service).
-
-- **Panoramic Overview Map**
-  A mini-map view displayed in the corner of the WebGIS interface for spatial context.
-
-- **REST API Server**
-  The backend API provided by G3W-ADMIN for programmatic access and integrations.
-
-- **SpatiaLite**
-  An extension of SQLite that adds support for spatial/geographic data storage in a single file.
-
-- **Thumbnail (Logo)**
-  A small image representing a WebGIS project in list views.
-
-- **URL Alias**
-  A human-readable path segment used to access a WebGIS service (e.g., `/g3w`).
-
-- **WebGIS Service**
-  A QGIS project published as an OGC service (e.g., WMS/WFS) through G3W-SUITE.
-
-- **Widgets**
-  Client-side tools configurable per layer in the cartographic client, such as:
-  - **Search Widget**: Enables attribute-based queries.
-  - **Plots (QPlotly) Widget**: Embeds interactive Plotly charts based on DataPlotly definitions.
+<br>
