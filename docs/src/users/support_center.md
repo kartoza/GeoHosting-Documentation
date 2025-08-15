@@ -14,36 +14,53 @@ hide:
 
 # Support Center
 
-![Support Center](./img/subscription-img-15.png)
+The <span class="ui-page-label">Support</span> page can be accessed from the GeoSpatialHosting (GSH) Dashboard. From here, users can log and view their support tickets.
 
-1. **Support Center:** Users can click on this button to access the support center. This will open a form.
+<br>
 
-![Support](./img/subscription-img-16.png)
+<div class="image-with-caption">
+  <img src="../img/users-img-7.png" alt="Support">
+</div>
 
-1. **Email:** Users are required to enter their email address here, otherwise, their registered email will be used by default.
+<br>
 
-2. **Subject:** Users are required to enter a subject for their issue.
+To log a support ticket, click the <span class="ui-generic-label">Create Issue</span> button in the top-right corner. A form will open — fill in the following details:
 
-3. **Issue Type:** Users are required to select the type of issue they are reporting from the dropdown menu.
-![Issue Type](./img/subscription-img-17.png)
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Email</td>
+      <td>Enter your email address. If left blank, your registered email address will be used by default.</td>
+    </tr>
+    <tr>
+      <td>Subject</td>
+      <td>Provide a clear subject line for your issue.</td>
+    </tr>
+    <tr>
+      <td>Issue Type</td>
+      <td>Select the type of issue you are reporting from the dropdown menu.</td>
+    </tr>
+    <tr>
+      <td>Issue Details</td>
+      <td>Provide a detailed description of your issue.</td>
+    </tr>
+  </tbody>
+</table>
 
-4. **Issue Details:** Users are required to enter a detailed description of their issue.
+<br>
 
-5. **Add Attachment:** Users can add attachments to their issue by clicking on the `Add attachment` button.
-![File Explorer](./img/subscription-img-18.png)
+To add attachments, click the <span class="ui-generic-label">Add attachment</span> button and select a file from your file browser. Once all required fields are completed, submit your ticket by clicking the <span class="ui-generic-label">Submit</span> button.
 
-      * **1 Cancel:** Users can click on this button to cancel the attachment selection.
-      * **2 Select:** After selecting the desired file users are required to click on this button to upload the attachment.'
+<br>
 
-6. **Submit:** After filling in all the required fields, users can submit their issue by clicking on this button.
-      * **Error:** If users forget to fill in any `*` required field and click the submit button, they will receive the error message `This field may not be blank` below the input field, and a notification toast will appear with the message `Failed to create a ticket`.
-
-      [![Error](./img/subscription-img-19.png)](./img/subscription-img-19.png)
-
-      * **Success:** Users will be notified by a notification toast after the successful submission of the form.
-
-      ![Success](./img/subscription-img-20.png)
-
-7. **Cancel:** Users can click on this button to cancel the issue creation process.
+<div class="image-with-caption">
+  <img src="../img/users-img-8.png" alt="Support">
+</div>
 
 <br>
