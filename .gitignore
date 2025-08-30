@@ -6,3 +6,4 @@ __pycache__/
 docs/site/*
 .direnv
 docs/mkdocs.yml
+playwright/.env
