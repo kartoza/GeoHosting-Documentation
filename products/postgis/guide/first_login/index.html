@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#first-log-in" class="md-skip">
+        <a href="#first-log-in-setting-your-password" class="md-skip">
           Skip to content
         </a>
       
@@ -2855,6 +2855,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Log In & Setting Your Password
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2871,6 +2889,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-pgadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing pgAdmin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging In
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-your-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing Your Password
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3330,6 +3400,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-pgadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing pgAdmin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging In
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-your-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing Your Password
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3345,8 +3456,74 @@
 
 
 
-<div><h1 id="first-log-in">First Log In<a class="headerlink" href="#first-log-in" title="Permanent link">¶</a></h1>
-<p>To be added...</p></div>
+<div><h1 id="first-log-in-setting-your-password">First Log In &amp; Setting Your Password<a class="headerlink" href="#first-log-in-setting-your-password" title="Permanent link">¶</a></h1>
+<h2 id="accessing-pgadmin">Accessing pgAdmin<a class="headerlink" href="#accessing-pgadmin" title="Permanent link">¶</a></h2>
+<p>To begin using your hosted database, go to the <span class="ui-page-label">Hosted Products</span> section of the GSH Dashboard. From there, click the <span class="ui-generic-label">Product Name</span> you selected during setup.</p>
+<p>You can also access pgAdmin directly using the unique URL, which is listed on the <span class="ui-page-label">Product Details</span> page in the dashboard.</p>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/postgis-img-8.png" alt="pgAdmin Login">
+  <div class="caption">
+    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="logging-in">Logging In<a class="headerlink" href="#logging-in" title="Permanent link">¶</a></h2>
+<p>To begin working with your hosted database, log in to pgAdmin using the credentials you retrieved from the GSH Dashboard.</p>
+<p>On the pgAdmin <span class="ui-page-label">Login</span> page, enter your <strong>Username</strong> (your registered email address) and <strong>Password</strong> (copied from the GSH Dashboard), then click <span class="ui-generic-label">Login</span> to continue.</p>
+<p><br></p>
+<p>Once logged in, the pgAdmin interface displays a clean workspace consisting of three main areas:</p>
+<ul>
+<li>The <strong>Menu Bar</strong> at the top</li>
+<li>The <strong>Object Explorer</strong> tree on the left</li>
+<li>The <strong>Tabbed Browser</strong> on the right</li>
+</ul>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/postgis-img-9.png" alt="pgAdmin Interface">
+  <div class="caption">
+    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="changing-your-password">Changing Your Password<a class="headerlink" href="#changing-your-password" title="Permanent link">¶</a></h2>
+<p>After your first login, it’s highly recommended to update your default password to keep your database secure.</p>
+<ol>
+<li>
+<p>Click the <span class="ui-generic-label">User</span> button in the upper-right corner of the pgAdmin interface.</p>
+</li>
+<li>
+<p>From the dropdown menu, select <span class="ui-generic-label">Change Password</span>.</p>
+</li>
+<li>
+<p>Enter your <strong>current password</strong>, then type your <strong>new password</strong> and re-enter it to confirm.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Change</span> to save your updated password.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    Choose a strong, unique password and store it securely.
+  </div>
+</div>
+
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/postgis-img-10.png" alt="Change Password">
+  <div class="caption">
+    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+  </div>
+</div>
+
+<p><br></p>
+<hr>
+<p><strong>Next up:</strong> A quick 5-minute Getting Started guide to help you get started using your database.</p>
+<p><br></p></div>
 
 
 
