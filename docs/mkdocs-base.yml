@@ -133,7 +133,6 @@ nav:
             - Features: products/postgis/manual/feature.md
             - Relationships: products/postgis/manual/relation.md
             - Queries: products/postgis/manual/query.md
-            - Administration: products/postgis/manual/admin.md
           - Help: products/postgis/help.md
       #- GeoSight:
       #    - products/geosight/index.md

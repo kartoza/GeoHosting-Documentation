@@ -51,7 +51,7 @@ The pgAdmin interface is organized into three main areas:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-1.png" alt="User Interface" width="auto">
+  <img src="../../img/postgis-img-17.png" alt="User Interface" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -155,7 +155,7 @@ Additional tabs may appear when using pgAdmin tools like the **Query Tool**, **D
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-2.png" alt="Dashboard Tab" width="auto">
+  <img src="../../img/postgis-img-18.png" alt="Dashboard Tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>

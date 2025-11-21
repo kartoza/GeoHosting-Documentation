@@ -49,7 +49,7 @@ The panel is organized into three sub-tabs, each focused on a different aspect o
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-3.png" alt="User Management tab" width="auto">
+  <img src="../../img/postgis-img-19.png" alt="User Management tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -91,7 +91,7 @@ Once saved, the role becomes available for assignment to users and configuration
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-4.png" alt="Roles Sub-tab" width="auto">
+  <img src="../../img/postgis-img-20.png" alt="Roles Sub-tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -110,7 +110,7 @@ This role-based approach helps maintain clarity, consistency, and security acros
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-5.png" alt="Permissions Sub-tab" width="auto">
+  <img src="../../img/postgis-img-21.png" alt="Permissions Sub-tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -164,7 +164,7 @@ This interface can also be used to change a user’s role, update their password
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-g-6.png" alt="User Sub-tab" width="auto">
+  <img src="../../img/postgis-img-22.png" alt="User Sub-tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>

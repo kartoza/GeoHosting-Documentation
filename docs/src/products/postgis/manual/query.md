@@ -44,7 +44,7 @@ You’ll run your SQL statements inside pgAdmin’s built-in editor.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-22.png" alt="Query Tool" width="auto">
+  <img src="../../img/postgis-img-44.png" alt="Query Tool" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -88,7 +88,7 @@ These simple <span class="ui-filename">SELECT</span> queries let you preview and
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-23.png" alt="SELECT Query" width="auto">
+  <img src="../../img/postgis-img-45.png" alt="SELECT Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -121,7 +121,7 @@ Sorting and limiting output helps you quickly find useful information.
     <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-24.png" alt="Sort Query" width="auto">
+  <img src="../../img/postgis-img-46.png" alt="Sort Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -155,7 +155,7 @@ You can use SQL to calculate values on the fly.
     <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-25.png" alt="Calculation Query" width="auto">
+  <img src="../../img/postgis-img-47.png" alt="Calculation Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -211,7 +211,7 @@ Each spatial function returns a true/false result, distance, or filtered rows, p
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-26.png" alt="Spatial Query" width="auto">
+  <img src="../../img/postgis-img-48.png" alt="Spatial Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -255,7 +255,7 @@ SQL can also modify records. Make sure you understand what you’re updating bef
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-27.png" alt="Update Query" width="auto">
+  <img src="../../img/postgis-img-49.png" alt="Update Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -294,7 +294,7 @@ PostGIS makes it easy to summarise spatial relationships.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-28.png" alt="Sort Query" width="auto">
+  <img src="../../img/postgis-img-50.png" alt="Sort Query" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
