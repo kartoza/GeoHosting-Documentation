@@ -97,7 +97,7 @@ You’ll start by creating a new table called *place_types*.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-15.png" alt="Create Table" width="auto">
+  <img src="../../img/postgis-img-37.png" alt="Create Table" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -155,7 +155,7 @@ Your lookup table is now populated.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-16.png" alt="Lookup Values" width="auto">
+  <img src="../../img/postgis-img-38.png" alt="Lookup Values" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -185,7 +185,7 @@ This new field will store the ID from *place_types*.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-17.png" alt="Add Field" width="auto">
+  <img src="../../img/postgis-img-39.png" alt="Add Field" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -215,7 +215,7 @@ Your tables are now formally linked in PostGIS.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-18.png" alt="Create Relationship" width="auto">
+  <img src="../../img/postgis-img-40.png" alt="Create Relationship" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -281,9 +281,9 @@ Now, whenever you add or edit a place, QGIS will show a dropdown list of place t
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-19.png" alt="Configure Widget" width="auto">
+  <img src="../../img/postgis-img-41.png" alt="Configure Widget" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -310,9 +310,9 @@ With the widget configured, you can now test how the relationship behaves during
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-20.png" alt="Type Dropdown" width="auto">
+  <img src="../../img/postgis-img-42.png" alt="Type Dropdown" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -323,7 +323,7 @@ You can now return to pgAdmin to verify the updated field.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-21.png" alt="Updated Table" width="auto">
+  <img src="../../img/postgis-img-43.png" alt="Updated Table" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>

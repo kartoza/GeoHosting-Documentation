@@ -30,9 +30,9 @@ To begin adding new features to your *places* layer:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-11.png" alt="Toggle Editing" width="auto">
+  <img src="../../img/postgis-img-33.png" alt="Toggle Editing" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -53,9 +53,9 @@ With editing mode active, you can now add a new point to represent a specific pl
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-12.png" alt="Add Point Feature" width="auto">
+  <img src="../../img/postgis-img-34.png" alt="Add Point Feature" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -76,9 +76,9 @@ Your new features are now stored in your hosted PostGIS database.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-13.png" alt="Save Edits" width="auto">
+  <img src="../../img/postgis-img-35.png" alt="Save Edits" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -99,7 +99,7 @@ To confirm that your new features have been successfully added:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-14.png" alt="pgAdmin Table View" width="auto">
+  <img src="../../img/postgis-img-36.png" alt="pgAdmin Table View" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>

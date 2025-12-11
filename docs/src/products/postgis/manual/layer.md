@@ -32,7 +32,7 @@ To begin, create a new table within your default database:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-3.png" alt="Expanded Tree" width="auto">
+  <img src="../../img/postgis-img-25.png" alt="Expanded Tree" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -78,7 +78,7 @@ Before adding any columns, you’ll first configure the basic details of your ne
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-4.png" alt="Table General Tab" width="auto">
+  <img src="../../img/postgis-img-26.png" alt="Table General Tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -140,7 +140,7 @@ Next, define the table’s attributes (fields) that will store your data.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-5.png" alt="Table Column Tab" width="auto">
+  <img src="../../img/postgis-img-27.png" alt="Table Column Tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -157,7 +157,7 @@ By default, the geometry column does not yet have a defined geometry type or spa
     <br>
 
     <div style="text-align: center;">
-    <img src="../../img/postgis-img-m-6.png" alt="Query Tool" width="auto">
+    <img src="../../img/postgis-img-28.png" alt="Query Tool" width="auto">
     <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
         Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
     </div>
@@ -184,7 +184,7 @@ This command converts the geometry column to a **Point** geometry type using the
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-7.png" alt="SQL Editor" width="auto">
+  <img src="../../img/postgis-img-29.png" alt="SQL Editor" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>

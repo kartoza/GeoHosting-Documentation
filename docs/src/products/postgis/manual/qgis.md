@@ -28,9 +28,9 @@ To begin connecting your hosted PostGIS database:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-8.png" alt="Data Source Manager" width="auto">
+  <img src="../../img/postgis-img-30.png" alt="Data Source Manager" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -140,9 +140,9 @@ You’ll now set up the connection to your hosted database.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-9.png" alt="Add Connection" width="auto">
+  <img src="../../img/postgis-img-31.png" alt="Add Connection" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
@@ -165,9 +165,9 @@ Your hosted PostGIS layer is now connected and ready for use in QGIS. You can st
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-10.png" alt="Add Layer" width="auto">
+  <img src="../../img/postgis-img-32.png" alt="Add Layer" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
+    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 

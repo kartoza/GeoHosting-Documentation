@@ -46,7 +46,7 @@ To access pgAdmin and log into your hosted database:
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-1.png" alt="pgAdmin Login" width="auto">
+  <img src="../../img/postgis-img-23.png" alt="pgAdmin Login" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
@@ -80,7 +80,7 @@ This is your preconfigured database for adding tables, geometry fields, and mana
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/postgis-img-m-2.png" alt="pgAdmin tree" width="auto">
+  <img src="../../img/postgis-img-24.png" alt="pgAdmin tree" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
