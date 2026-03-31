@@ -135,8 +135,8 @@ nav:
             - Queries: products/postgis/manual/query.md
             - Administration: products/postgis/manual/admin.md
           - Help: products/postgis/help.md
-      #- GeoSight:
-      #    - products/geosight/index.md
+      - GeoSight:
+            - products/geosight/index.md
       #    - Introduction: products/geosight/introduction.md
       #    - Guide: products/geosight/guide.md
       #- MyCivitas:

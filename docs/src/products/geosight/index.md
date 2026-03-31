@@ -11,7 +11,132 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# GeoSight: Geospatial Risk Analysis and Visualization
+# GeoSight
+
+## What is GeoSight?
+
+**GeoSight** is an open-source geospatial data visualization and analysis platform designed to help organizations explore, understand, and act on spatial data through intuitive, web-based dashboards.
+
+Originally developed with the support of **UNICEF**, GeoSight enables both technical and non-technical users to analyse complex datasets, such as socio-economic indicators, hazard exposure, and risk metrics, at subnational levels to support informed decision-making.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/geosight-img-1.svg" alt="GeoSight Logo" style="width: 35%;">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<br>
+
+As a hosted product on GeoSpatialHosting, GeoSight comes fully managed and ready to use—removing the complexity of deployment and infrastructure setup. It provides a powerful environment for building interactive dashboards, combining multiple datasets, and visualising trends over time.
+
+GeoSight integrates seamlessly with administrative boundary systems like GeoRepo, ensuring consistency across datasets and enabling accurate comparisons and analysis across regions and time periods.
+
+<br>
+
+## Key Capabilities
+
+- **Interactive Data Visualisation**
+
+    Build dynamic dashboards using maps, charts, and widgets to explore spatial data
+
+- **Indicator-Based Analysis**
+
+    Visualise datasets linked to administrative boundaries using flexible styling and classes
+
+- **Contextual Data Layers**
+
+    Overlay additional geospatial data such as hazard maps or environmental layers
+
+- **Trend Analysis**
+
+    Analyse how indicators change over time to identify patterns and emerging risks
+
+- **Advanced Filtering**
+
+    Focus on specific areas or conditions using threshold-based filters
+
+- **Integrated Analysis Tools**
+
+    Compare datasets, explore relationships, and utilise tools like 3D visualisation
+
+- **Batch Data Management**
+
+    Efficiently manage and update multiple datasets simultaneously
+
+- **Interoperability & APIs**
+
+    Connect to external systems and share data seamlessly via APIs
+
+<br>
+
+## How GeoSight Works
+
+GeoSight is built around the concept of projects (dashboards), where multiple datasets and layers are combined into a single interactive environment for analysis.
+
+<br>
+
+Key components include:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Indicators</td>
+      <td>Data linked to administrative boundaries, visualised using choropleth maps or charts.</td>
+    </tr>
+    <tr>
+      <td>Context Layers</td>
+      <td>External geospatial layers (e.g. WMS, GeoJSON, ArcGIS services) used to provide additional context.</td>
+    </tr>
+    <tr>
+      <td>Widgets</td>
+      <td>Charts, summaries, and tables that highlight key insights from datasets.</td>
+    </tr>
+    <tr>
+      <td>GeoRepo Integration</td>
+      <td>Ensures all datasets align with consistent and up-to-date administrative boundaries.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+## Community & Resources
+
+GeoSight is an open-source platform with ongoing development and contributions. You can explore more through the official documentation and resources below:
+
+<br>
+
+<div class="cards-grid">
+  <div class="card">
+    <div class="card-header">
+      📚 <a href="https://unicef-drp.github.io/GeoSight-OS-Documentation/" target="_blank">Documentation</a>
+    </div>
+    <div class="card-body">
+      Official GeoSight documentation covering setup, features, and usage.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      💻 <a href="https://github.com/unicef-drp" target="_blank">Source Code</a>
+    </div>
+    <div class="card-body">
+      Explore repositories and contribute to GeoSight development.
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- # GeoSight: Geospatial Risk Analysis and Visualization
 
 **GeoSight** is an open-source geospatial visualization and data analysis platform developed by **UNICEF**. It aims to support decision-making by providing both experts and non-experts with easy access to powerful tools for understanding and analyzing data. These include deprivation indicators, exposure to hazards at subnational levels, and early warnings.
 
@@ -66,4 +191,4 @@ GeoSight’s interoperability allows UNICEF country teams and partners to engage
 4. **Embedding GeoSight Data**
    - Users can **copy and paste a URL** to embed GeoSight visualisations in any website.
 
-[![Geosigh analytics](./img/geosight-img-2.png)](./img/geosight-img-2.png)
+[![Geosigh analytics](./img/geosight-img-2.png)](./img/geosight-img-2.png) -->
