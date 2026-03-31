@@ -137,6 +137,7 @@ nav:
           - Help: products/postgis/help.md
       - GeoSight:
             - products/geosight/index.md
+            - Overview: products/geosight/overview.md
       #    - Introduction: products/geosight/introduction.md
       #    - Guide: products/geosight/guide.md
       #- MyCivitas:
