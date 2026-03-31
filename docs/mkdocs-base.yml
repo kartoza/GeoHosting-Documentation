@@ -136,12 +136,25 @@ nav:
             - Administration: products/postgis/manual/admin.md
           - Help: products/postgis/help.md
       - GeoSight:
-            - products/geosight/index.md
-            - Overview: products/geosight/overview.md
-            - Guide:
-              - Creating Your Instance: products/geosight/guide/create_instance.md
-      #    - Introduction: products/geosight/introduction.md
-      #    - Guide: products/geosight/guide.md
+          - products/geosight/index.md
+          - Overview: products/geosight/overview.md
+          - Guide:
+            - Creating Your Instance: products/geosight/guide/create_instance.md
+            - First Log In & Setting Your Password: products/geosight/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/geosight/guide/quickstart.md
+            - Navigating the Dashboard: products/geosight/guide/dashboard.md
+            - Managing Users & Permissions: products/geosight/guide/permissions.md
+            - Glossary of Terms: products/geosight/guide/glossary.md
+          - Manual:
+            - Projects: products/geosight/manual/projects.md
+            - Indicators: products/geosight/manual/indicators.md
+            - Indicator Layers: products/geosight/manual/indicator_layers.md
+            - Context Layers: products/geosight/manual/context_layers.md
+            - Basemaps: products/geosight/manual/basemaps.md
+            - Styles: products/geosight/manual/styles.md
+            - Import Data: products/geosight/manual/import_data.md
+            - Widgets & Filters: products/geosight/manual/widgets_filters.md
+          - Help: products/geosight/help.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md
