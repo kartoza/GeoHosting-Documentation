@@ -138,6 +138,8 @@ nav:
       - GeoSight:
             - products/geosight/index.md
             - Overview: products/geosight/overview.md
+            - Guide:
+              - Creating Your Instance: products/geosight/guide/create_instance.md
       #    - Introduction: products/geosight/introduction.md
       #    - Guide: products/geosight/guide.md
       #- MyCivitas:
