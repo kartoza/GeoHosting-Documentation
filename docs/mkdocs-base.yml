@@ -100,7 +100,7 @@ nav:
           - Overview: products/geoserver/overview.md
           - Guide:
             - Creating Your Instance: products/geoserver/guide/create_instance.md
-            - First Log In: products/geoserver/guide/first_login.md
+            - First Log In & Setting Your Password: products/geoserver/guide/first_login.md
             - Quickstart - 5-Minute Tutorial: products/geoserver/guide/quickstart.md
             - Navigating the Dashboard: products/geoserver/guide/dashboard.md
             - Managing Users & Permissions: products/geoserver/guide/permissions.md
@@ -139,7 +139,7 @@ nav:
           - Overview: products/geosight/overview.md
           - Guide:
             - Creating Your Instance: products/geosight/guide/create_instance.md
-            - First Log In & Setting Your Password: products/geosight/guide/first_login.md
+            - First Log In: products/geosight/guide/first_login.md
             - Quickstart - 5-Minute Tutorial: products/geosight/guide/quickstart.md
             - Navigating the Dashboard: products/geosight/guide/dashboard.md
             - Managing Users & Permissions: products/geosight/guide/permissions.md
