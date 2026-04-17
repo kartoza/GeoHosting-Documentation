@@ -22,7 +22,7 @@ Originally developed with the support of **UNICEF**, GeoSight enables both techn
 <br>
 
 <div class="image-with-caption">
-  <img src="./img/geosight-img-1.svg" alt="GeoSight Logo" style="width: 35%;">
+  <img src="./img/geosight-img-1.png" alt="GeoSight Logo" style="width: 15%;">
   <div class="caption">
     Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
   </div>
