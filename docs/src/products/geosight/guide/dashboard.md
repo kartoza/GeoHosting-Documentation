@@ -57,7 +57,7 @@ It contains the following key sections:
 
 ### Project Gallery
 
-The <span class="ui-page-label">Project Gallery</span> displays all dashboards available to you in one place. A project is a collection of indicators, context layers, widgets, and filters, allowing you to analyse and understand conditions within a specific area. 
+The <span class="ui-page-label">Project Gallery</span> displays all dashboards available to you in one place. A project is a collection of indicators, context layers, widgets, and filters, allowing you to analyse and understand conditions within a specific area.
 
 <br>
 
