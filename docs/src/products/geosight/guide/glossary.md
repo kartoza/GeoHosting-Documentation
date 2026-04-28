@@ -15,10 +15,6 @@ context_id: nDU6LLGiXPTLADXY
 
 New to GeoSight? This glossary explains the key concepts, components, and tools you’ll encounter while building dashboards and managing spatial data on the platform.
 
-# Glossary of Terms
-
-New to GeoSight? This glossary explains the key concepts, components, and tools you’ll encounter while building dashboards and managing spatial data on the platform.
-
 <br>
 
 <table class="my-table-style">

@@ -13,7 +13,7 @@ context_id: nDU6LLGiXPTLADXY
 
 # Managing Users & Permissions
 
-GeoSight provides a flexible user and access management system that allows you to control who can view, edit, and manage data across the platform. 
+GeoSight provides a flexible user and access management system that allows you to control who can view, edit, and manage data across the platform.
 
 Permissions can be assigned at multiple levels, including datasets, indicators, and projects, giving you fine-grained control over collaboration and data security.
 
@@ -64,8 +64,7 @@ Groups allow you to manage multiple users at once by assigning shared access per
 
 5. Search for and select users from the list.
 
-6. Click <span class="ui-generic-label">Update Selection</span>, then <span 
-class="ui-generic-label">Save</span>.
+6. Click <span class="ui-generic-label">Update Selection</span>, then <span class="ui-generic-label">Save</span>.
 
 <br>
 
@@ -233,4 +232,3 @@ Users can request additional permissions if they need extended access. To submit
 </div>
 
 <br>
-
