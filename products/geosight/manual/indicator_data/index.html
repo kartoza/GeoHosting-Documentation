@@ -16,7 +16,7 @@
         <link rel="prev" href="../indicators/">
       
       
-        <link rel="next" href="../context_layers/">
+        <link rel="next" href="../basemaps/">
       
       
         
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creating-indicator-layers" class="md-skip">
+        <a href="#importing-indicator-data" class="md-skip">
           Skip to content
         </a>
       
@@ -3631,10 +3631,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -3778,6 +3774,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indicator Data
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3795,34 +3809,124 @@
 
       </a>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../context_layers/" class="md-nav__link">
         
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  <span class="md-ellipsis">
+  
     
   
-    Context Layers
   
-
-    
-  </span>
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#excel-import-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excel Import Formats
+      
+    </span>
+  </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-excel-long-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Excel LONG Structure
+      
+    </span>
+  </a>
   
-
-      </a>
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-import-data-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Import Data Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-general-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: General Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-upload-the-excel-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Upload the Excel File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-reference-layer-time-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Reference Layer &amp; Time Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-preview-imported-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Preview Imported Records
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-save-imported-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Save Imported Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-import-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Import Sources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3899,34 +4003,6 @@
     
   
     Styles
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../import_data/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Import Data
   
 
     
@@ -4039,6 +4115,113 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#excel-import-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excel Import Formats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-excel-long-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Excel LONG Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-import-data-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Import Data Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-general-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: General Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-upload-the-excel-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Upload the Excel File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-reference-layer-time-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Reference Layer &amp; Time Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-preview-imported-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Preview Imported Records
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-save-imported-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Save Imported Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-import-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Import Sources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4054,8 +4237,292 @@
 
 
 
-<div><h1 id="creating-indicator-layers">Creating Indicator Layers<a class="headerlink" href="#creating-indicator-layers" title="Permanent link">¶</a></h1>
-<p>To be added...</p></div>
+<div><h1 id="importing-indicator-data">Importing Indicator Data<a class="headerlink" href="#importing-indicator-data" title="Permanent link">¶</a></h1>
+<p>Once an indicator has been created, data can be imported into GeoSight for visualization and analysis. GeoSight supports multiple import methods, including Excel files, APIs, SharePoint, SDMX, and related tables.</p>
+<p><br></p>
+<p>This guide focuses specifically on importing indicator data using the Excel Long Format, which is the most flexible and commonly used approach.</p>
+<p><br></p>
+<p>GeoSight uses indicators as centralized data containers, meaning a single indicator can store:</p>
+<ul>
+<li>Multiple dates</li>
+<li>Multiple geographies</li>
+<li>Multiple uploads over time</li>
+</ul>
+<p><br></p>
+<p>This structure helps prevent duplicated indicators and keeps data organized across projects and dashboards.</p>
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Before importing data, ensure that both your <strong>Reference Dataset</strong> and <strong>Indicator</strong> have already been created.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="excel-import-formats">Excel Import Formats<a class="headerlink" href="#excel-import-formats" title="Permanent link">¶</a></h2>
+<p>GeoSight supports two Excel-based import structures.</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Format</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Excel LONG Format</td>
+      <td>Supports multiple indicators, dates, and geographies within a single spreadsheet.</td>
+    </tr>
+    <tr>
+      <td>Excel WIDE Format</td>
+      <td>Supports multiple indicators for a single date only, with indicators stored as columns.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<p>For this tutorial, we will use the <strong>Excel LONG Format</strong>.</p>
+<p><br></p>
+<h2 id="recommended-excel-long-structure">Recommended Excel LONG Structure<a class="headerlink" href="#recommended-excel-long-structure" title="Permanent link">¶</a></h2>
+<p>Your Excel file should contain the following required columns:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Column</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GeographyCode</td>
+      <td>Unique geographic code matching the reference dataset boundary codes.</td>
+    </tr>
+    <tr>
+      <td>IndicatorCode</td>
+      <td>The indicator shortcode defined in GeoSight.</td>
+    </tr>
+    <tr>
+      <td>DateTime</td>
+      <td>Date value for the observation (e.g. <span class="ui-filename">2024-01-01</span>).</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>The numeric or categorical observation value.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="alert alert-warning">
+  <div class="alert-icon">⚠️</div>
+  <div class="alert-text">
+    Geography codes in your Excel file must exactly match the geographic codes stored in your Reference Dataset. Mismatched codes will prevent records from linking correctly.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-1-import-data-page">Step 1: Import Data Page<a class="headerlink" href="#step-1-import-data-page" title="Permanent link">¶</a></h2>
+<p>Before importing any data, you first need to open the target indicator and access its data import interface.</p>
+<ol>
+<li>
+<p>Navigate to <span class="ui-page-label">Indicators</span>.</p>
+</li>
+<li>
+<p>Locate your indicator (e.g. <span class="ui-filename">Sample Indicator A</span>).</p>
+</li>
+<li>
+<p>Click the <span class="ui-generic-label">Import Data</span> icon.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-41.png" alt="Indicator Page">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-2-general-settings">Step 2: General Settings<a class="headerlink" href="#step-2-general-settings" title="Permanent link">¶</a></h2>
+<p>The <span class="ui-page-label">General</span> tab defines the type and format of the data being imported.</p>
+<p><br></p>
+<p>Use the following settings:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Import Type</td>
+      <td>Indicator Value</td>
+    </tr>
+    <tr>
+      <td>Input Format</td>
+      <td>Excel Long Format</td>
+    </tr>
+  </tbody>
+</table>
+<p><br></p>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-42.png" alt="General Tab">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-3-upload-the-excel-file">Step 3: Upload the Excel File<a class="headerlink" href="#step-3-upload-the-excel-file" title="Permanent link">¶</a></h2>
+<p>The <span class="ui-page-label">Attributes</span> tab connects GeoSight to your Excel dataset.</p>
+<ol>
+<li>
+<p>Open the <span class="ui-page-label">Attributes</span> tab.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Choose File</span>.</p>
+</li>
+<li>
+<p>Select your prepared Excel spreadsheet.</p>
+</li>
+<li>
+<p>Verify that the correct geography and indicator fields are detected.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-43.png" alt="Attributes Tab">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-4-reference-layer-time-settings">Step 4: Reference Layer &amp; Time Settings<a class="headerlink" href="#step-4-reference-layer-time-settings" title="Permanent link">¶</a></h2>
+<p>The <span class="ui-page-label">Reference Layer &amp; Time</span> tab links the uploaded records to your administrative boundaries and time settings.</p>
+<ol>
+<li>
+<p>Open the <span class="ui-page-label">Reference Layer &amp; Time</span> tab.</p>
+</li>
+<li>
+<p>Select your reference dataset from the <span class="ui-generic-label">Reference Layer</span> dropdown.</p>
+</li>
+<li>
+<p>Under <strong>Date Time Setting</strong>, select <span class="ui-generic-label">Data-Driven Date</span></p>
+</li>
+<li>
+<p>Choose the correct date field and format</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Submit</span>.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-44.png" alt="Reference Layer &amp; Time Tab">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-5-preview-imported-records">Step 5: Preview Imported Records<a class="headerlink" href="#step-5-preview-imported-records" title="Permanent link">¶</a></h2>
+<p>After the upload is processed successfully:</p>
+<ol>
+<li>
+<p>Click <span class="ui-generic-label">See the data</span>.</p>
+</li>
+<li>
+<p>Review the imported records.</p>
+</li>
+<li>
+<p>Verify that:</p>
+<ul>
+<li>Geography codes linked correctly</li>
+<li>Dates appear correctly</li>
+<li>Values imported successfully</li>
+<li>No records are missing</li>
+</ul>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-45.png" alt="Preview Imported Data">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-6-save-imported-data">Step 6: Save Imported Data<a class="headerlink" href="#step-6-save-imported-data" title="Permanent link">¶</a></h2>
+<p>The final step is to save the validated records into GeoSight, making the data available for dashboards, maps, and analysis tools.</p>
+<ol>
+<li>
+<p>Click <span class="ui-generic-label">Select All Data</span>.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Save</span>.</p>
+</li>
+<li>
+<p>GeoSight will finalize the import and store the records within the indicator.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-46.png" alt="Save Imported Data">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="additional-import-sources">Additional Import Sources<a class="headerlink" href="#additional-import-sources" title="Permanent link">¶</a></h2>
+<p>Although Excel imports are the most common workflow, GeoSight also supports several other import methods.</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Import Source</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>API</td>
+      <td>Connect to REST or GeoJSON services for automated imports.</td>
+    </tr>
+    <tr>
+      <td>SharePoint</td>
+      <td>Import and synchronize cloud-hosted Excel files.</td>
+    </tr>
+    <tr>
+      <td>SDMX</td>
+      <td>Connect to statistical data warehouse services using SDMX standards.</td>
+    </tr>
+    <tr>
+      <td>Related Tables</td>
+      <td>Import large disaggregated datasets linked to indicators.</td>
+    </tr>
+    <tr>
+      <td>Vector Context Layers</td>
+      <td>Generate indicators from vector spatial datasets.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    GeoSight also supports scheduled imports for APIs and SharePoint sources, allowing indicator data to update automatically at regular intervals.
+  </div>
+</div>
+
+<p><br></p>
+<hr>
+<p><strong>Next up:</strong> Learn how to create and configure Basemaps in GeoSight to provide background mapping for your dashboards and projects.</p>
+<p><br></p></div>
 
 
 
@@ -4113,13 +4580,13 @@
         
         
           
-          <a href="../context_layers/" class="md-footer__link md-footer__link--next" aria-label="Next: Context Layers">
+          <a href="../basemaps/" class="md-footer__link md-footer__link--next" aria-label="Next: Basemaps">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Context Layers
+                Basemaps
               </div>
             </div>
             <div class="md-footer__button md-icon">

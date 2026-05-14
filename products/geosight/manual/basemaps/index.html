@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../context_layers/">
+        <link rel="prev" href="../indicator_data/">
       
       
         <link rel="next" href="../projects/">
@@ -3631,10 +3631,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -3769,7 +3765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../indicator_layers/" class="md-nav__link">
+      <a href="../indicator_data/" class="md-nav__link">
         
   
   
@@ -3777,34 +3773,6 @@
     
   
     Indicator Data
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../context_layers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Context Layers
   
 
     
@@ -3834,6 +3802,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basemaps
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3850,6 +3836,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-open-the-basemaps-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open the Basemaps Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-create-a-new-basemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Create a New Basemap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-verify-the-basemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Verify the Basemap
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3899,34 +3937,6 @@
     
   
     Styles
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../import_data/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Import Data
   
 
     
@@ -4039,6 +4049,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-open-the-basemaps-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open the Basemaps Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-create-a-new-basemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Create a New Basemap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-verify-the-basemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Verify the Basemap
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4055,7 +4106,142 @@
 
 
 <div><h1 id="creating-basemaps">Creating Basemaps<a class="headerlink" href="#creating-basemaps" title="Permanent link">¶</a></h1>
-<p>To be added...</p></div>
+<p>Basemaps provide the geographic background used throughout GeoSight dashboards and map visualizations. They help users understand spatial context by displaying roads, terrain, satellite imagery, or other geographic reference layers beneath your indicator data.</p>
+<p><br></p>
+<p>Common basemaps include:</p>
+<ul>
+<li>OpenStreetMap</li>
+<li>Satellite imagery</li>
+<li>Terrain maps</li>
+<li>Light or dark cartographic styles</li>
+<li>Custom XYZ tile services</li>
+</ul>
+<p><br></p>
+<p>The <span class="ui-page-label">Basemaps</span> page allows users to:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Create Basemaps</td>
+      <td>Add new XYZ tile or map service basemaps to GeoSight.</td>
+    </tr>
+    <tr>
+      <td>Search &amp; Filter</td>
+      <td>Search, sort, and filter available basemaps.</td>
+    </tr>
+    <tr>
+      <td>Edit Basemaps</td>
+      <td>Update basemap settings, URLs, categories, or sharing permissions.</td>
+    </tr>
+    <tr>
+      <td>Delete Basemaps</td>
+      <td>Remove unused or outdated basemap entries.</td>
+    </tr>
+    <tr>
+      <td>Share Access</td>
+      <td>Control which users or groups can access the basemap.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<h2 id="step-1-open-the-basemaps-page">Step 1: Open the Basemaps Page<a class="headerlink" href="#step-1-open-the-basemaps-page" title="Permanent link">¶</a></h2>
+<p>The Basemaps page is used to manage all background map layers available within GeoSight.</p>
+<ol>
+<li>
+<p>In the left-side navigation panel, click <span class="ui-page-label">Basemaps</span>.</p>
+</li>
+<li>
+<p>Use the <span class="ui-generic-label">Search Basemap</span> field to locate existing basemaps.</p>
+</li>
+<li>
+<p>Select a basemap checkbox to enable editing or deletion tools.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-47.png" alt="Basemap Page">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-2-create-a-new-basemap">Step 2: Create a New Basemap<a class="headerlink" href="#step-2-create-a-new-basemap" title="Permanent link">¶</a></h2>
+<p>Creating a basemap allows you to connect GeoSight to an external tile service such as OpenStreetMap or a custom XYZ provider.</p>
+<ol>
+<li>
+<p>Click <span class="ui-generic-label">Create New Basemap</span>.</p>
+</li>
+<li>
+<p>Complete the required fields in the <span class="ui-page-label">General</span> tab.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Save</span>.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-48.png" alt="Create Basemap">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<p>Use the following sample settings:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Example Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>OpenStreetMap</td>
+      <td>The display name of the basemap inside GeoSight.</td>
+    </tr>
+    <tr>
+      <td>URL</td>
+      <td><code>https://a.tile.openstreetmap.org/{z}/{x}/{y}.png?noWrap=true</code></td>
+      <td>The XYZ tile service URL used to retrieve map tiles.</td>
+    </tr>
+    <tr>
+      <td>Type</td>
+      <td>XYZ Tile</td>
+      <td>The tile service type used by the basemap.</td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>Road Maps</td>
+      <td>A grouping category used to organize basemaps.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    XYZ tile services commonly use placeholders such as <code>{z}</code>, <code>{x}</code>, and <code>{y}</code> to dynamically load map tiles at different zoom levels.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-3-verify-the-basemap">Step 3: Verify the Basemap<a class="headerlink" href="#step-3-verify-the-basemap" title="Permanent link">¶</a></h2>
+<p>After saving the basemap, GeoSight will register the tile service and make it available within dashboards and projects.</p>
+<p><br></p>
+<hr>
+<p><strong>Next up:</strong> Learn how to combine your reference datasets, indicators, indicator data, and basemaps into a complete GeoSight Project Dashboard.</p>
+<p><br></p></div>
 
 
 
@@ -4096,7 +4282,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../context_layers/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Context Layers">
+          <a href="../indicator_data/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Indicator Data">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -4106,7 +4292,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Context Layers
+                Indicator Data
               </div>
             </div>
           </a>
