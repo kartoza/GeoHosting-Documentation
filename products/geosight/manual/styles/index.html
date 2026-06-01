@@ -3858,6 +3858,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Styles
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3874,6 +3892,108 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-style-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Style Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-open-the-styles-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open the Styles Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-create-a-new-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Create a New Style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-configure-style-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Configure Style Rules
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Configure Style Rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#predefined-style-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Predefined Style Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-configure-dynamic-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Configure Dynamic Styles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-style-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Style Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3979,6 +4099,97 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-style-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Style Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-open-the-styles-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open the Styles Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-create-a-new-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Create a New Style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-configure-style-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Configure Style Rules
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Configure Style Rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#predefined-style-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Predefined Style Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-configure-dynamic-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Configure Dynamic Styles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-style-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Style Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3995,7 +4206,381 @@
 
 
 <div><h1 id="creating-styles">Creating Styles<a class="headerlink" href="#creating-styles" title="Permanent link">¶</a></h1>
-<p>To be added...</p></div>
+<p>Styles control how indicator data is visualized throughout GeoSight dashboards and maps. They define the colours, classifications, labels, and visual rules used to represent values geographically.</p>
+<p><br></p>
+<p>Styles are responsible for transforming data into meaningful visualizations by controlling:</p>
+<ul>
+<li>Colour palettes</li>
+<li>Value classifications</li>
+<li>Category mappings</li>
+<li>No-data handling</li>
+<li>etc.</li>
+</ul>
+<p><br></p>
+<p>Styles can be created independently in the <span class="ui-page-label">Styles</span> library or configured directly inside Indicator Layers within a project.</p>
+<p><br></p>
+<p>The <span class="ui-page-label">Styles</span> page allows users to:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Create Styles</td>
+      <td>Create reusable map styling templates for indicators and projects.</td>
+    </tr>
+    <tr>
+      <td>Configure Colour Rules</td>
+      <td>Define colours, value ranges, categories, and legends.</td>
+    </tr>
+    <tr>
+      <td>Create Dynamic Styles</td>
+      <td>Automatically classify data using statistical methods and colour ramps.</td>
+    </tr>
+    <tr>
+      <td>Edit Styles</td>
+      <td>Update existing style rules, colours, or classifications.</td>
+    </tr>
+    <tr>
+      <td>Search &amp; Filter</td>
+      <td>Search, sort, and filter available styles.</td>
+    </tr>
+    <tr>
+      <td>Share Access</td>
+      <td>Control which users or groups can access the style.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Styles can be reused across multiple indicators and projects, helping maintain consistent visual standards throughout GeoSight dashboards.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="understanding-style-types">Understanding Style Types<a class="headerlink" href="#understanding-style-types" title="Permanent link">¶</a></h2>
+<p>GeoSight supports several different style approaches depending on the type of data being visualized.</p>
+<p><br></p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Style Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Predefined Style</td>
+      <td>Manually configured colour rules and classifications.</td>
+    </tr>
+    <tr>
+      <td>Dynamic Quantitative</td>
+      <td>Automatically classifies numeric data using statistical methods.</td>
+    </tr>
+    <tr>
+      <td>Dynamic Qualitative</td>
+      <td>Automatically applies colours to category or text-based values.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<p>Common classification methods for Dynamic Quantitative styles include:</p>
+<ul>
+<li>Jenks Natural Breaks</li>
+<li>Quantile</li>
+<li>Standard Deviation</li>
+<li>Equal Interval</li>
+<li>Geometric Progression</li>
+<li>Arithmetic Progression</li>
+</ul>
+<p><br></p>
+<h2 id="step-1-open-the-styles-page">Step 1: Open the Styles Page<a class="headerlink" href="#step-1-open-the-styles-page" title="Permanent link">¶</a></h2>
+<p>The Styles page is used to manage reusable style configurations and colour rules throughout GeoSight.</p>
+<ol>
+<li>
+<p>In the left-side navigation panel, click <span class="ui-page-label">Styles</span>.</p>
+</li>
+<li>
+<p>Use the <span class="ui-generic-label">Search Style</span> field to locate existing styles.</p>
+</li>
+<li>
+<p>Select a style checkbox to enable editing or deletion tools.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-56.png" alt="Styles Page">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-2-create-a-new-style">Step 2: Create a New Style<a class="headerlink" href="#step-2-create-a-new-style" title="Permanent link">¶</a></h2>
+<p>Creating a style allows you to define reusable visual rules for indicators and projects.</p>
+<ol>
+<li>
+<p>Click <span class="ui-generic-label">Create New Style</span>.</p>
+</li>
+<li>
+<p>Complete the required fields in the <span class="ui-page-label">General</span> tab.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Save</span>.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-57.png" alt="Create New Style">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<p>Use the following sample settings:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Example Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>Population Density Style</td>
+      <td>The display name of the style.</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Population density visualization</td>
+      <td>Optional description explaining the purpose.</td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>Population</td>
+      <td>Optional grouping category for organizing styles.</td>
+    </tr>
+    <tr>
+      <td>Value Type</td>
+      <td>Float</td>
+      <td>Defines if the style supports numeric or category values.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<h2 id="step-3-configure-style-rules">Step 3: Configure Style Rules<a class="headerlink" href="#step-3-configure-style-rules" title="Permanent link">¶</a></h2>
+<p>The <span class="ui-page-label">Style Config</span> tab controls how values are classified and visualized on the map.</p>
+<ol>
+<li>
+<p>Open the <span class="ui-page-label">Style Config</span> tab.</p>
+</li>
+<li>
+<p>Under <span class="ui-generic-label">Style Type</span>, select <strong>Predefined Style</strong>.</p>
+</li>
+<li>
+<p>Configure colour rules, classifications, or palettes.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Save</span>.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-58.png" alt="Style Configuration">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<h3 id="predefined-style-rules">Predefined Style Rules<a class="headerlink" href="#predefined-style-rules" title="Permanent link">¶</a></h3>
+<p>Predefined styles allow users to manually define custom colour rules and legends.</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>The label shown in the map legend.</td>
+    </tr>
+    <tr>
+      <td>Rule</td>
+      <td>The value or range assigned to the rule.</td>
+    </tr>
+    <tr>
+      <td>Colour</td>
+      <td>The polygon fill colour.</td>
+    </tr>
+    <tr>
+      <td>Outline Colour</td>
+      <td>The border colour for polygons.</td>
+    </tr>
+    <tr>
+      <td>Outline Width</td>
+      <td>The thickness of polygon borders.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<p>Example numeric ranges:</p>
+<ul>
+<li><span class="ui-filename">0 - 10</span></li>
+<li><span class="ui-filename">10 - 25</span></li>
+<li><span class="ui-filename">25 - 50</span></li>
+</ul>
+<p><br></p>
+<p>Example category mappings:</p>
+<ul>
+<li><span class="ui-filename">Male (m)</span></li>
+<li><span class="ui-filename">Female (f)</span></li>
+</ul>
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Category styles rely on predefined codelists. Contact your GeoSight administrator if additional categories or codes need to be added.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="step-4-configure-dynamic-styles">Step 4: Configure Dynamic Styles<a class="headerlink" href="#step-4-configure-dynamic-styles" title="Permanent link">¶</a></h2>
+<p>Dynamic styles automatically generate classifications and colour ranges from your data.</p>
+<ol>
+<li>
+<p>Under <span class="ui-generic-label">Style Type</span>, select <strong>Dynamic Quantitative</strong> or <strong>Dynamic Qualitative</strong>.</p>
+</li>
+<li>
+<p>Select a colour palette.</p>
+</li>
+<li>
+<p>Choose a classification method.</p>
+</li>
+<li>
+<p>Define the number of classes.</p>
+</li>
+<li>
+<p>Configure optional outline and filter settings.</p>
+</li>
+<li>
+<p>Click <span class="ui-generic-label">Save</span>.</p>
+</li>
+</ol>
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-59.png" alt="Dynamic Style">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<p>The following options are commonly available for Dynamic Quantitative styles:</p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Palette</td>
+      <td>Select the colour ramp used for the visualization.</td>
+    </tr>
+    <tr>
+      <td>Reverse Palette</td>
+      <td>Reverse the order of colours in the palette.</td>
+    </tr>
+    <tr>
+      <td>Classification</td>
+      <td>Select the statistical classification method.</td>
+    </tr>
+    <tr>
+      <td>Number of Classes</td>
+      <td>Define how many value classes should be generated.</td>
+    </tr>
+    <tr>
+      <td>Sync Fill &amp; Outline</td>
+      <td>Use the same colour for polygon fills and outlines.</td>
+    </tr>
+    <tr>
+      <td>Apply When Filtering</td>
+      <td>Allow styles to update dynamically when filters are applied.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="image-with-caption">
+  <img src="../../img/geosight-img-60.png" alt="Style Preview">
+  <div class="caption">
+    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+  </div>
+</div>
+
+<p><br></p>
+<div class="alert alert-warning">
+  <div class="alert-icon">⚠️</div>
+  <div class="alert-text">
+    Dynamic classifications are recalculated using the currently available dataset values. Different filters or time selections may change class breaks and colour distributions.
+  </div>
+</div>
+
+<p><br></p>
+<h2 id="additional-style-concepts">Additional Style Concepts<a class="headerlink" href="#additional-style-concepts" title="Permanent link">¶</a></h2>
+<p>GeoSight styles can exist in multiple locations throughout the platform.</p>
+<p><br></p>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Style Location</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Style Library</td>
+      <td>Reusable styles stored globally within the GeoSight admin panel.</td>
+    </tr>
+    <tr>
+      <td>Indicator Style</td>
+      <td>Default styles assigned directly to indicators.</td>
+    </tr>
+    <tr>
+      <td>Override Style</td>
+      <td>Project-specific style overrides configured inside Indicator Layers.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Styles configured directly within Indicator Layers only affect the current project and do not modify the original Style Library configuration.
+  </div>
+</div>
+
+<p><br></p>
+<hr>
+<p><strong>Next up:</strong> Learn how to create and manage Context Layers in GeoSight to add additional spatial datasets and overlays to your dashboards.</p>
+<p><br></p></div>
 
 
 
