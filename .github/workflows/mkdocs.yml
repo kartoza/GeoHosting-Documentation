@@ -21,7 +21,7 @@ jobs:
     if: github.event_name != 'pull_request' || github.head_ref == 'docs-fix'
     steps:
       - name: Checkout main from github
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v5
