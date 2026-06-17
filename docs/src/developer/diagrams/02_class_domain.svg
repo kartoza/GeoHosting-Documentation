@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="1700" height="1100">
+  <title>Domain Model — Class Diagram</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1700" height="1100" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="850.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">Domain Model — Class Diagram</text>
+    <text x="850.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">tenant_management + qgis_cloud_desktop + geohosting touch-points</text>
+  </g>
+  <g>
+    <rect x="60" y="110" width="230" height="102" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="175.0" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«existing: auth.User»</text>
+  <text x="175.0" y="144" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">User</text>
+    <line x1="60" y1="154" x2="290" y2="154" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="68" y="168" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">id : int</text>
+  <text x="68" y="184" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">email : str</text>
+  <text x="68" y="200" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">is_staff : bool</text>
+  </g>
+  <g>
+    <rect x="60" y="240" width="230" height="118" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="175.0" y="256" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«existing: geohosting»</text>
+  <text x="175.0" y="274" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Organisation</text>
+    <line x1="60" y1="284" x2="290" y2="284" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="68" y="298" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">id</text>
+  <text x="68" y="314" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">slug</text>
+  <text x="68" y="330" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">display_name</text>
+  <text x="68" y="346" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">archived_at</text>
+  </g>
+  <g>
+    <rect x="60" y="380" width="230" height="102" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="175.0" y="396" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«existing: geohosting»</text>
+  <text x="175.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">OrganisationContact</text>
+    <line x1="60" y1="424" x2="290" y2="424" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="68" y="438" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">role</text>
+  <text x="68" y="454" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">user → User</text>
+  <text x="68" y="470" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">organisation → Organisation</text>
+  </g>
+  <g>
+    <rect x="60" y="540" width="230" height="86" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="175.0" y="556" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«existing: geohosting»</text>
+  <text x="175.0" y="574" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Instance / Subscription</text>
+    <line x1="60" y1="584" x2="290" y2="584" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="68" y="598" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">monthly billing roll-up</text>
+  <text x="68" y="614" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→ ERPNext invoice</text>
+  </g>
+  <g>
+    <rect x="360" y="110" width="250" height="102" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="485.0" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="485.0" y="144" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">OrganisationOwner</text>
+    <line x1="360" y1="154" x2="610" y2="154" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="368" y="168" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">user → User</text>
+  <text x="368" y="184" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">organisation → Organisation</text>
+  <text x="368" y="200" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">granted_at, revoked_at</text>
+  </g>
+  <g>
+    <rect x="360" y="260" width="250" height="150" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="485.0" y="276" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="485.0" y="294" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">EndUser</text>
+    <line x1="360" y1="304" x2="610" y2="304" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="368" y="318" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">id</text>
+  <text x="368" y="334" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">organisation → Organisation</text>
+  <text x="368" y="350" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">email (unique within org)</text>
+  <text x="368" y="366" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">display_name</text>
+  <text x="368" y="382" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">is_active : bool</text>
+  <text x="368" y="398" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">created_at</text>
+  </g>
+  <g>
+    <rect x="360" y="470" width="250" height="134" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="485.0" y="486" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="485.0" y="504" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Passkey</text>
+    <line x1="360" y1="514" x2="610" y2="514" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="368" y="528" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="368" y="544" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">credential_id : bytes</text>
+  <text x="368" y="560" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">public_key : bytes</text>
+  <text x="368" y="576" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">sign_count : int</text>
+  <text x="368" y="592" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">label, created_at, revoked_at</text>
+  </g>
+  <g>
+    <rect x="360" y="660" width="250" height="134" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="485.0" y="676" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="485.0" y="694" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">EnrolmentToken</text>
+    <line x1="360" y1="704" x2="610" y2="704" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="368" y="718" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="368" y="734" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">token : str (URL-safe)</text>
+  <text x="368" y="750" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">expires_at (≤ 7 days)</text>
+  <text x="368" y="766" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">used_at</text>
+  <text x="368" y="782" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">webauthn_challenge : bytes</text>
+  </g>
+  <g>
+    <rect x="360" y="850" width="250" height="118" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="485.0" y="866" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="485.0" y="884" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">AuthChallenge</text>
+    <line x1="360" y1="894" x2="610" y2="894" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="368" y="908" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="368" y="924" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">challenge : bytes</text>
+  <text x="368" y="940" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">expires_at (5 min)</text>
+  <text x="368" y="956" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">used_at</text>
+  </g>
+  <g>
+    <rect x="660" y="850" width="230" height="118" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="775.0" y="866" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="775.0" y="884" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">EndUserSession</text>
+    <line x1="660" y1="894" x2="890" y2="894" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="668" y="908" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="668" y="924" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">token : str (opaque)</text>
+  <text x="668" y="940" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">expires_at (default 1d)</text>
+  <text x="668" y="956" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">last_used_at, revoked_at</text>
+  </g>
+  <g>
+    <rect x="660" y="110" width="230" height="134" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="775.0" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«tenant_management»</text>
+  <text x="775.0" y="144" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">RoleGrant</text>
+    <line x1="660" y1="154" x2="890" y2="154" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="668" y="168" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="668" y="184" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">offering : str</text>
+  <text x="668" y="200" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">role : str  («qgis-desktop»)</text>
+  <text x="668" y="216" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">attributes : json</text>
+  <text x="668" y="232" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">granted_at, revoked_at</text>
+  </g>
+  <g>
+    <rect x="960" y="110" width="240" height="150" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1080.0" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop»</text>
+  <text x="1080.0" y="144" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">MachineTier</text>
+    <line x1="960" y1="154" x2="1200" y2="154" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="968" y="168" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">code : str (unique)</text>
+  <text x="968" y="184" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">display_name</text>
+  <text x="968" y="200" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">vcpu, ram_gb, disk_gb</text>
+  <text x="968" y="216" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">price_per_hour : Decimal</text>
+  <text x="968" y="232" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">currency : str(3)</text>
+  <text x="968" y="248" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">is_active</text>
+  </g>
+  <g>
+    <rect x="960" y="320" width="240" height="118" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1080.0" y="336" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop»</text>
+  <text x="1080.0" y="354" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">PersistentHome</text>
+    <line x1="960" y1="364" x2="1200" y2="364" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="968" y="378" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="968" y="394" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">volume_handle : str</text>
+  <text x="968" y="410" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">allocated_gib : int</text>
+  <text x="968" y="426" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">created_at, destroyed_at</text>
+  </g>
+  <g>
+    <rect x="960" y="510" width="240" height="134" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1080.0" y="526" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop»</text>
+  <text x="1080.0" y="544" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">StorageAllocationEvent</text>
+    <line x1="960" y1="554" x2="1200" y2="554" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="968" y="568" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">persistent_home → PersistentHome</text>
+  <text x="968" y="584" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">actor → User</text>
+  <text x="968" y="600" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">old_gib, new_gib</text>
+  <text x="968" y="616" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">reason, effective_from</text>
+  <text x="968" y="632" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">actor_ip, actor_user_agent</text>
+  </g>
+  <g>
+    <rect x="1260" y="110" width="260" height="214" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1390.0" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop»</text>
+  <text x="1390.0" y="144" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Session</text>
+    <line x1="1260" y1="154" x2="1520" y2="154" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1268" y="168" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="1268" y="184" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">machine_tier_code : str</text>
+  <text x="1268" y="200" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">tier_price_per_hour_snapshot</text>
+  <text x="1268" y="216" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">currency_snapshot, container_id</text>
+  <text x="1268" y="232" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">status (state machine)</text>
+  <text x="1268" y="248" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">provision_started_at, running_at</text>
+  <text x="1268" y="264" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">ended_at, end_reason</text>
+  <text x="1268" y="280" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">last_input_at</text>
+  <text x="1268" y="296" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">billed_hours, billed_amount</text>
+  <text x="1268" y="312" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">audit_hash : bytes (sha256)</text>
+  </g>
+  <g>
+    <rect x="1260" y="410" width="260" height="134" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1390.0" y="426" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop»</text>
+  <text x="1390.0" y="444" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">SessionHeartbeat</text>
+    <line x1="1260" y1="454" x2="1520" y2="454" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1268" y="468" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">session → Session</text>
+  <text x="1268" y="484" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">recorded_at</text>
+  <text x="1268" y="500" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">state_at_sample</text>
+  <text x="1268" y="516" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">cpu_pct, mem_mib</text>
+  <text x="1268" y="532" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">last_input_at_sample</text>
+  </g>
+  <g>
+    <rect x="1260" y="620" width="260" height="134" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1390.0" y="636" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«qgis_cloud_desktop» (Phase 5)</text>
+  <text x="1390.0" y="654" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">PostgresLinkage</text>
+    <line x1="1260" y1="664" x2="1520" y2="664" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1268" y="678" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end_user → EndUser</text>
+  <text x="1268" y="694" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">service_alias, db_name</text>
+  <text x="1268" y="710" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">db_user, db_password (secret)</text>
+  <text x="1268" y="726" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">ssl_mode, host, port</text>
+  <text x="1268" y="742" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">enabled, created_at</text>
+  </g>
+  <line x1="175.0" y1="212" x2="175.0" y2="380" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="175.0" y="292.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">member of</text>
+  <text x="167.0" y="206" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="183.0" y="374" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="175.0" y1="358" x2="175.0" y2="380" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="167.0" y="352" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="183.0" y="374" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1..*</text>
+  <line x1="175.0" y1="358" x2="175.0" y2="540" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="175.0" y="445.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">billing</text>
+  <line x1="290" y1="161.0" x2="360" y2="161.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="325.0" y="157.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">owns Organisations via</text>
+  <text x="298" y="155.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="352" y="155.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="290" y1="299.0" x2="360" y2="161.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="298" y="293.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="352" y="155.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="290" y1="299.0" x2="360" y2="335.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond-filled)"/>
+  <text x="325.0" y="313.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Organisation contains</text>
+  <text x="298" y="293.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="352" y="329.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="485.0" y1="410" x2="485.0" y2="470" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="477.0" y="404" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="493.0" y="464" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="485.0" y1="410" x2="485.0" y2="660" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="477.0" y="404" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="493.0" y="654" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="485.0" y1="260" x2="660" y2="177.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="477.0" y="254" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="652" y="171.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="485.0" y1="410" x2="485.0" y2="850" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="477.0" y="404" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="493.0" y="844" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="485.0" y1="410" x2="775.0" y2="850" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="477.0" y="404" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="783.0" y="844" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="890" y1="177.0" x2="960" y2="185.0" stroke="#2D3A3B" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="925.0" y="177.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">attributes.tier_code → </text>
+  <text x="898" y="171.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">*</text>
+  <text x="952" y="179.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <line x1="610" y1="335.0" x2="960" y2="379.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond-filled)"/>
+  <text x="785.0" y="353.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">has Persistent Home</text>
+  <text x="618" y="329.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="952" y="373.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..1</text>
+  <line x1="1080.0" y1="438" x2="1080.0" y2="510" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="1080.0" y="470.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">audit trail</text>
+  <text x="1072.0" y="432" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="1088.0" y="504" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1..*</text>
+  <line x1="610" y1="335.0" x2="1260" y2="217.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="935.0" y="272.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">qgis_sessions (PROTECT)</text>
+  <text x="618" y="329.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="1252" y="211.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="1390.0" y1="324" x2="1390.0" y2="410" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="1382.0" y="318" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="1398.0" y="404" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="1200" y1="185.0" x2="1260" y2="217.0" stroke="#2D3A3B" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="1230.0" y="197.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">price snapshot (FR-073)</text>
+  <text x="1208" y="179.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="1252" y="211.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <line x1="610" y1="335.0" x2="1260" y2="687.0" stroke="#2D3A3B" stroke-width="1.3" marker-end="url(#diamond)"/>
+  <text x="618" y="329.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">1</text>
+  <text x="1252" y="681.0" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#1F2A2B" style="">0..*</text>
+  <g id="legend">
+    <rect x="1440" y="930" width="230" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+    <text x="1452" y="948" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B">Legend</text>
+    <rect x="1452" y="960" width="16" height="12" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1476" y="970" font-family="sans-serif" font-size="11" fill="#1F2A2B">geohosting (existing)</text>
+    <rect x="1452" y="980" width="16" height="12" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1476" y="990" font-family="sans-serif" font-size="11" fill="#1F2A2B">tenant_management</text>
+    <rect x="1452" y="1000" width="16" height="12" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1476" y="1010" font-family="sans-serif" font-size="11" fill="#1F2A2B">qgis_cloud_desktop</text>
+  </g>
+  <text x="1680" y="1086" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">Solid diamond = composition · Open diamond = aggregation · Dashed = snapshot / soft ref</text>
+</svg>

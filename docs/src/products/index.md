@@ -42,4 +42,10 @@ Select the one that best fits your workflow to learn more and get started:
       PostGIS
     </a>
   </div>
+  <div class="product-item">
+    <a href="qgis-cloud-desktop/">
+      <img src="./img/QGIS_logo.png" alt="QGIS Cloud Desktop" /><br />
+      QGIS Cloud Desktop
+    </a>
+  </div>
 </div>

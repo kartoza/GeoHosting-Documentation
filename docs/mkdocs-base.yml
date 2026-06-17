@@ -48,6 +48,17 @@ nav:
       - users/index.md
       - Dashboard: users/dashboard.md
       - Support Center: users/support_center.md
+      - Affiliate Programme:
+          - users/affiliate-programme/index.md
+          - Overview: users/affiliate-programme/overview.md
+          - Applying: users/affiliate-programme/applying.md
+          - Partner Dashboard: users/affiliate-programme/dashboard.md
+          - Referrals & Attribution: users/affiliate-programme/referrals.md
+          - Commissions, Payouts & Statements: users/affiliate-programme/commissions.md
+          - Training Delivery: users/affiliate-programme/training.md
+          - Code of Conduct & Appeals: users/affiliate-programme/code-of-conduct.md
+          - Community: users/affiliate-programme/community.md
+          - Help: users/affiliate-programme/help.md
   - Video Tutorials:
       - Overview: videos/index.md
       - GeoServer Essentials: videos/geoserver_essentials.md
@@ -159,6 +170,29 @@ nav:
             - Styles: products/geosight/manual/styles.md
             - Widgets & Filters: products/geosight/manual/widgets_filters.md
           - Help: products/geosight/help.md
+      - QGIS Cloud Desktop:
+          - products/qgis-cloud-desktop/index.md
+          - Overview: products/qgis-cloud-desktop/overview.md
+          - Guide:
+            - Creating Your Instance: products/qgis-cloud-desktop/guide/create_instance.md
+            - First Log In & Setting Your Passkey: products/qgis-cloud-desktop/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/qgis-cloud-desktop/guide/quickstart.md
+            - Navigating the Dashboard: products/qgis-cloud-desktop/guide/dashboard.md
+            - Managing Users & Permissions: products/qgis-cloud-desktop/guide/permissions.md
+            - Glossary of Terms: products/qgis-cloud-desktop/guide/glossary.md
+          - Manual:
+            - Sessions: products/qgis-cloud-desktop/manual/sessions.md
+            - Persistent Storage: products/qgis-cloud-desktop/manual/storage.md
+            - Machine Tiers: products/qgis-cloud-desktop/manual/machine-tiers.md
+            - Passkeys: products/qgis-cloud-desktop/manual/passkeys.md
+            - Organisations: products/qgis-cloud-desktop/manual/organizations.md
+          - Help: products/qgis-cloud-desktop/help.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md
+  - Developer:
+      - developer/specification.md
+      - Architecture: developer/architecture.md
+      - Local Testing: developer/local_testing.md
+      - UML Diagrams: developer/diagrams/index.md
+      - SRS v0.3: developer/srs/v0.3/index.md
