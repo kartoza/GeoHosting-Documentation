@@ -37,12 +37,9 @@ test.use({ storageState: { cookies: [], origins: [] } });
 
 async function signIn(page: Page, email: string, password: string) {
   // Bypass the login modal entirely — POST credentials to the auth
-  // endpoint, drop the returned DRF token into localStorage under the
-  // key the Redux authSlice reads ('token'), then reload. Way more
-  // reliable than driving the form, and decouples the capture from
-  // whatever the login UI happens to look like today.
-  await page.goto('/#/');
-  await page.waitForLoadState('domcontentloaded');
+  // endpoint and prime localStorage['token'] via addInitScript so the
+  // Redux authSlice reads it on first render (and on every subsequent
+  // navigation), satisfying PrivateRoute before the SPA mounts.
   const response = await page.request.post('/api/auth/login/', {
     data: { email, password },
   });
@@ -52,13 +49,9 @@ async function signIn(page: Page, email: string, password: string) {
     );
   }
   const { token } = await response.json();
-  await page.evaluate((t) => {
+  await page.addInitScript((t) => {
     window.localStorage.setItem('token', t);
   }, token);
-  // Reload so Redux's authSlice re-initialises from localStorage and
-  // re-fetches /me/, /sessions/current/, etc. with the new token.
-  await page.reload();
-  await page.waitForLoadState('networkidle');
 }
 
 async function fillApplyDetails(page: Page) {
@@ -217,7 +210,7 @@ test.describe.serial('Affiliate apply form', () => {
 // ---------------------------------------------------------------
 test('partner dashboard overview', async ({ page }) => {
   await signIn(page, RESELLER_EMAIL, RESELLER_PASSWORD);
-  await page.goto('/#/partner');
+  await page.goto('/#/affiliates');
   await page.waitForLoadState('networkidle');
   await page.waitForTimeout(800);
   await saveScreenshot({
@@ -228,27 +221,21 @@ test('partner dashboard overview', async ({ page }) => {
   });
 });
 
-test('referrals page', async ({ page }) => {
+test('referrals (embeds section)', async ({ page }) => {
   await signIn(page, RESELLER_EMAIL, RESELLER_PASSWORD);
-  await page.goto('/#/partner/referrals');
+  // Referral codes + embed snippets live under /affiliates/embeds.
+  await page.goto('/#/affiliates/embeds');
   await page.waitForLoadState('networkidle');
   await page.waitForTimeout(800);
-  // Try to open the new-code modal — but don't fail the whole capture
-  // if the button label drifts.
-  const newCodeBtn = page.getByRole('button', { name: /new code/i });
-  if (await newCodeBtn.count()) {
-    await newCodeBtn.first().click();
-    await page.waitForTimeout(400);
-  }
   await saveScreenshot({
     page, name: 'referrals-new-code.png',
     pathSegments: SEGMENT, fullPage: true,
   });
 });
 
-test('training components page', async ({ page }) => {
+test('training components (certifications section)', async ({ page }) => {
   await signIn(page, TRAINER_EMAIL, TRAINER_PASSWORD);
-  await page.goto('/#/partner/training');
+  await page.goto('/#/affiliates/certifications');
   await page.waitForLoadState('networkidle');
   await page.waitForTimeout(800);
   await saveScreenshot({

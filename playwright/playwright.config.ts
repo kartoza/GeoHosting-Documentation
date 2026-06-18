@@ -43,11 +43,14 @@ export default defineConfig({
 
     /* 2. Local screenshot capture — no auth.json dependency, signs
           in per-test against seeded users. Driven by
-          `nix run .#take-screenshots` in the GeoHosting repo. */
+          `nix run .#take-screenshots` in the GeoHosting repo.
+          Force 1920x1080 — devices['Desktop Chrome'] defaults to
+          1280x720 which is too narrow for the GSH sidebar + main. */
     {
       name: 'screenshots',
       use: {
         ...devices['Desktop Chrome'],
+        viewport: { width: 1920, height: 1080 },
         ignoreHTTPSErrors: true,
       },
     },
