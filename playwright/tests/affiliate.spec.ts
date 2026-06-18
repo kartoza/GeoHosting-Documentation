@@ -43,7 +43,7 @@ async function signIn(page: Page, email: string, password: string) {
   // whatever the login UI happens to look like today.
   await page.goto('/#/');
   await page.waitForLoadState('domcontentloaded');
-  const response = await page.request.post('/api/v1/auth/login/', {
+  const response = await page.request.post('/api/auth/login/', {
     data: { email, password },
   });
   if (!response.ok()) {
