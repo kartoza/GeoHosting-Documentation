@@ -32,7 +32,9 @@ From <span class="ui-page-label">Referrals → Codes</span> click <span class="u
 - **Channel** — which of your registered channels this code is for. Helps you measure which channel produces sign-ups.
 - **Notes** _(optional)_ — for your reference; not shown to customers.
 
-<!-- TODO: screenshot of New code modal -->
+<div class="image-with-caption">
+  <img src="img/referrals-new-code.png" alt="New referral code modal opened from the Referrals page.">
+</div>
 
 Codes are issued **per channel**. A new code requires an active channel to be selected — see the [issuance gate](#per-channel-issuance-gate).
 

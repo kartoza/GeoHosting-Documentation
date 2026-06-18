@@ -41,5 +41,16 @@ export default defineConfig({
       dependencies: ['setup'],
     },
 
+    /* 2. Local screenshot capture — no auth.json dependency, signs
+          in per-test against seeded users. Driven by
+          `nix run .#take-screenshots` in the GeoHosting repo. */
+    {
+      name: 'screenshots',
+      use: {
+        ...devices['Desktop Chrome'],
+        ignoreHTTPSErrors: true,
+      },
+    },
+
   ],
 });

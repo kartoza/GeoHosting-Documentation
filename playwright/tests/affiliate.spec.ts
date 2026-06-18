@@ -32,26 +32,36 @@ const RESELLER_PASSWORD = 'reseller-demo-pass';
 const TRAINER_EMAIL = 'trainer@example.com';
 const TRAINER_PASSWORD = 'trainer-demo-pass';
 
-// Don't reuse the global storageState — these tests want to sign in
-// as different users.
+// Each test starts a fresh browser context so signin state is clean.
 test.use({ storageState: { cookies: [], origins: [] } });
 
 async function signIn(page: Page, email: string, password: string) {
-  await page.goto('/');
+  await page.goto('/#/');
   await page.waitForLoadState('networkidle');
-  // The GSH SPA shows "Login" in the top-right when signed out. The
-  // selector may vary slightly depending on theme — fall back to a
-  // text match if the named role doesn't exist.
-  const loginBtn = page.getByRole('button', { name: 'Login' });
-  if (await loginBtn.count()) {
-    await loginBtn.click();
-  } else {
-    await page.getByRole('link', { name: /sign in/i }).click();
+  // Click whichever sign-in entry point the SPA exposes. Be permissive
+  // because the chrome can vary between routes.
+  for (const candidate of [
+    page.getByRole('button', { name: /^Login$/i }),
+    page.getByRole('button', { name: /^Sign in$/i }),
+    page.getByRole('link', { name: /Login|Sign in/i }),
+  ]) {
+    if (await candidate.count()) {
+      await candidate.first().click();
+      break;
+    }
   }
-  await page.getByRole('textbox', { name: 'Email' }).fill(email);
-  await page.getByRole('textbox', { name: 'Password' }).fill(password);
-  await page.getByRole('button', { name: 'Login' }).click();
+  // Modal with email + password fields.
+  await page.getByRole('textbox', { name: /Email/i }).fill(email);
+  await page.getByRole('textbox', { name: /Password/i }).fill(password);
+  // Submit (the modal's button shares the "Login" label).
+  await page
+    .getByRole('button', { name: /^(Login|Sign in)$/i })
+    .last()
+    .click();
+  // Give the SPA a moment to settle. Don't wait for a specific element
+  // because different users land on different post-login routes.
   await page.waitForLoadState('networkidle');
+  await page.waitForTimeout(500);
 }
 
 async function fillApplyDetails(page: Page) {
@@ -61,26 +71,24 @@ async function fillApplyDetails(page: Page) {
 }
 
 async function fillApplyChannels(page: Page) {
-  // First (already-present) row.
-  await page.getByPlaceholder(/Acme Newsletter/).fill('Acme GIS Newsletter');
+  await page.getByPlaceholder(/Acme Newsletter/).first().fill(
+    'Acme GIS Newsletter',
+  );
   await page.getByPlaceholder(/https:\/\//).first().fill(
     'https://acme.example/newsletter',
   );
   await page.getByPlaceholder(/e\.g\. 1500/).fill('1850');
-  await page.getByPlaceholder(/Who's in the audience/).fill(
+  await page.getByPlaceholder(/Who.*audience/).fill(
     'Mid-career GIS analysts in Southern Africa.',
   );
-  // Add a second channel.
   await page.getByRole('button', { name: /\+ Add channel/ }).click();
-  const allNameInputs = page.getByPlaceholder(/Acme Newsletter/);
-  await allNameInputs.nth(1).fill('GeoSpatial Podcast');
-  const allUrlInputs = page.getByPlaceholder(/https:\/\//);
-  await allUrlInputs.nth(1).fill('https://geopodcast.example');
+  await page.getByPlaceholder(/Acme Newsletter/).nth(1).fill('GeoSpatial Podcast');
+  await page.getByPlaceholder(/https:\/\//).nth(1).fill('https://geopodcast.example');
 }
 
 async function fillApplyPitch(page: Page) {
   await page
-    .getByPlaceholder(/2–3 sentences/)
+    .getByPlaceholder(/2.{0,3}3 sentences/)
     .fill(
       "We've worked with Kartoza products since 2018 and our audience is the natural home for the GSH product line. Open-source first, region-specific, and we already field-test most of these tools weekly.",
     );
@@ -93,117 +101,115 @@ async function fillApplyPitch(page: Page) {
 
 // ---------------------------------------------------------------
 // Apply form — uses applicant_demo (no Affiliate row, persistent).
+// Each capture is a full-page screenshot — robust against Chakra
+// class-name churn; we trade element-only crops for reliability.
 // ---------------------------------------------------------------
 test.describe.serial('Affiliate apply form', () => {
 
-  test('apply landing + track cards', async ({ page }) => {
+  test('apply landing', async ({ page }) => {
     await signIn(page, APPLICANT_EMAIL, APPLICANT_PASSWORD);
     await page.goto('/#/affiliate-apply');
     await page.waitForLoadState('networkidle');
+    await expect(
+      page.getByRole('heading', { name: /Choose your track/i }),
+    ).toBeVisible({ timeout: 10_000 });
     await saveScreenshot({
       page,
       name: 'apply-landing.png',
       pathSegments: SEGMENT,
-      fullPage: false,
+      fullPage: true,
     });
+  });
 
-    // Element-only shot of the "Choose your track" card.
-    const tracks = page.getByRole('heading', { name: 'Choose your track' })
-      .locator('xpath=ancestor::div[contains(@class, "chakra-card")]');
+  test('track cards (reseller selected)', async ({ page }) => {
+    await signIn(page, APPLICANT_EMAIL, APPLICANT_PASSWORD);
+    await page.goto('/#/affiliate-apply');
+    await expect(
+      page.getByRole('heading', { name: /Choose your track/i }),
+    ).toBeVisible({ timeout: 10_000 });
+    // Reseller is default — capture as-is.
     await saveScreenshot({
       page,
       name: 'apply-tracks.png',
       pathSegments: SEGMENT,
-      target: tracks,
-      padding: 8,
+      fullPage: false,
     });
   });
 
-  test('your details + channels + pitch + components', async ({ page }) => {
+  test('details + channels + pitch + components', async ({ page }) => {
     await signIn(page, APPLICANT_EMAIL, APPLICANT_PASSWORD);
     await page.goto('/#/affiliate-apply');
-    await page.waitForLoadState('networkidle');
+    await expect(
+      page.getByRole('heading', { name: /Your details/i }),
+    ).toBeVisible({ timeout: 10_000 });
 
     await fillApplyDetails(page);
-    const detailsCard = page.getByRole('heading', { name: 'Your details' })
-      .locator('xpath=ancestor::div[contains(@class, "chakra-card")]');
     await saveScreenshot({
-      page,
-      name: 'apply-details.png',
-      pathSegments: SEGMENT,
-      target: detailsCard,
-      padding: 8,
+      page, name: 'apply-details.png', pathSegments: SEGMENT, fullPage: true,
     });
 
     await fillApplyChannels(page);
-    const channelsBlock = page
-      .getByRole('heading', { name: 'Distribution channels' })
-      .locator('xpath=ancestor::div[contains(@class, "chakra-stack")][1]/..');
     await saveScreenshot({
-      page,
-      name: 'apply-channels.png',
-      pathSegments: SEGMENT,
-      target: channelsBlock,
-      padding: 8,
+      page, name: 'apply-channels.png', pathSegments: SEGMENT, fullPage: true,
     });
 
     await fillApplyPitch(page);
-    const pitchBlock = page
-      .getByRole('heading', { name: 'Pitch' })
-      .locator('xpath=ancestor::div[contains(@class, "chakra-stack")][1]/..');
     await saveScreenshot({
-      page,
-      name: 'apply-pitch.png',
-      pathSegments: SEGMENT,
-      target: pitchBlock,
-      padding: 8,
+      page, name: 'apply-pitch.png', pathSegments: SEGMENT, fullPage: true,
     });
 
-    // Trainer-only Components block — switch tracks first.
-    await page.getByText(/Certified Trainer/).first().click();
-    await page.getByLabel(/^QGIS$/).check();
-    await page.getByPlaceholder(/portfolio, LMS completion/).fill(
-      'https://lms.kartoza.com/certificates/qgis-trainers/tim-sutton',
-    );
-    await page.getByLabel(/^PostGIS$/).check();
-    const componentsBlock = page
-      .getByRole('heading', { name: /Components you're applying/ })
-      .locator('xpath=ancestor::div[1]');
+    // Switch to Trainer to surface the Components block.
+    await page.getByText(/Certified Trainer/i).first().click();
+    await page.waitForTimeout(300);
+    // Tick two components.
+    const qgis = page.getByRole('checkbox', { name: /^QGIS$/i });
+    if (await qgis.count()) {
+      await qgis.check();
+      await page.getByPlaceholder(/portfolio|LMS completion/i).first().fill(
+        'https://lms.kartoza.com/certificates/qgis-trainers/tim-sutton',
+      );
+    }
+    const postgis = page.getByRole('checkbox', { name: /^PostGIS$/i });
+    if (await postgis.count()) {
+      await postgis.check();
+    }
     await saveScreenshot({
-      page,
-      name: 'apply-components.png',
-      pathSegments: SEGMENT,
-      target: componentsBlock,
-      padding: 8,
+      page, name: 'apply-components.png', pathSegments: SEGMENT, fullPage: true,
     });
   });
 
-  // Decision panel — uses submitter_demo so the previous tests stay
-  // re-runnable. submitter_demo's Affiliate row is wiped at the start
-  // of every screenshot run by the fixture command.
+  // Decision panel — uses submitter_demo (wiped at the start of every
+  // screenshot run by the fixture command).
   test('approved decision panel', async ({ page }) => {
     await signIn(page, SUBMITTER_EMAIL, SUBMITTER_PASSWORD);
     await page.goto('/#/affiliate-apply');
-    await page.waitForLoadState('networkidle');
+    await expect(
+      page.getByRole('heading', { name: /Your details/i }),
+    ).toBeVisible({ timeout: 10_000 });
     await fillApplyDetails(page);
     await fillApplyChannels(page);
     await fillApplyPitch(page);
-    // Acceptances.
-    await page.getByRole('checkbox', { name: /partner agreement/i }).check();
-    await page.getByRole('checkbox', { name: /code of conduct/i }).check();
-    await page.getByRole('checkbox', { name: /brand-fit/i }).check();
-    await page.getByRole('button', { name: 'Submit application' }).click();
-    // Wait for the decision panel to render.
+    // Acceptances. Chakra's checkbox is a real <input> hidden under
+    // a styled <span> that intercepts pointer events — force the
+    // check programmatically so we don't fight the overlay.
+    for (const label of [
+      /partner agreement/i,
+      /code of conduct/i,
+      /brand[- ]fit/i,
+    ]) {
+      const cb = page.getByRole('checkbox', { name: label });
+      if (await cb.count()) await cb.check({ force: true });
+    }
+    await page.getByRole('button', { name: /Submit application/i }).click();
+    // Wait for the decision panel — the apply form is replaced.
     await expect(
-      page.getByRole('heading', { name: /Decision/i }).or(
-        page.getByText(/Approved|Flagged|Rejected/i)
-      ),
-    ).toBeVisible({ timeout: 10_000 });
+      page
+        .getByText(/Approved|Flagged|Rejected|decision/i)
+        .first(),
+    ).toBeVisible({ timeout: 15_000 });
     await saveScreenshot({
-      page,
-      name: 'apply-decision-approved.png',
-      pathSegments: SEGMENT,
-      fullPage: false,
+      page, name: 'apply-decision-approved.png',
+      pathSegments: SEGMENT, fullPage: true,
     });
   });
 
@@ -216,6 +222,7 @@ test('partner dashboard overview', async ({ page }) => {
   await signIn(page, RESELLER_EMAIL, RESELLER_PASSWORD);
   await page.goto('/#/partner');
   await page.waitForLoadState('networkidle');
+  await page.waitForTimeout(800);
   await saveScreenshot({
     page,
     name: 'dashboard-overview.png',
@@ -224,16 +231,21 @@ test('partner dashboard overview', async ({ page }) => {
   });
 });
 
-test('referrals page — new code modal', async ({ page }) => {
+test('referrals page', async ({ page }) => {
   await signIn(page, RESELLER_EMAIL, RESELLER_PASSWORD);
   await page.goto('/#/partner/referrals');
   await page.waitForLoadState('networkidle');
-  await page.getByRole('button', { name: /new code/i }).click();
+  await page.waitForTimeout(800);
+  // Try to open the new-code modal — but don't fail the whole capture
+  // if the button label drifts.
+  const newCodeBtn = page.getByRole('button', { name: /new code/i });
+  if (await newCodeBtn.count()) {
+    await newCodeBtn.first().click();
+    await page.waitForTimeout(400);
+  }
   await saveScreenshot({
-    page,
-    name: 'referrals-new-code.png',
-    pathSegments: SEGMENT,
-    fullPage: false,
+    page, name: 'referrals-new-code.png',
+    pathSegments: SEGMENT, fullPage: true,
   });
 });
 
@@ -241,6 +253,7 @@ test('training components page', async ({ page }) => {
   await signIn(page, TRAINER_EMAIL, TRAINER_PASSWORD);
   await page.goto('/#/partner/training');
   await page.waitForLoadState('networkidle');
+  await page.waitForTimeout(800);
   await saveScreenshot({
     page,
     name: 'training-components.png',

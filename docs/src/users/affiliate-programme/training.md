@@ -25,7 +25,9 @@ Trainer certification is **per component**, not per trainer. A component is a sp
 
 You apply per component, are reviewed per component, and are approved (or asked for more evidence) per component. The list of components is on your dashboard at <span class="ui-page-label">Training → Components</span>.
 
-<!-- TODO: screenshot of Training → Components page -->
+<div class="image-with-caption">
+  <img src="img/training-components.png" alt="Training Components page showing the certification components the trainer is approved for.">
+</div>
 
 A component is one of:
 
