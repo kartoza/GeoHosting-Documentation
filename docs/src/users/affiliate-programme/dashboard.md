@@ -15,7 +15,7 @@ context_id: GSHDocs2026
 After sign-in you land on the Partner Dashboard at `/#/partner`. This page describes every panel — what it shows, when to look at it, and how to act on it.
 
 <div class="image-with-caption">
-  <img src="img/dashboard-overview.png" alt="Partner Dashboard overview — sidebar nav on the left, status / month-so-far / last-statement / quick-actions cards on the right.">
+  <img src="../img/dashboard-overview.png" alt="Partner Dashboard overview — sidebar nav on the left, status / month-so-far / last-statement / quick-actions cards on the right.">
 </div>
 
 ## Sidebar Navigation

@@ -36,32 +36,29 @@ const TRAINER_PASSWORD = 'trainer-demo-pass';
 test.use({ storageState: { cookies: [], origins: [] } });
 
 async function signIn(page: Page, email: string, password: string) {
+  // Bypass the login modal entirely — POST credentials to the auth
+  // endpoint, drop the returned DRF token into localStorage under the
+  // key the Redux authSlice reads ('token'), then reload. Way more
+  // reliable than driving the form, and decouples the capture from
+  // whatever the login UI happens to look like today.
   await page.goto('/#/');
-  await page.waitForLoadState('networkidle');
-  // Click whichever sign-in entry point the SPA exposes. Be permissive
-  // because the chrome can vary between routes.
-  for (const candidate of [
-    page.getByRole('button', { name: /^Login$/i }),
-    page.getByRole('button', { name: /^Sign in$/i }),
-    page.getByRole('link', { name: /Login|Sign in/i }),
-  ]) {
-    if (await candidate.count()) {
-      await candidate.first().click();
-      break;
-    }
+  await page.waitForLoadState('domcontentloaded');
+  const response = await page.request.post('/api/v1/auth/login/', {
+    data: { email, password },
+  });
+  if (!response.ok()) {
+    throw new Error(
+      `signIn(${email}) failed: ${response.status()} ${await response.text()}`,
+    );
   }
-  // Modal with email + password fields.
-  await page.getByRole('textbox', { name: /Email/i }).fill(email);
-  await page.getByRole('textbox', { name: /Password/i }).fill(password);
-  // Submit (the modal's button shares the "Login" label).
-  await page
-    .getByRole('button', { name: /^(Login|Sign in)$/i })
-    .last()
-    .click();
-  // Give the SPA a moment to settle. Don't wait for a specific element
-  // because different users land on different post-login routes.
+  const { token } = await response.json();
+  await page.evaluate((t) => {
+    window.localStorage.setItem('token', t);
+  }, token);
+  // Reload so Redux's authSlice re-initialises from localStorage and
+  // re-fetches /me/, /sessions/current/, etc. with the new token.
+  await page.reload();
   await page.waitForLoadState('networkidle');
-  await page.waitForTimeout(500);
 }
 
 async function fillApplyDetails(page: Page) {

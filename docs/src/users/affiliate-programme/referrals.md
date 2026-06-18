@@ -33,7 +33,7 @@ From <span class="ui-page-label">Referrals → Codes</span> click <span class="u
 - **Notes** _(optional)_ — for your reference; not shown to customers.
 
 <div class="image-with-caption">
-  <img src="img/referrals-new-code.png" alt="New referral code modal opened from the Referrals page.">
+  <img src="../img/referrals-new-code.png" alt="New referral code modal opened from the Referrals page.">
 </div>
 
 Codes are issued **per channel**. A new code requires an active channel to be selected — see the [issuance gate](#per-channel-issuance-gate).

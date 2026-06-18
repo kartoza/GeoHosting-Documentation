@@ -17,7 +17,7 @@ Application is a single short form at `https://geospatialhosting.com/#/affiliate
 This page walks each section of the form in the order it appears, then explains the decision panel you see after submission.
 
 <div class="image-with-caption">
-  <img src="img/apply-landing.png" alt="The /affiliate-apply landing page — heading, Choose-your-track card, and the start of the Your-details form.">
+  <img src="../img/apply-landing.png" alt="The /affiliate-apply landing page — heading, Choose-your-track card, and the start of the Your-details form.">
 </div>
 
 ## Before You Start
@@ -46,7 +46,7 @@ The top card on the page, **Choose your track**, has two options:
 Click the card that fits. The form below adjusts immediately — you can switch tracks before submitting at no cost.
 
 <div class="image-with-caption">
-  <img src="img/apply-tracks.png" alt="Choose-your-track card with the two options: Reseller and Certified Trainer.">
+  <img src="../img/apply-tracks.png" alt="Choose-your-track card with the two options: Reseller and Certified Trainer.">
 </div>
 
 <br>
@@ -67,7 +67,7 @@ Below that, one optional field:
 | **Tax identifiers** | Comma-separated `key=value` pairs, e.g. `eu_vat=GB123, sars_id=...`. | Optional at submission time — you can fill them in later from the partner portal under <span class="ui-page-label">Profile → Tax & bank</span>. Required before your first payout. |
 
 <div class="image-with-caption">
-  <img src="img/apply-details.png" alt="Your details card with country, signatory name, and tax identifiers filled in.">
+  <img src="../img/apply-details.png" alt="Your details card with country, signatory name, and tax identifiers filled in.">
 </div>
 
 <br>
@@ -92,7 +92,7 @@ Referral-code issuance is **gated** on declared channels. When you (later) want 
 You can add channels later from the partner portal under <span class="ui-page-label">Profile → Channels</span>; the new ones go through a quick screening review before they unlock fresh referral codes.
 
 <div class="image-with-caption">
-  <img src="img/apply-channels.png" alt="Distribution channels block with two channel rows: an Acme GIS Newsletter and a GeoSpatial Podcast.">
+  <img src="../img/apply-channels.png" alt="Distribution channels block with two channel rows: an Acme GIS Newsletter and a GeoSpatial Podcast.">
 </div>
 
 <br>
@@ -109,7 +109,7 @@ Two short free-text answers. Both are **optional** but applications without cont
 The text fields use `<textarea>` widgets with a 3-row default — they expand as you type.
 
 <div class="image-with-caption">
-  <img src="img/apply-pitch.png" alt="Pitch block with both free-text answers filled in.">
+  <img src="../img/apply-pitch.png" alt="Pitch block with both free-text answers filled in.">
 </div>
 
 <br>
@@ -129,7 +129,7 @@ You can tick as many components as apply. Components are reviewed **independentl
 > **Fast-track note.** If you've completed Kartoza's "QGIS for trainers" course, your evidence can simply be the LMS completion URL — that triggers the fast-track path and waives the verification interview for the QGIS-related components.
 
 <div class="image-with-caption">
-  <img src="img/apply-components.png" alt="Trainer-only Components block with QGIS and PostGIS ticked, plus an evidence URL entered for the QGIS row.">
+  <img src="../img/apply-components.png" alt="Trainer-only Components block with QGIS and PostGIS ticked, plus an evidence URL entered for the QGIS row.">
 </div>
 
 <br>
@@ -199,7 +199,7 @@ Auto-screening hit a blocking signal (e.g. restricted jurisdiction, a prior term
 - A "Contact Programme Manager" link if you believe the rejection is in error.
 
 <div class="image-with-caption">
-  <img src="img/apply-decision-approved.png" alt="Decision panel in the Approved state, showing the auto-issued referral code and a Go-to-partner-dashboard button.">
+  <img src="../img/apply-decision-approved.png" alt="Decision panel in the Approved state, showing the auto-issued referral code and a Go-to-partner-dashboard button.">
 </div>
 
 <br>
