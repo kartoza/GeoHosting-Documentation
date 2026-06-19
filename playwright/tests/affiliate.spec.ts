@@ -192,9 +192,14 @@ test.describe.serial('Affiliate apply form', () => {
     }
     await page.getByRole('button', { name: /Submit application/i }).click();
     // Wait for the decision panel — the apply form is replaced.
+    // Approved copy is "You're in 🎉 … application passed automatic
+    // screening"; Flagged is "Held for review"; Rejected is
+    // "We can't move forward". Match the union.
     await expect(
       page
-        .getByText(/Approved|Flagged|Rejected|decision/i)
+        .getByText(
+          /You're in|Held for review|We can't move forward|Your default referral code/i,
+        )
         .first(),
     ).toBeVisible({ timeout: 15_000 });
     await saveScreenshot({
