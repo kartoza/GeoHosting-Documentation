@@ -18,6 +18,12 @@ Your guide to using the Kartoza GeoSpatialHosting (GSH) platform. From learning 
 
 <br>
 
+<div class="image-with-caption">
+  <img src="img/users-img-1.png" alt="The GeoSpatialHosting top navigation, showing Dashboard, Affiliate Programme and Support entry points.">
+</div>
+
+<br>
+
 <div class="card">
   <div class="card-header">🌐 GSH Dashboard</div>
   <div class="card-body">

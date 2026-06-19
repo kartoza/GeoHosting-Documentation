@@ -18,6 +18,23 @@ Learn GeoSpatialHosting products through short, focused video tutorials. Whether
 
 <br>
 
+<div class="video-card" style="max-width: 480px; margin: 0 auto;">
+  <div class="video-card-header">🚀 Start here: Deploy your first GeoServer</div>
+  <a href="https://youtube.com/shorts/kwjw48NVKJI" target="_blank">
+    <img src="https://img.youtube.com/vi/kwjw48NVKJI/hqdefault.jpg"
+         alt="Deploying Your GeoServer — featured tutorial thumbnail"
+         loading="lazy">
+  </a>
+  <div class="video-card-body">
+    <p>A two-minute walkthrough of deploying a GeoServer instance on GSH — the fastest way to see the platform in action.</p>
+    <a href="https://youtube.com/shorts/kwjw48NVKJI" target="_blank">
+      Watch the featured tutorial →
+    </a>
+  </div>
+</div>
+
+<br>
+
 <div class="card">
   <div class="card-header">🌍 GeoServer Essentials</div>
   <div class="card-body">
