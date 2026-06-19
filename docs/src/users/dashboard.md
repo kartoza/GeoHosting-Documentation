@@ -72,7 +72,7 @@ All purchased products are displayed as <span class="ui-generic-label">Hosted Pr
 <br>
 
 <div class="image-with-caption">
-  <img src="../img/users-img-2.png" alt="Hosted Products Section">
+  <img src="../img/dashboard-hosted-services.png" alt="Hosted Products Section">
 </div>
 
 <br>
@@ -103,7 +103,7 @@ From here, you can also retrieve your login credentials or delete your product. 
 <br>
 
 <div class="image-with-caption">
-  <img src="../img/users-img-3.png" alt="Product Details">
+  <img src="../img/dashboard-instance-detail.png" alt="Product Details">
 </div>
 
 <br>
@@ -117,7 +117,7 @@ Here, you can view, download, or print invoices and Service Level Agreements for
 <br>
 
 <div class="image-with-caption">
-  <img src="../img/users-img-4.png" alt="Agreements">
+  <img src="../img/dashboard-orders.png" alt="Agreements">
 </div>
 
 <br>
@@ -131,7 +131,7 @@ To create a new ticket, click the <span class="ui-generic-label">Create Issue</s
 <br>
 
 <div class="image-with-caption">
-  <img src="../img/users-img-5.png" alt="Support">
+  <img src="../img/dashboard-support.png" alt="Support">
 </div>
 
 <br>
@@ -154,7 +154,7 @@ You can also create and manage company profiles. After making any changes, click
 <br>
 
 <div class="image-with-caption">
-  <img src="../img/users-img-6.png" alt="Profile">
+  <img src="../img/dashboard-profile.png" alt="Profile">
 </div>
 
 <br>
