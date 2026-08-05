@@ -42,4 +42,10 @@ Select the one that best fits your workflow to learn more and get started:
       PostGIS
     </a>
   </div>
+  <div class="product-item">
+    <a href="cloudbench/">
+      <img src="./img/CloudBench_logo.png" alt="CloudBench" /><br />
+      CloudBench
+    </a>
+  </div>
 </div>
