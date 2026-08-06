@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 880" width="1500" height="880">
+  <title>Sequence — End User passkey authentication</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1500" height="880" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="750.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">Sequence — End User passkey authentication</text>
+    <text x="750.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">FR-011 / NFR-001; tenant_management/api/passkey_authentication.py</text>
+  </g>
+  <rect x="90" y="100" width="180" height="44" rx="6" ry="6" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="180" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">End User
+(browser)</text>
+  <line x1="180" y1="144" x2="180" y2="790" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="310" y="100" width="180" height="44" rx="6" ry="6" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="400" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Authenticator
+(WebAuthn)</text>
+  <line x1="400" y1="144" x2="400" y2="790" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="570" y="100" width="180" height="44" rx="6" ry="6" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="660" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">End User Portal</text>
+  <line x1="660" y1="144" x2="660" y2="790" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="830" y="100" width="180" height="44" rx="6" ry="6" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="920" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Identity (Django)</text>
+  <line x1="920" y1="144" x2="920" y2="790" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="1110" y="100" width="180" height="44" rx="6" ry="6" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1200" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Operational DB</text>
+  <line x1="1200" y1="144" x2="1200" y2="790" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="180" y1="180" x2="660" y2="180" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="420.0" y="174" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">GET /login (enter email)</text>
+  <line x1="180" y1="220" x2="660" y2="220" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="420.0" y="214" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">POST /api/v1/passkey-authentications/begin/</text>
+  <line x1="660" y1="250" x2="920" y2="250" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="790.0" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">forward</text>
+  <line x1="920" y1="280" x2="1200" y2="280" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="274" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">find active passkeys for email + org</text>
+  <line x1="1200" y1="310" x2="920" y2="310" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="304" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">credential_ids</text>
+  <line x1="920" y1="340" x2="1200" y2="340" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="334" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">INSERT AuthChallenge (5-min expiry)</text>
+  <line x1="920" y1="370" x2="660" y2="370" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="790.0" y="364" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">{ challenge, allowCredentials } (generic 400 on any failure)</text>
+  <line x1="660" y1="410" x2="180" y2="410" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="420.0" y="404" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">200 publicKey options</text>
+  <line x1="180" y1="450" x2="400" y2="450" stroke="#569FC6" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <text x="290.0" y="444" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">navigator.credentials.get(options)</text>
+  <line x1="400" y1="490" x2="180" y2="490" stroke="#569FC6" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow-blue)"/>
+  <text x="290.0" y="484" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">AuthenticatorAssertion (signature, clientDataJSON)</text>
+  <line x1="180" y1="530" x2="660" y2="530" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="420.0" y="524" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">POST /api/v1/passkey-authentications/complete/  (assertion)</text>
+  <line x1="660" y1="560" x2="920" y2="560" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="790.0" y="554" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">forward</text>
+  <line x1="920" y1="590" x2="1200" y2="590" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="584" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">SELECT AuthChallenge (unused, unexpired)</text>
+  <line x1="920" y1="620" x2="1200" y2="620" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="614" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">SELECT Passkey by credential_id</text>
+  <line x1="920" y1="650" x2="920" y2="650" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="920.0" y="644" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">webauthn.verify (sig, sign_count↑)</text>
+  <line x1="920" y1="690" x2="1200" y2="690" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="684" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">UPDATE Passkey.sign_count; mark challenge used</text>
+  <line x1="920" y1="720" x2="1200" y2="720" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1060.0" y="714" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">INSERT EndUserSession (opaque token, 1-day expiry)</text>
+  <line x1="920" y1="750" x2="660" y2="750" stroke="#06969A" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow-green)"/>
+  <text x="790.0" y="744" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">{ session_token }</text>
+  <line x1="660" y1="790" x2="180" y2="790" stroke="#06969A" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow-green)"/>
+  <text x="420.0" y="784" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">Set-Cookie + redirect /dashboard</text>
+  <text x="1480" y="866" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">All failure paths return generic 400 — no enumeration oracle.</text>
+</svg>

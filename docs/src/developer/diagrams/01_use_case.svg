@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+  <title>GSH QGIS Cloud Desktop — Use Case Diagram</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1400" height="900" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="700.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">GSH QGIS Cloud Desktop — Use Case Diagram</text>
+    <text x="700.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">Actors and primary use cases (SRS §2.3, §3)</text>
+  </g>
+  <rect x="320" y="100" width="760" height="720" rx="14" ry="14" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="2" stroke-dasharray="10,6"/>
+  <text x="700.0" y="128" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#8A8B8B" style="">GSH QGIS Cloud Desktop</text>
+  <circle cx="130" cy="240" r="14" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="254" x2="130" y2="300" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="108" y1="270" x2="152" y2="270" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="300" x2="112" y2="330" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="300" x2="148" y2="330" stroke="#2D3A3B" stroke-width="1.5"/>
+  <text x="130" y="350" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Customer</text>
+  <text x="130" y="368" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Owns billing relationship</text>
+  <circle cx="130" cy="470" r="14" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="484" x2="130" y2="530" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="108" y1="500" x2="152" y2="500" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="530" x2="112" y2="560" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="130" y1="530" x2="148" y2="560" stroke="#2D3A3B" stroke-width="1.5"/>
+  <text x="130" y="580" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Organisation Owner</text>
+  <text x="130" y="598" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Admin of an Organisation</text>
+  <circle cx="1270" cy="240" r="14" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="254" x2="1270" y2="300" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1248" y1="270" x2="1292" y2="270" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="300" x2="1252" y2="330" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="300" x2="1288" y2="330" stroke="#2D3A3B" stroke-width="1.5"/>
+  <text x="1270" y="350" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">End User</text>
+  <text x="1270" y="368" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Org-scoped passkey identity</text>
+  <circle cx="1270" cy="600" r="14" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="614" x2="1270" y2="660" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1248" y1="630" x2="1292" y2="630" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="660" x2="1252" y2="690" stroke="#2D3A3B" stroke-width="1.5"/>
+  <line x1="1270" y1="660" x2="1288" y2="690" stroke="#2D3A3B" stroke-width="1.5"/>
+  <text x="1270" y="710" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">GSH Operator</text>
+  <text x="1270" y="728" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Kartoza staff</text>
+  <ellipse cx="480" cy="220" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="480" y="224" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Create / rename / archive Organisation</text>
+  <ellipse cx="480" cy="280" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="480" y="284" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Assign Organisation Owner</text>
+  <ellipse cx="480" cy="340" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="480" y="344" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">View itemised monthly statement</text>
+  <ellipse cx="700" cy="220" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="224" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Manage Machine Tier catalogue (per-user)</text>
+  <ellipse cx="700" cy="280" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="284" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Allocate / grow Persistent Home</text>
+  <ellipse cx="700" cy="340" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="344" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Issue passkey enrolment link</text>
+  <ellipse cx="700" cy="400" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="404" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Grant / revoke qgis-desktop role</text>
+  <ellipse cx="700" cy="460" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="464" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Disable / delete End User</text>
+  <ellipse cx="700" cy="520" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="524" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Provision PG service entry</text>
+  <ellipse cx="700" cy="580" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="584" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Set soft per-user budget</text>
+  <ellipse cx="920" cy="220" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="224" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Enrol passkey (first-run)</text>
+  <ellipse cx="920" cy="280" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="284" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Authenticate via WebAuthn</text>
+  <ellipse cx="920" cy="340" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="344" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Launch QGIS Cloud Desktop session</text>
+  <ellipse cx="920" cy="400" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="404" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Use kasmVNC desktop</text>
+  <ellipse cx="920" cy="460" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="464" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">End session</text>
+  <ellipse cx="920" cy="520" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="920" y="524" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">View session status + cost</text>
+  <ellipse cx="700" cy="660" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="664" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Run reconciliation report</text>
+  <ellipse cx="700" cy="720" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="724" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Terminate / reap orphan session</text>
+  <ellipse cx="700" cy="780" rx="130" ry="22" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.2"/>
+  <text x="700" y="784" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Inspect audit hash chain</text>
+  <line x1="166" y1="270" x2="350" y2="220" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="270" x2="350" y2="280" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="270" x2="350" y2="340" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="220" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="280" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="340" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="400" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="460" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="520" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="166" y1="500" x2="570" y2="580" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="220" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="280" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="340" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="400" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="460" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="270" x2="1050" y2="520" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="630" x2="830" y2="660" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="630" x2="830" y2="720" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="1234" y1="630" x2="830" y2="780" stroke="#8A8B8B" stroke-width="1"/>
+  <line x1="920" y1="320" x2="920" y2="300" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4" marker-end="url(#triangle-open)"/>
+  <text x="935" y="312" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="font-style:italic">«include»</text>
+  <g id="legend">
+    <rect x="1150" y="770" width="230" height="64" rx="6" ry="6" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+    <text x="1162" y="788" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B">Legend</text>
+    <rect x="1162" y="800" width="16" height="12" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1186" y="810" font-family="sans-serif" font-size="11" fill="#1F2A2B">Use case</text>
+    <rect x="1162" y="820" width="16" height="12" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1186" y="830" font-family="sans-serif" font-size="11" fill="#1F2A2B">System boundary</text>
+  </g>
+  <text x="1380" y="886" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">Source: SPECIFICATION.md §2, §3</text>
+</svg>

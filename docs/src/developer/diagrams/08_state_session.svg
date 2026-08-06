@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 880" width="1500" height="880">
+  <title>State Machine — Session</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1500" height="880" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="750.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">State Machine — Session</text>
+    <text x="750.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">qgis_cloud_desktop.Session.status (FR-040..047, FR-073/074)</text>
+  </g>
+  <circle cx="120" cy="200" r="12" fill="#1F2A2B" />
+  <ellipse cx="280" cy="200" rx="90" ry="49.50000000000001" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="280" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Requested</text>
+  <ellipse cx="520" cy="200" rx="100" ry="55.00000000000001" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="520" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Provisioning</text>
+  <ellipse cx="780" cy="200" rx="90" ry="49.50000000000001" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="780" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Running</text>
+  <ellipse cx="1020" cy="200" rx="90" ry="49.50000000000001" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="1020" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Ending</text>
+  <ellipse cx="1280" cy="200" rx="80" ry="44.0" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="1280" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Ended</text>
+  <ellipse cx="520" cy="420" rx="90" ry="49.50000000000001" fill="#F4CFCF" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="520" y="425" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Error</text>
+  <ellipse cx="870" cy="420" rx="130" ry="71.5" fill="#F4CFCF" stroke="#2D3A3B" stroke-width="1.6"/>
+  <text x="870" y="425" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">PlatformFault</text>
+  <circle cx="1400" cy="200" r="12" fill="#FFFFFF" stroke="#1F2A2B" stroke-width="2"/>
+  <circle cx="1400" cy="200" r="6" fill="#1F2A2B"/>
+  <line x1="132" y1="200" x2="190" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="161.0" y="188.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">create</text>
+  <line x1="370" y1="200" x2="420" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="395.0" y="186.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">provision</text>
+  <line x1="620" y1="200" x2="690" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="655.0" y="186.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">run</text>
+  <line x1="870" y1="200" x2="930" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="900.0" y="186.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">end(reason)</text>
+  <line x1="1110" y1="200" x2="1200" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1155.0" y="186.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">close</text>
+  <line x1="1360" y1="200" x2="1388" y2="200" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1374.0" y="188.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style=""></text>
+  <text x="900" y="240" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">end_reason ∈ {USER, IDLE_TIMEOUT, MAX_DURATION, OWNER_REVOKED, USER_DISABLED, ADMIN_TERMINATED}</text>
+  <path d="M520,250 Q400,340 520,370" fill="none" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="400" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">mark_error()  ·  billed_hours=0</text>
+  <path d="M280,250 Q300,420 450,400" fill="none" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="300" y="410" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">mark_error()  (from Requested)</text>
+  <path d="M780,250 Q780,340 870,370" fill="none" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="780" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">mark_platform_fault()  ·  cap @ last_input_at (FR-074)</text>
+  <path d="M1020,250 Q1020,340 970,370" fill="none" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="1020" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">(also reachable from Ending)</text>
+  <path d="M1000,420 Q1200,420 1240,240" fill="none" stroke="#06969A" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="1200" y="412" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">audit close-out · billed cut at last_input_at</text>
+  <path d="M600,420 Q900,560 1380,220" fill="none" stroke="#06969A" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="900" y="552" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">final (zero-billed)</text>
+  <text x="110" y="600" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Transitions (Python methods on qgis_cloud_desktop.Session):</text>
+  <text x="130" y="620" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">create</text>
+  <text x="260" y="620" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  Session.request_for(end_user, machine_tier)  — Requested</text>
+  <text x="130" y="638" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">provision</text>
+  <text x="260" y="638" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_provisioning(container_id="…")</text>
+  <text x="130" y="656" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">run</text>
+  <text x="260" y="656" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_running()  — sets running_at = now (billing clock start)</text>
+  <text x="130" y="674" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">end(reason)</text>
+  <text x="260" y="674" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_ending(end_reason ∈ SessionEndReason)</text>
+  <text x="130" y="692" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">close</text>
+  <text x="260" y="692" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_ended()  — computes billed_hours, billed_amount, audit_hash</text>
+  <text x="130" y="710" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">error</text>
+  <text x="260" y="710" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_error(reason="")  — zero-billed; from Requested or Provisioning</text>
+  <text x="130" y="728" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">platform_fault</text>
+  <text x="260" y="728" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">→  mark_platform_fault()  — caps billing at last_input_at (FR-074)</text>
+  <text x="750" y="770" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Invariants:</text>
+  <text x="110" y="800" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="400" fill="#1F2A2B" style="">• Tier price + currency snapshotted into the Session on creation (FR-073).</text>
+  <text x="110" y="820" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="400" fill="#1F2A2B" style="">• Billing clock begins on Provisioning → Running (running_at). Provisioning time is unbilled (FR-071).</text>
+  <text x="110" y="840" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="400" fill="#1F2A2B" style="">• billed_hours = ceil((effective_end - running_at) / 3600). Any part-hour rounds up to a whole hour (FR-070, FR-072).</text>
+  <text x="110" y="860" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="400" fill="#1F2A2B" style="">• Each closed Session writes a sha256 hash chained per EndUser. Tampering breaks every subsequent row (FR-090).</text>
+  <text x="110" y="880" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="400" fill="#1F2A2B" style="">• Partial-unique constraint enforces ≤1 active Session per EndUser at any time (FR-041).</text>
+  <g id="legend">
+    <rect x="1230" y="660" width="230" height="124" rx="6" ry="6" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+    <text x="1242" y="678" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B">Legend</text>
+    <rect x="1242" y="690" width="16" height="12" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="700" font-family="sans-serif" font-size="11" fill="#1F2A2B">Transient</text>
+    <rect x="1242" y="710" width="16" height="12" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="720" font-family="sans-serif" font-size="11" fill="#1F2A2B">Working / orchestration</text>
+    <rect x="1242" y="730" width="16" height="12" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="740" font-family="sans-serif" font-size="11" fill="#1F2A2B">Billable (running)</text>
+    <rect x="1242" y="750" width="16" height="12" fill="#F4CFCF" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="760" font-family="sans-serif" font-size="11" fill="#1F2A2B">Fault</text>
+    <rect x="1242" y="770" width="16" height="12" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="780" font-family="sans-serif" font-size="11" fill="#1F2A2B">Terminal</text>
+  </g>
+</svg>

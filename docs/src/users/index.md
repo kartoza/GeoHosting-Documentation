@@ -18,6 +18,12 @@ Your guide to using the Kartoza GeoSpatialHosting (GSH) platform. From learning 
 
 <br>
 
+<div class="image-with-caption">
+  <img src="img/users-img-1.png" alt="The GeoSpatialHosting top navigation, showing Dashboard, Affiliate Programme and Support entry points.">
+</div>
+
+<br>
+
 <div class="card">
   <div class="card-header">🌐 GSH Dashboard</div>
   <div class="card-body">
@@ -35,6 +41,16 @@ Your guide to using the Kartoza GeoSpatialHosting (GSH) platform. From learning 
   </div>
   <div class="card-footer">
     <a href="support_center/">Go to Support Center Guide →</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">🤝 Affiliate Programme</div>
+  <div class="card-body">
+    Resell GSH products, deliver Kartoza-certified training, and earn recurring commission. Application, partner dashboard, referrals, payouts, and Code of Conduct — everything you need to partner with Kartoza.
+  </div>
+  <div class="card-footer">
+    <a href="affiliate-programme/">Open the Affiliate Programme →</a>
   </div>
 </div>
 

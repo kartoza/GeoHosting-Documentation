@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 920" width="1500" height="920">
+  <title>Package Diagram — Django apps</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1500" height="920" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="750.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">Package Diagram — Django apps</text>
+    <text x="750.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">django_project/ layout and inter-app dependencies</text>
+  </g>
+  <rect x="60" y="116" width="100" height="18" rx="3" ry="3" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="60" y="130" width="360" height="520" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="110" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«existing»</text>
+  <text x="240.0" y="152" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">geohosting</text>
+  <rect x="80" y="170" width="320" height="148" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="90" y="188" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">models/</text>
+  <text x="96" y="208" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Organisation</text>
+  <text x="96" y="226" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">OrganisationContact</text>
+  <text x="96" y="244" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Instance</text>
+  <text x="96" y="262" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Subscription</text>
+  <text x="96" y="280" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Package</text>
+  <text x="96" y="298" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Product</text>
+  <rect x="80" y="320" width="320" height="76" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="90" y="338" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">api/</text>
+  <text x="96" y="358" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">DRF viewsets</text>
+  <text x="96" y="376" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">erpnext bridge</text>
+  <rect x="80" y="430" width="320" height="58" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="90" y="448" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">tasks/</text>
+  <text x="96" y="468" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Celery: billing roll-up</text>
+  <rect x="80" y="540" width="320" height="58" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="90" y="558" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">templates/, src/</text>
+  <text x="96" y="578" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">React (Chakra)</text>
+  <rect x="470" y="116" width="100" height="18" rx="3" ry="3" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="470" y="130" width="360" height="520" rx="4" ry="4" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="520" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«new (Phase 1)»</text>
+  <text x="650.0" y="152" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">tenant_management</text>
+  <rect x="490" y="170" width="320" height="166" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="500" y="188" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">models/</text>
+  <text x="506" y="208" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">OrganisationOwner</text>
+  <text x="506" y="226" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">EndUser</text>
+  <text x="506" y="244" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Passkey</text>
+  <text x="506" y="262" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">RoleGrant</text>
+  <text x="506" y="280" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">EnrolmentToken</text>
+  <text x="506" y="298" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">AuthChallenge</text>
+  <text x="506" y="316" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">EndUserSession</text>
+  <rect x="490" y="360" width="320" height="112" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="500" y="378" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">api/</text>
+  <text x="506" y="398" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">passkey_registration</text>
+  <text x="506" y="416" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">passkey_authentication</text>
+  <text x="506" y="434" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">end_user CRUD</text>
+  <text x="506" y="452" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">enrolment_token</text>
+  <rect x="490" y="480" width="320" height="58" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="500" y="498" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">serializer/</text>
+  <text x="506" y="518" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">DRF</text>
+  <rect x="490" y="560" width="320" height="58" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="500" y="578" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">admin/</text>
+  <text x="506" y="598" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Operator views</text>
+  <rect x="880" y="116" width="100" height="18" rx="3" ry="3" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="880" y="130" width="540" height="520" rx="4" ry="4" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="930" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«new (Phases 2-5)»</text>
+  <text x="1150.0" y="152" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">qgis_cloud_desktop</text>
+  <rect x="900" y="170" width="500" height="148" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="910" y="188" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">models/</text>
+  <text x="916" y="208" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">MachineTier</text>
+  <text x="916" y="226" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">PersistentHome</text>
+  <text x="916" y="244" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">StorageAllocationEvent</text>
+  <text x="916" y="262" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Session (state machine + audit hash)</text>
+  <text x="916" y="280" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">SessionHeartbeat</text>
+  <text x="916" y="298" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">PostgresLinkage (Phase 5)</text>
+  <rect x="900" y="340" width="500" height="130" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="910" y="358" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">api/</text>
+  <text x="916" y="378" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">sessions/</text>
+  <text x="916" y="396" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">machine-tiers/</text>
+  <text x="916" y="414" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">persistent-homes/</text>
+  <text x="916" y="432" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">storage-allocations/</text>
+  <text x="916" y="450" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">pg-linkages/ (Phase 5)</text>
+  <rect x="900" y="470" width="500" height="58" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="910" y="488" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">admin/</text>
+  <text x="916" y="508" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Operator: reap orphans, reconcile</text>
+  <rect x="900" y="540" width="500" height="94" rx="4" ry="4" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+  <text x="910" y="558" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">tests/</text>
+  <text x="916" y="578" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">test_session_state_machine</text>
+  <text x="916" y="596" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">test_audit_hash_chain</text>
+  <text x="916" y="614" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">test_billing_close_out</text>
+  <rect x="60" y="686" width="100" height="18" rx="3" ry="3" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="60" y="700" width="360" height="160" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="110" y="698" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«existing»</text>
+  <text x="240.0" y="722" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">geohosting_controller</text>
+  <text x="240" y="770" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="400" fill="#8A8B8B" style="">Provisioning bridge to controller</text>
+  <text x="240" y="790" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="400" fill="#8A8B8B" style="">(re-used by qgis_cloud_desktop)</text>
+  <rect x="470" y="686" width="100" height="18" rx="3" ry="3" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="470" y="700" width="360" height="160" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="520" y="698" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«existing»</text>
+  <text x="650.0" y="722" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">geohosting_event</text>
+  <text x="650" y="770" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="400" fill="#8A8B8B" style="">Event bus / Celery tasks</text>
+  <rect x="880" y="686" width="100" height="18" rx="3" ry="3" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <rect x="880" y="700" width="540" height="160" rx="4" ry="4" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="930" y="698" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#1F2A2B" style="">«existing»</text>
+  <text x="1150.0" y="722" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">core / tenant_management (Django settings)</text>
+  <text x="1150" y="770" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="400" fill="#8A8B8B" style="">WEBAUTHN_*, SESSION_IDLE_TIMEOUT_SECONDS,</text>
+  <text x="1150" y="790" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="400" fill="#8A8B8B" style="">SESSION_MAX_DURATION_SECONDS, AUDIT_RETENTION_DAYS</text>
+  <line x1="470" y1="250" x2="420" y2="250" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="445.0" y="244.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">FK Organisation</text>
+  <line x1="880" y1="250" x2="830" y2="250" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="855.0" y="244.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">FK EndUser</text>
+  <line x1="880" y1="380" x2="830" y2="380" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="855.0" y="374.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">FK RoleGrant.attributes.tier_code</text>
+  <line x1="420" y1="740" x2="470" y2="740" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="445.0" y="734.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">shared utilities</text>
+  <line x1="830" y1="740" x2="880" y2="740" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="855.0" y="734.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">spawn / destroy</text>
+  <line x1="880" y1="740" x2="830" y2="700" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="855.0" y="714.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style=""></text>
+  <line x1="420" y1="200" x2="470" y2="200" stroke="#2D3A3B" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#triangle-open)"/>
+  <text x="445.0" y="194.0" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">«renamed from Company»</text>
+  <g id="legend">
+    <rect x="1230" y="100" width="230" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+    <text x="1242" y="118" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B">Legend</text>
+    <rect x="1242" y="130" width="16" height="12" fill="#E4E4E4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="140" font-family="sans-serif" font-size="11" fill="#1F2A2B">Existing app</text>
+    <rect x="1242" y="150" width="16" height="12" fill="#E1EEF6" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="160" font-family="sans-serif" font-size="11" fill="#1F2A2B">tenant_management (new)</text>
+    <rect x="1242" y="170" width="16" height="12" fill="#FBEFD4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="180" font-family="sans-serif" font-size="11" fill="#1F2A2B">qgis_cloud_desktop (new)</text>
+  </g>
+  <text x="1480" y="906" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">Dashed open arrows = «uses» / package dependency</text>
+</svg>

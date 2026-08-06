@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000">
+  <title>Sequence — Launch QGIS Cloud Desktop session</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1500" height="1000" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="750.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">Sequence — Launch QGIS Cloud Desktop session</text>
+    <text x="750.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">FR-040 / FR-041 / FR-042 / FR-071 / FR-073</text>
+  </g>
+  <rect x="50" y="100" width="180" height="44" rx="6" ry="6" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="140" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">End User
+(browser)</text>
+  <line x1="140" y1="144" x2="140" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="270" y="100" width="180" height="44" rx="6" ry="6" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="360" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">End User Portal</text>
+  <line x1="360" y1="144" x2="360" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="470" y="100" width="180" height="44" rx="6" ry="6" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="560" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Identity</text>
+  <line x1="560" y1="144" x2="560" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="690" y="100" width="180" height="44" rx="6" ry="6" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="780" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Provisioning</text>
+  <line x1="780" y1="144" x2="780" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="910" y="100" width="180" height="44" rx="6" ry="6" fill="#F2D6B5" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1000" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Orchestrator</text>
+  <line x1="1000" y1="144" x2="1000" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="1130" y="100" width="180" height="44" rx="6" ry="6" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1220" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Operational DB</text>
+  <line x1="1220" y1="144" x2="1220" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="1310" y="100" width="180" height="44" rx="6" ry="6" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.4"/>
+  <text x="1400" y="128" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B" style="">Audit Store</text>
+  <line x1="1400" y1="144" x2="1400" y2="910" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="180" x2="360" y2="180" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250.0" y="174" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">GET /dashboard (session cookie)</text>
+  <line x1="360" y1="220" x2="560" y2="220" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="460.0" y="214" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">verify EndUserSession</text>
+  <line x1="560" y1="250" x2="360" y2="250" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="460.0" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">ok (end_user_id)</text>
+  <line x1="140" y1="300" x2="360" y2="300" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250.0" y="294" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">click "Launch"</text>
+  <rect x="774" y="340" width="12" height="280" fill="#F3F4F6" stroke="#2D3A3B" stroke-width="1"/>
+  <line x1="360" y1="340" x2="780" y2="340" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="570.0" y="334" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">POST /api/v1/sessions  (tier from RoleGrant)</text>
+  <line x1="780" y1="380" x2="1220" y2="380" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1000.0" y="374" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">INSERT Session (status=Requested, tier snapshot)</text>
+  <line x1="1220" y1="410" x2="780" y2="410" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="1000.0" y="404" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">ok / IntegrityError if active exists (FR-041)</text>
+  <line x1="780" y1="460" x2="1000" y2="460" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="890.0" y="454" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">create pod (image, tier, mounts)</text>
+  <line x1="780" y1="490" x2="1220" y2="490" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1000.0" y="484" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">UPDATE status=Provisioning, container_id</text>
+  <line x1="1000" y1="550" x2="780" y2="550" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="890.0" y="544" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">pod Running (kasmVNC up)</text>
+  <line x1="780" y1="590" x2="1220" y2="590" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1000.0" y="584" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">UPDATE status=Running, running_at=now, last_input_at=now</text>
+  <line x1="780" y1="620" x2="360" y2="620" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="570.0" y="614" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">201 { session_id, vnc_url }</text>
+  <line x1="360" y1="670" x2="140" y2="670" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="250.0" y="664" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">redirect → /session/&lt;id&gt; (kasmVNC)</text>
+  <line x1="140" y1="710" x2="1000" y2="710" stroke="#569FC6" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <text x="570.0" y="704" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">WSS /vnc/&lt;id&gt;  (TLS-terminated)</text>
+  <rect x="320" y="750" width="1100" height="120" rx="8" ry="8" fill="#F9FAFB" stroke="#8A8B8B" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="340" y="772" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="700" fill="#8A8B8B" style="">loop [every minute while Running]</text>
+  <line x1="1000" y1="800" x2="780" y2="800" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="890.0" y="794" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">heartbeat (cpu/mem/last_input)</text>
+  <line x1="780" y1="830" x2="1220" y2="830" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1000.0" y="824" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">INSERT SessionHeartbeat</text>
+  <line x1="140" y1="870" x2="360" y2="870" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="250.0" y="864" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">click "End session"</text>
+  <line x1="360" y1="900" x2="780" y2="900" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="570.0" y="894" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">POST /sessions/&lt;id&gt;/end</text>
+  <line x1="780" y1="930" x2="1220" y2="930" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="1000.0" y="924" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">UPDATE status=Ending, end_reason=user</text>
+  <line x1="780" y1="960" x2="1000" y2="960" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="890.0" y="954" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">destroy pod</text>
+  <line x1="1000" y1="990" x2="780" y2="990" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="890.0" y="984" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">pod gone, volume detached</text>
+  <line x1="780" y1="1020" x2="1220" y2="1020" stroke="#CC0403" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="1000.0" y="1014" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">UPDATE status=Ended, ended_at, billed_*</text>
+  <line x1="780" y1="1050" x2="1400" y2="1050" stroke="#06969A" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="1090.0" y="1044" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">append hash-chained row</text>
+  <line x1="780" y1="1080" x2="360" y2="1080" stroke="#2D3A3B" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="570.0" y="1074" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="400" fill="#1F2A2B" style="">200 { summary }</text>
+  <text x="1480" y="986" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">Source: SPECIFICATION.md §5.5; models/session.py</text>
+</svg>

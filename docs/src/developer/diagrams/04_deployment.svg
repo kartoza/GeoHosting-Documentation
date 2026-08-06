@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" width="1500" height="940">
+  <title>Deployment Diagram</title>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2D3A3B"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#CC0403"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#569FC6"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#06969A"/>
+  </marker>
+  <marker id="diamond" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="diamond-filled" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,6 L6,0 L12,6 L6,12 z"
+          fill="#2D3A3B" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+  <marker id="triangle-open" viewBox="0 0 12 12" refX="11" refY="6"
+          markerWidth="12" markerHeight="12" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z"
+          fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1"/>
+  </marker>
+</defs>
+
+  <rect x="0" y="0" width="1500" height="940" fill="#FFFFFF"/>
+  <g id="title">
+    <text x="750.0" y="40" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1F2A2B">Deployment Diagram</text>
+    <text x="750.0" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8A8B8B">Browsers, edge, app cluster, session cluster, data plane</text>
+  </g>
+  <g>
+    <rect x="40" y="110" width="260" height="180" rx="8" ry="8" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="48" y="104" width="60" height="14" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="78" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="54" y="138" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">End User device</text>
+  <text x="54" y="156" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">laptop / desktop</text>
+  </g>
+  <g>
+    <rect x="60" y="160" width="220" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M264,160 L264,172 L280,172" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="170.0" y="189.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Browser</text>
+  <text x="170.0" y="205.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">WebAuthn authenticator</text>
+  </g>
+  <g>
+    <rect x="60" y="220" width="220" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M264,220 L264,232 L280,232" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="170.0" y="249.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">kasmVNC noVNC</text>
+  <text x="170.0" y="265.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">WS over TLS</text>
+  </g>
+  <g>
+    <rect x="340" y="110" width="220" height="280" rx="8" ry="8" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="348" y="104" width="60" height="14" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="378" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="354" y="138" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Edge</text>
+  <text x="354" y="156" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">nginx + TLS</text>
+  </g>
+  <g>
+    <rect x="360" y="160" width="180" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M524,160 L524,172 L540,172" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="450.0" y="189.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Reverse proxy</text>
+  <text x="450.0" y="205.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">gsh.example.com</text>
+  </g>
+  <g>
+    <rect x="360" y="220" width="180" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M524,220 L524,232 L540,232" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="450.0" y="249.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">WebSocket terminator</text>
+  <text x="450.0" y="265.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">/session/&lt;id&gt;</text>
+  </g>
+  <g>
+    <rect x="360" y="280" width="180" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M524,280 L524,292 L540,292" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="450.0" y="309.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Static assets</text>
+  </g>
+  <g>
+    <rect x="600" y="110" width="320" height="480" rx="8" ry="8" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="608" y="104" width="60" height="14" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="638" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="614" y="138" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">App cluster</text>
+  <text x="614" y="156" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">Django + workers</text>
+  </g>
+  <g>
+    <rect x="620" y="160" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,160 L884,172 L900,172" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="189.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Django (geohosting)</text>
+  </g>
+  <g>
+    <rect x="620" y="220" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,220 L884,232 L900,232" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="249.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Django (tenant_management)</text>
+  </g>
+  <g>
+    <rect x="620" y="280" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,280 L884,292 L900,292" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="309.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Django (qgis_cloud_desktop)</text>
+  </g>
+  <g>
+    <rect x="620" y="340" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,340 L884,352 L900,352" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="369.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Celery / async workers</text>
+  </g>
+  <g>
+    <rect x="620" y="400" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,400 L884,412 L900,412" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Session sweeper</text>
+  <text x="760.0" y="445.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">idle / max-duration</text>
+  </g>
+  <g>
+    <rect x="620" y="460" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,460 L884,472 L900,472" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="489.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Reconciliation worker</text>
+  </g>
+  <g>
+    <rect x="620" y="520" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M884,520 L884,532 L900,532" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="760.0" y="549.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">PG linkage writer</text>
+  </g>
+  <g>
+    <rect x="950" y="110" width="320" height="280" rx="8" ry="8" fill="#F2D6B5" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="958" y="104" width="60" height="14" fill="#F2D6B5" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="988" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="964" y="138" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Session cluster</text>
+  <text x="964" y="156" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">kube namespace per Org</text>
+  </g>
+  <g>
+    <rect x="970" y="160" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,160 L1234,172 L1250,172" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1110.0" y="189.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">QGIS+kasmVNC pod #1</text>
+  </g>
+  <g>
+    <rect x="970" y="220" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,220 L1234,232 L1250,232" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1110.0" y="249.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">QGIS+kasmVNC pod #N</text>
+  <text x="1110.0" y="265.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">non-root, restricted caps</text>
+  </g>
+  <g>
+    <rect x="970" y="280" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,280 L1234,292 L1250,292" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1110.0" y="309.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Per-session ingress + DNS</text>
+  </g>
+  <g>
+    <rect x="970" y="340" width="280" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,340 L1234,352 L1250,352" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1110.0" y="369.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Egress policy proxy</text>
+  </g>
+  <g>
+    <rect x="600" y="620" width="670" height="260" rx="8" ry="8" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="608" y="614" width="60" height="14" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="638" y="625" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="614" y="648" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">Data plane</text>
+  <text x="614" y="666" text-anchor="start" font-family="sans-serif" font-size="11" font-weight="400" fill="#8A8B8B" style="">replicated</text>
+  </g>
+  <g>
+    <rect x="620" y="670" width="200" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M804,670 L804,682 L820,682" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="720.0" y="704.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Operational DB</text>
+  <text x="720.0" y="720.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">PostgreSQL 17</text>
+  </g>
+  <g>
+    <rect x="830" y="670" width="200" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1014,670 L1014,682 L1030,682" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="930.0" y="704.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Audit Store</text>
+  <text x="930.0" y="720.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">append-only</text>
+  </g>
+  <g>
+    <rect x="1040" y="670" width="210" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,670 L1234,682 L1250,682" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1145.0" y="704.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Block storage</text>
+  <text x="1145.0" y="720.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">encrypted at rest</text>
+  </g>
+  <g>
+    <rect x="620" y="760" width="200" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M804,760 L804,772 L820,772" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="720.0" y="794.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Secrets store</text>
+  </g>
+  <g>
+    <rect x="830" y="760" width="200" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1014,760 L1014,772 L1030,772" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="930.0" y="794.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Object store</text>
+  <text x="930.0" y="810.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">exports / backups</text>
+  </g>
+  <g>
+    <rect x="1040" y="760" width="210" height="60" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1234,760 L1234,772 L1250,772" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1145.0" y="794.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Metrics + logs</text>
+  </g>
+  <g>
+    <rect x="1300" y="110" width="170" height="280" rx="8" ry="8" fill="#EDEDED" stroke="#2D3A3B" stroke-width="1.5"/>
+    <rect x="1308" y="104" width="60" height="14" fill="#EDEDED" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1338" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1F2A2B">node</text>
+  <text x="1314" y="138" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="700" fill="#1F2A2B" style="">External</text>
+  </g>
+  <g>
+    <rect x="1310" y="160" width="150" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1444,160 L1444,172 L1460,172" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1385.0" y="189.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Keycloak</text>
+  </g>
+  <g>
+    <rect x="1310" y="220" width="150" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1444,220 L1444,232 L1460,232" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1385.0" y="249.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">ERPNext</text>
+  </g>
+  <g>
+    <rect x="1310" y="280" width="150" height="50" rx="4" ry="4" fill="#FFFFFF" stroke="#2D3A3B" stroke-width="1.2"/>
+    <path d="M1444,280 L1444,292 L1460,292" fill="none" stroke="#2D3A3B" stroke-width="1"/>
+  <text x="1385.0" y="309.0" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#1F2A2B" style="">Postgres tenant DBs</text>
+  <text x="1385.0" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">customer DBs</text>
+  </g>
+  <line x1="300" y1="185" x2="360" y2="185" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="334.0" y="181.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">HTTPS</text>
+  <line x1="300" y1="245" x2="360" y2="245" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="334.0" y="241.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">WSS</text>
+  <line x1="540" y1="185" x2="620" y2="185" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="584.0" y="181.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">HTTPS</text>
+  <line x1="540" y1="245" x2="970" y2="245" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="759.0" y="241.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">session WS</text>
+  <line x1="900" y1="305" x2="970" y2="185" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="939.0" y="241.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">create pod</text>
+  <line x1="900" y1="365" x2="970" y2="365" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="939.0" y="361.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">egress cfg</text>
+  <line x1="760" y1="595" x2="720" y2="670" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="744.0" y="628.5" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">ORM</text>
+  <line x1="820" y1="595" x2="930" y2="670" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="879.0" y="628.5" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">audit insert</text>
+  <line x1="900" y1="545" x2="1310" y2="245" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1109.0" y="391.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">invoice</text>
+  <line x1="1110" y1="365" x2="1145" y2="670" stroke="#2D3A3B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1131.5" y="513.5" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="400" fill="#8A8B8B" style="">mount</text>
+  <g id="legend">
+    <rect x="1230" y="810" width="230" height="124" rx="6" ry="6" fill="#FFFFFF" stroke="#8A8B8B" stroke-width="1"/>
+    <text x="1242" y="828" font-family="sans-serif" font-size="12" font-weight="700" fill="#1F2A2B">Legend</text>
+    <rect x="1242" y="840" width="16" height="12" fill="#DCEAF2" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="850" font-family="sans-serif" font-size="11" fill="#1F2A2B">Client device</text>
+    <rect x="1242" y="860" width="16" height="12" fill="#F8E5C4" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="870" font-family="sans-serif" font-size="11" fill="#1F2A2B">App cluster</text>
+    <rect x="1242" y="880" width="16" height="12" fill="#F2D6B5" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="890" font-family="sans-serif" font-size="11" fill="#1F2A2B">Session cluster</text>
+    <rect x="1242" y="900" width="16" height="12" fill="#C7E8E9" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="910" font-family="sans-serif" font-size="11" fill="#1F2A2B">Data plane</text>
+    <rect x="1242" y="920" width="16" height="12" fill="#EDEDED" stroke="#2D3A3B" stroke-width="1"/>
+    <text x="1266" y="930" font-family="sans-serif" font-size="11" fill="#1F2A2B">External system</text>
+  </g>
+</svg>
