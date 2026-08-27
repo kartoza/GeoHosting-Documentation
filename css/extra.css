@@ -608,3 +608,11 @@ h4 {
     transform: translateY(-3px);
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
+
+/* WORKFLOW VIDEO CARDS */
+/* SINGLE COLUMN LAYOUT */
+.workflow-video-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
