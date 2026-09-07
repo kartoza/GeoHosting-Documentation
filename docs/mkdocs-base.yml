@@ -161,6 +161,9 @@ nav:
             - Context Layers: products/geosight/manual/context.md
             - Widgets & Filters: products/geosight/manual/widgets_filters.md
           - Help: products/geosight/help.md
+      - QGIS Cloud:
+          - products/qgis_cloud/index.md
+          - Overview: products/qgis_cloud/overview.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md
