@@ -52,7 +52,7 @@ in view. Produced from `.las`/`.laz` uploads.
 ## How they relate to the preview
 
 Each converted layer previews on the map or in a table without a backing
-server (see [Layer Preview](https://kartoza.github.io/kartoza-cloudbench/user-guide/preview/)): COGs and PMTiles draw on the map,
+server (see [Layer Preview](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/preview.md)): COGs and PMTiles draw on the map,
 GeoParquet opens as a table (and on the map), and COPC draws as a 3D point
 cloud. The outputs are standard files, so you can also hand the bucket folder
 to QGIS, GDAL, or any tool that reads these formats.

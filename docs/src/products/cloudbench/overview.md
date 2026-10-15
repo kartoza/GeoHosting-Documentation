@@ -18,7 +18,7 @@ layers without leaving the page.
 
 This page is the map of how CloudBench fits together and the path a typical
 task follows. For installing or deploying it, see
-[Getting Started](https://kartoza.github.io/kartoza-cloudbench/getting-started/installation/); for each screen in
+[Getting Started](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/getting-started/installation.md); for each screen in
 detail, see the rest of the User Guide.
 
 ![The CloudBench dashboard — connection tree on the left, server status on the right](img/cloudbench-img-2.png)
@@ -28,7 +28,7 @@ detail, see the rest of the User Guide.
 CloudBench runs in two places, and both use the same interface:
 
 - **Standalone** — you open the web UI directly (see
-  [Quick Start](https://kartoza.github.io/kartoza-cloudbench/getting-started/quickstart/)) and sign in.
+  [Quick Start](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/getting-started/quickstart.md)) and sign in.
 - **Inside GeoHosting** — you open GeoHosting and click **CloudBench**. It
   loads in a panel and signs you in automatically with a token that lasts the
   working day. This is where on-demand conversions (below) are available,
@@ -62,11 +62,11 @@ Most work in CloudBench follows the same five steps:
    target. For S3, you can also **convert** the file to a cloud-native format
    in the same step (see [On-demand Conversions](guide/on-demand-conversions.md)).
 4. **Preview.** Click a layer or object to open it on a map, in a 3D view, or
-   as a table (see [Layer Preview](https://kartoza.github.io/kartoza-cloudbench/user-guide/preview/)).
+   as a table (see [Layer Preview](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/preview.md)).
 5. **Use and share.** Style it in GeoServer, serve it as tiles, or hand the
    bucket folder to another tool — the converted outputs are standard files.
 
-```
+```text
   Add a          Browse the         Upload / convert        Preview        Use / share
   connection  →  tree          →    (GeoServer, PostGIS  →  on a map  →    (styles, tiles,
                                      GeoNode, or S3)         or table       catalog, download)
@@ -83,9 +83,9 @@ clouds — and preview them on the map. That conversion is what
 
 ## Where to go next
 
-- [Web UI](https://kartoza.github.io/kartoza-cloudbench/user-guide/web-ui/) — the tree, panels, and controls in detail.
-- [File Uploads](https://kartoza.github.io/kartoza-cloudbench/user-guide/uploads/) — what each target accepts and how upload works.
+- [Web UI](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/web-ui.md) — the tree, panels, and controls in detail.
+- [File Uploads](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/uploads.md) — what each target accepts and how upload works.
 - [On-demand Conversions](guide/on-demand-conversions.md) — converting S3 data to
   cloud-native formats on a server spun up for the job.
-- [Layer Preview](https://kartoza.github.io/kartoza-cloudbench/user-guide/preview/) — maps, 3D, tables, and styles.
-- [TUI](https://kartoza.github.io/kartoza-cloudbench/user-guide/tui/) — the terminal interface, for the same connections from a shell.
+- [Layer Preview](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/preview.md) — maps, 3D, tables, and styles.
+- [TUI](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/tui.md) — the terminal interface, for the same connections from a shell.

@@ -88,7 +88,7 @@ The desktop instance is temporary, but the persistent home folder remains availa
 
 <br>
 
-## Desktop Images 
+## Desktop Images
 
 A **desktop image** defines the software environment used by a session. The **Generic** image provides a general-purpose GIS environment, while specialised images can support particular workflows.
 

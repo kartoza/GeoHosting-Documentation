@@ -12,7 +12,7 @@ license: This program is free software; you can redistribute it and/or modify it
 # Troubleshooting
 
 Common symptoms and what to check. Page-specific troubleshooting also lives in
-[File Uploads](https://kartoza.github.io/kartoza-cloudbench/user-guide/uploads/) and [Layer Preview](https://kartoza.github.io/kartoza-cloudbench/user-guide/preview/).
+[File Uploads](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/uploads.md) and [Layer Preview](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/preview.md).
 
 ## Sign-in and sessions
 

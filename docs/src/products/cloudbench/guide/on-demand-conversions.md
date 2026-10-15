@@ -19,7 +19,7 @@ just for that job and deleted as soon as it finishes.
 
 This page explains what gets converted, how to run a conversion, what it costs,
 and the current limits. For where the outputs land and how to view them, see
-[Layer Preview](https://kartoza.github.io/kartoza-cloudbench/user-guide/preview/).
+[Layer Preview](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/user-guide/preview.md).
 
 ## What gets converted
 
@@ -70,7 +70,7 @@ plus a margin.
 
 A conversion moves through these stages, and you can follow them on the job:
 
-```
+```text
 provisioning → pushing → polling → verifying → publishing → deprovisioning → completed
 ```
 
@@ -122,5 +122,5 @@ and is marked cancelled. A GeoPackage's paired jobs are cancelled together.
 On-demand mode and its limits are set by an administrator. The relevant
 settings — `CLOUDNATIVEGIS_ON_DEMAND`, the GeoHosting OAuth client, and the
 conversion timeouts — are documented under
-[Environment Variables](https://kartoza.github.io/kartoza-cloudbench/admin-guide/environment/). The pipeline itself is
-described in [Architecture](https://kartoza.github.io/kartoza-cloudbench/dev-guide/architecture/).
+[Environment Variables](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/admin-guide/environment.md). The pipeline itself is
+described in [Architecture](https://github.com/kartoza/kartoza-cloudbench/blob/main/docs/dev-guide/architecture.md).
