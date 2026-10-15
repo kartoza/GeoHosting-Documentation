@@ -164,6 +164,15 @@ nav:
       - QGIS Cloud:
           - products/qgis_cloud/index.md
           - Overview: products/qgis_cloud/overview.md
+      - CloudBench:
+          - products/cloudbench/index.md
+          - Overview & Workflow: products/cloudbench/overview.md
+          - Guide:
+            - Connections: products/cloudbench/guide/connections.md
+            - GeoNode Uploads: products/cloudbench/guide/geonode.md
+            - On-demand Conversions: products/cloudbench/guide/on-demand-conversions.md
+            - Cloud-Native Formats: products/cloudbench/guide/formats.md
+          - Help: products/cloudbench/help.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md

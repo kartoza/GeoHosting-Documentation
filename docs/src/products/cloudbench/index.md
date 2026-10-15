@@ -88,8 +88,17 @@ to your own GeoHosting account — CloudBench doesn't need any separate
 setup to know which ones are yours.
 
 <div class="image-with-caption">
-  <img src="img/cloudbench-imag-001.png" alt="CloudBench Logo" style="width: 50%;">
+  <img src="img/cloudbench-img-1.png" alt="CloudBench Logo" style="width: 50%;">
 </div>
+
+<br>
+
+## Learn More
+
+- [Overview & Workflow](overview.md) — how the pieces fit together.
+- [Connections](guide/connections.md) — adding and testing connections.
+- [On-demand Conversions](guide/on-demand-conversions.md) — turning S3
+  uploads into cloud-native layers.
 
 <br>
 
