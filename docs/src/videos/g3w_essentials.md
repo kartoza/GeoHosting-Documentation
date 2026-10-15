@@ -70,17 +70,46 @@ Learn the fundamentals of G3W-SUITE through short, focused video tutorials. Foll
     </div>
   </div>
 
-</div>
-
----
-
-<br>
-
-<div class="alert alert-warning">
-  <div class="alert-icon">⚠️</div>
-  <div class="alert-text">
-    More Videos Coming Soon!
+  <div class="video-card">
+    <div class="video-card-header">🔐 6. Managing Project Permissions</div>
+    <div class="video-card-body">
+      <p>Control who can view, edit, and manage your WebGIS projects and groups.</p>
+      <a href="https://youtube.com/shorts/YoQZvSfaZ4o" target="_blank">
+        Watch Tutorial →
+      </a>
+    </div>
   </div>
+
+  <div class="video-card">
+    <div class="video-card-header">📊 7. Creating Charts and Plots</div>
+    <div class="video-card-body">
+      <p>Transform your WebGIS into an interactive experience with charts and data visualizations.</p>
+      <a href="https://youtube.com/shorts/gZpPQNsi5lU" target="_blank">
+        Watch Tutorial →
+      </a>
+    </div>
+  </div>
+
+  <div class="video-card">
+    <div class="video-card-header">📝 8. Creating Forms with QGIS</div>
+    <div class="video-card-body">
+      <p>Create user-friendly forms that make editing data in your WebGIS simple and intuitive. </p>
+      <a href="https://youtube.com/shorts/5zF4F8j2tYE" target="_blank">
+        Watch Tutorial →
+      </a>
+    </div>
+  </div>
+
+  <div class="video-card">
+    <div class="video-card-header">✏️ 9. Editing Data Online</div>
+    <div class="video-card-body">
+      <p>Edit your GIS data directly in the browser with G3W.</p>
+      <a href="https://youtube.com/shorts/E1wBaaP3bAg" target="_blank">
+        Watch Tutorial →
+      </a>
+    </div>
+  </div>
+
 </div>
 
 <br>

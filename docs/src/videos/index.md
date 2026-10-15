@@ -48,4 +48,14 @@ Learn GeoSpatialHosting products through short, focused video tutorials. Whether
   </div>
 </div>
 
+<div class="card">
+  <div class="card-header">⚙️ GeoSpatialHosting Workflows</div>
+  <div class="card-body">
+    Explore practical workflows and real-world examples using GSH products individually or together to build powerful geospatial solutions.
+  </div>
+  <div class="card-footer">
+    <a href="gsh_workflows/">Go to GSH Workflows →</a>
+  </div>
+</div>
+
 <br>
