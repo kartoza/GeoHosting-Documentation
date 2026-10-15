@@ -47,6 +47,8 @@ the PMTiles for a vector upload, so you get both the map and the table.
 A LAZ point cloud organised as an octree so a viewer streams just the points
 in view. Produced from `.las`/`.laz` uploads.
 
+![A COPC point cloud in CloudBench's 3D LiDAR viewer, coloured by elevation](../img/cloudbench-img-6.png)
+
 ## How they relate to the preview
 
 Each converted layer previews on the map or in a table without a backing
