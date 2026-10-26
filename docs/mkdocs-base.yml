@@ -128,7 +128,7 @@ nav:
           - Guide:
             - Creating Your Instance: products/postgis/guide/create_instance.md
             - First Log In & Setting Your Password: products/postgis/guide/first_login.md
-            - Quickstart - 5-Minute Tutorial: products/postgis/guide/quickstart.md
+            - Quickstart: products/postgis/guide/quickstart.md
             - Navigating the Dashboard: products/postgis/guide/dashboard.md
             - Managing Users & Permissions: products/postgis/guide/permissions.md
             - Glossary of Terms: products/postgis/guide/glossary.md
@@ -146,7 +146,7 @@ nav:
           - Guide:
             - Creating Your Instance: products/geosight/guide/create_instance.md
             - First Log In: products/geosight/guide/first_login.md
-            - Quickstart - 5-Minute Tutorial: products/geosight/guide/quickstart.md
+            - Quickstart: products/geosight/guide/quickstart.md
             - Navigating the Dashboard: products/geosight/guide/dashboard.md
             - Managing Users & Permissions: products/geosight/guide/permissions.md
             - Glossary of Terms: products/geosight/guide/glossary.md
@@ -164,6 +164,14 @@ nav:
       - QGIS Cloud:
           - products/qgis_cloud/index.md
           - Overview: products/qgis_cloud/overview.md
+          - Guide:
+            - Creating Your Instance: products/qgis_cloud/guide/create_instance.md
+            - First Log In: products/qgis_cloud/guide/first_login.md
+            - Quickstart: products/qgis_cloud/guide/quickstart.md
+            # - Assign Databases: products/qgis_cloud/guide/other_tools.md
+            # - Navigating the Dashboard: products/geosight/guide/dashboard.md
+            # - Managing Users & Permissions: products/geosight/guide/permissions.md
+            # - Glossary of Terms: products/geosight/guide/glossary.md
       - CloudBench:
           - products/cloudbench/index.md
           - Overview: products/cloudbench/overview.md
