@@ -101,8 +101,7 @@ Expand a connection in the tree to see the available resources.
 
 When using CloudBench through GeoSpatialHosting, connections to your hosted instances are generally configured automatically.
 
-Before getting started, check that your expected services are visible in the connection tree. 
-If you have additional services or external storage locations you want to use, you can add your own connections.
+Before getting started, check that your expected services are visible in the connection tree. If you have additional services or external storage locations you want to use, you can add your own connections.
 
 For more information, see [Managing Connections](connections.md).
 
