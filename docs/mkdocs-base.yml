@@ -175,6 +175,8 @@ nav:
       - CloudBench:
           - products/cloudbench/index.md
           - Overview: products/cloudbench/overview.md
+          - Guide:
+            - First Log In: products/cloudbench/guide/first_login.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md
