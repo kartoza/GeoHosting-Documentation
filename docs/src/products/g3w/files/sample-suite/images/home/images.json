@@ -1,0 +1,10 @@
+[
+    {
+        "image": "sample_landing.jpg",
+        "main_color": "#fff",
+        "main_title_color": "#fff",
+        "author": "Sample Suite",
+        "author_url": "https://example.com",
+        "subtitle_color": "#fff"
+    }
+]
