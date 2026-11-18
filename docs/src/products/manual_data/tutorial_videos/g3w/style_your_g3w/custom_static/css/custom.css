@@ -1,0 +1,54 @@
+/*Add your custom CSS here!*/
+
+/*
+change the value of the defined properties here
+*/
+:root {
+  --skin-color: #3E3E3E;
+  --navbar-bg-color: #3B6E47;
+  --navbar-link-color: #ffffff;
+  --navbar-link-active-bg-color: rgba(0, 0, 0, 0.1);
+  --navbar-link-active-color: #ffffff;
+  --sidebar-toggle-color: #ffffff;
+  --sidebar-toggle-hover-color: #f6f6f6;
+  --sidebar-toggle-hover-bg-color: #e08e0b;
+  --navbar-dropdown-list-divider-bg-color: rgba(255, 255, 255, 0.1);
+  --navbar-dropdown-list-link-color: #fff;
+  --navbar-dropdown-list-link-hover-bg: #e08e0b;
+  --main-header-logo-bg-color: #3B6E47;
+  --main-header-logo-color: #ffffff;
+  --main-header-logo-hover-bg-color: #db8b0b;
+  --user-header-bg-color: #f39c12;
+  --content-header-bg: transparent;
+  --wrapper-main-sidebar-left-side-bg-color: #3F3F3F;
+  --user-panel-info: #fff;
+  --sidebar-menu-list-header-color: #ffffff;
+  --sidebar-menu-list-header-bg: #3E3E3E;
+  --sidebar-menu-list-link-color: #ffffff;
+  --sidebar-menu-list-link-bg: #57A0C7  ;
+  --sidebar-menu-list-link-border-left-color: #ffffff;
+  --sidebar-treeview-bg-color: #555555;
+  --treeview-menu-bg: #626262;
+  --sidebar-link-color: #b8c7ce;
+  --sidebar-link-hover-text-decor: none;
+  --treeview-menu-list-active-link: #ffffff;
+  --sidebar-form-border: 1px solid #374850;
+  --sidebar-form-btn-bg-color: #374850;
+  --sidebar-form-btn-border: 1px solid transparent;
+  --sidebar-form-input-text-color: #666;
+  --sidebar-form-input-text-focus-bg-color: #fff;
+  --sidebar-form-input-text-focus-color: #666;
+  --sidebar-form-input-text-focus-btn: #fff;
+  --sidebar-form-btn: #999;
+  --landing-about-it-bg-color: #6FAE7A;
+  --landing-guestbook-bg-color: #ECB44B;
+  --landing-products-bg-color: #2E523A;
+  --acl-users-bg-color: #3E3E3E;
+  --btn-info-bg-color: #57A0C7;
+  --btn-success-bg-color: #ECB44B;
+  --btn-success-border-color: #ECB44B;
+  --select-2-bg-color: #555555;
+  --layer-legent-bg-color: rgba(0, 0, 0, 0);
+}
+
+/* You can also add more styling below */
