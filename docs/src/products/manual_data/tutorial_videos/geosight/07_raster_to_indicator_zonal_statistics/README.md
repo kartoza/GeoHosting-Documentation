@@ -27,5 +27,5 @@ Download all files in one ZIP: [Manual_Data_GeoSight.zip](https://github.com/kar
 
 ## Credits
 
-- Population: WorldPop (www.worldpop.org), Ghana 2020, 1 km, UN adjusted, CC BY 4.0.
+- Population: WorldPop (<https://www.worldpop.org>), Ghana 2020, 1 km, UN adjusted, CC BY 4.0.
 - Ghana boundaries: geoBoundaries gbOpen (Runfola et al. 2020), derived from OpenStreetMap, CC BY-SA 2.0. Credit geoBoundaries and OpenStreetMap contributors.

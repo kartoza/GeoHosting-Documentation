@@ -21,12 +21,13 @@ Download all files in one ZIP: [Manual_Data_GeoSight.zip](https://github.com/kar
 
 1. Step 1 command:
 
-   ```
+   ```bash
    gdal_translate -of COG -co TILING_SCHEME=GoogleMapsCompatible -co COMPRESS=DEFLATE -co OVERVIEW_COUNT=6 gha_ppp_2020_1km_Aggregated_UNadj.tif ghana_population_2020_3857_cog.tif
    ```
+
 2. Step 2: the file must be readable without keys (public download), and the bucket's CORS rules must allow GET and HEAD with the `Range` header from your GeoSight address.
 3. Step 3: context layer type **Raster COG**, URL of the file in your bucket, band values 0 to 500.
 
 ## Credits
 
-- Population: WorldPop (www.worldpop.org), Ghana 2020, 1 km, UN adjusted, CC BY 4.0.
+- Population: WorldPop (<https://www.worldpop.org>), Ghana 2020, 1 km, UN adjusted, CC BY 4.0.

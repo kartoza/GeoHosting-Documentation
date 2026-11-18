@@ -20,7 +20,7 @@ Download all files in one ZIP: [Tutorial_Data_G3WSUITE.zip](https://github.com/k
 
 1. Step 1: run the check from a terminal that has PyQGIS (for example the OSGeo4W Shell on Windows):
 
-   ```
+   ```bash
    python3 check_qgis_auth_password.py qgis-auth.db password.txt
    ```
 
@@ -31,4 +31,4 @@ Download all files in one ZIP: [Tutorial_Data_G3WSUITE.zip](https://github.com/k
 
 ## Credits
 
-- World Administrative Boundaries, Countries and Territories, published on OpenDataSoft (https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/). Check the source page for the licence terms.
+- World Administrative Boundaries, Countries and Territories, published on OpenDataSoft (<https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/>). Check the source page for the licence terms.

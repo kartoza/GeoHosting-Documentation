@@ -19,9 +19,10 @@ Download all files in one ZIP: [Manual_Data_GeoSight.zip](https://github.com/kar
 1. Step 1: create the reference dataset **West Africa Countries** with one level, **Country**, and upload `west_africa_countries.geojson`. Use `ucode` as the code field.
 2. Step 2: import with **SDMX Format**, mode **url**. SDMX link:
 
-   ```
+   ```text
    https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,WASH_HOUSEHOLDS,1.0/GHA+NGA+CIV+SEN+BFA+MLI+NER+TGO+BEN+GIN+SLE+LBR+GMB+GNB+CPV+MRT.WS_PPL_W-ALB.WAT._T._T?format=csv
    ```
+
 3. Step 3: geo code column `REF_AREA`, value column `OBS_VALUE`, date from `TIME_PERIOD` in Year format.
 
 ## Credits

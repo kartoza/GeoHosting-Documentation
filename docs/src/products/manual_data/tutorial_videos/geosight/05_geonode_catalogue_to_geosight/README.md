@@ -26,4 +26,4 @@ Download all files in one ZIP: [Manual_Data_GeoSight.zip](https://github.com/kar
 
 ## Credits
 
-- Rivers and hospitals: (c) OpenStreetMap contributors, Open Database License (ODbL) 1.0, https://www.openstreetmap.org/copyright. Extracted with the Overpass API on 12 November 2026 and simplified. This is not an official dataset and it is not complete.
+- Rivers and hospitals: (c) OpenStreetMap contributors, Open Database License (ODbL) 1.0, <https://www.openstreetmap.org/copyright>. Extracted with the Overpass API on 12 November 2026 and simplified. This is not an official dataset and it is not complete.
