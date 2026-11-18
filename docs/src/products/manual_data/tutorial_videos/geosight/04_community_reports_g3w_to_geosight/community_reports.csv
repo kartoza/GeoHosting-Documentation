@@ -1,0 +1,211 @@
+id,report_date,category,description,status,reporter_type,water_point_code,lon,lat
+1,2026-09-22,Broken pump,Pump spout is cracked and water is spilling,Resolved,Resident,WP-098,-2.76898,6.73459
+2,2026-05-22,Broken pump,Pump makes a grinding noise and gives no water,In progress,Teacher,WP-076,-2.69981,6.92903
+3,2026-08-21,No water,"Borehole is dry, women walk 3 km to the river",In progress,Resident,,-2.66083,6.60012
+4,2026-10-10,No water,Tap stand has been dry since Monday,New,Community volunteer,,-2.48443,6.99069
+5,2026-07-02,Leaking pipe,Leak at the storage tank joint,New,Water committee,,-2.47320,7.09978
+6,2026-07-21,Broken pump,Pump makes a grinding noise and gives no water,In progress,Teacher,WP-035,-2.42535,7.08205
+7,2026-11-06,Leaking pipe,"Pipe burst on the road, water is running away",Resolved,Teacher,,-2.42111,6.55625
+8,2026-08-05,Dirty water,Water is brown after the rain,New,Health worker,,-2.15599,7.08412
+9,2026-06-25,Dirty water,Rust coloured water from the tap stand,New,Community volunteer,,-2.20830,6.52401
+10,2026-10-13,Leaking pipe,"Small leak at the tap stand, pressure is low",Resolved,Community volunteer,,-1.81922,6.23885
+11,2026-10-08,Broken pump,Pump has been out of order for two weeks,New,Health worker,WP-019,-1.81462,6.09463
+12,2026-10-25,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Community volunteer,WP-063,-1.77201,6.61957
+13,2026-07-03,Broken pump,Pump spout is cracked and water is spilling,New,Resident,WP-019,-1.54036,6.39873
+14,2026-05-25,Broken pump,Pump makes a grinding noise and gives no water,In progress,Community volunteer,WP-017,-1.45918,7.06600
+15,2026-05-10,Dirty water,Water smells bad and children have stomach aches,Resolved,Water committee,,-1.42020,5.95245
+16,2026-08-01,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Water committee,WP-005,-1.40188,7.42464
+17,2026-05-08,Broken pump,Pump spout is cracked and water is spilling,New,Health worker,WP-063,-1.38649,6.75161
+18,2026-11-09,Broken pump,Pump makes a grinding noise and gives no water,New,Teacher,WP-039,-1.24711,6.70360
+19,2026-11-05,No water,"Borehole is dry, women walk 3 km to the river",New,Teacher,,-1.23422,6.28995
+20,2026-07-04,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Health worker,WP-017,-1.09014,7.01655
+21,2026-10-13,Dirty water,Rust coloured water from the tap stand,In progress,Health worker,,-0.82082,6.88664
+22,2026-06-23,Leaking pipe,"Small leak at the tap stand, pressure is low",In progress,Health worker,,-0.56164,7.10509
+23,2026-06-10,Dirty water,Water smells bad and children have stomach aches,Resolved,Resident,,-2.82299,7.66364
+24,2026-05-12,No water,Tap stand has been dry since Monday,Resolved,Water committee,,-2.74437,7.10234
+25,2026-08-21,Leaking pipe,Leak at the storage tank joint,Resolved,Community volunteer,,-2.58611,7.67296
+26,2026-06-12,Broken pump,Pump makes a grinding noise and gives no water,New,Community volunteer,WP-085,-2.47437,8.59358
+27,2026-05-30,Dirty water,Water smells bad and children have stomach aches,In progress,Teacher,,-2.36807,8.09492
+28,2026-10-23,No water,Tap stand has been dry since Monday,Resolved,Resident,,-2.34683,7.35983
+29,2026-10-18,Broken pump,Pump spout is cracked and water is spilling,In progress,Resident,WP-035,-2.33255,7.19388
+30,2026-10-15,Dirty water,Water looks cloudy in the morning,Resolved,Health worker,,-2.31453,8.14443
+31,2026-09-06,Broken pump,Pump has been out of order for two weeks,Resolved,Teacher,WP-113,-2.07381,7.92405
+32,2026-08-08,Dirty water,Water is brown after the rain,In progress,Water committee,,-1.91870,7.56646
+33,2026-05-06,Leaking pipe,Leak at the storage tank joint,New,Teacher,,-1.81269,7.64515
+34,2026-08-19,Dirty water,Water looks cloudy in the morning,Resolved,Water committee,,-1.66464,7.83599
+35,2026-08-16,No water,"Borehole is dry, women walk 3 km to the river",New,Resident,,-1.65672,8.41984
+36,2026-08-14,Leaking pipe,Main pipe is leaking near the market,Resolved,Health worker,,-1.39149,8.03511
+37,2026-08-29,No water,Clinic has no running water,Resolved,Resident,,-1.36351,8.41051
+38,2026-07-29,Leaking pipe,"Small leak at the tap stand, pressure is low",Resolved,Health worker,,-1.29536,7.58590
+39,2026-08-19,Dirty water,Water smells bad and children have stomach aches,Resolved,Health worker,,-1.08983,7.52981
+40,2026-10-31,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Health worker,WP-009,-0.84814,8.00450
+41,2026-06-16,Dirty water,Rust coloured water from the tap stand,Resolved,Resident,,-0.42718,7.35496
+42,2026-06-19,Dirty water,Water looks cloudy in the morning,New,Teacher,,-0.33261,7.80598
+43,2026-07-22,Leaking pipe,"Pipe burst on the road, water is running away",Resolved,Community volunteer,,-0.01771,7.36887
+44,2026-06-17,Dirty water,Water is brown after the rain,Resolved,Community volunteer,,-1.79546,5.94922
+45,2026-09-05,No water,Clinic has no running water,Resolved,Water committee,,-1.67677,5.64086
+46,2026-07-05,Dirty water,Water looks cloudy in the morning,In progress,Water committee,,-1.47882,5.52310
+47,2026-07-20,Broken pump,Pump has been out of order for two weeks,In progress,Teacher,WP-027,-1.44206,5.70650
+48,2026-06-18,Broken pump,"Hand pump handle is broken, nobody can draw water",Resolved,Water committee,WP-027,-1.40438,5.77535
+49,2026-08-23,Dirty water,Rust coloured water from the tap stand,Resolved,Water committee,,-1.10018,5.58690
+50,2026-10-24,Broken pump,Pump makes a grinding noise and gives no water,New,Community volunteer,WP-052,-1.04957,5.69079
+51,2026-06-17,No water,"Borehole is dry, women walk 3 km to the river",In progress,Community volunteer,,-1.00138,5.55592
+52,2026-10-04,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Community volunteer,WP-058,-0.99195,5.32392
+53,2026-09-02,Broken pump,Pump spout is cracked and water is spilling,In progress,Water committee,WP-047,-0.79092,5.52403
+54,2026-10-09,Broken pump,Pump makes a grinding noise and gives no water,Resolved,Resident,WP-053,-1.03037,6.13017
+55,2026-10-03,Dirty water,Water smells bad and children have stomach aches,New,Resident,,-0.83478,5.89590
+56,2026-10-06,Dirty water,Water is brown after the rain,New,Teacher,,-0.81813,6.49619
+57,2026-06-24,Broken pump,Pump spout is cracked and water is spilling,New,Health worker,WP-024,-0.79807,6.27938
+58,2026-05-29,No water,No water at the school since the start of the term,New,Health worker,,-0.72272,6.87381
+59,2026-06-08,Dirty water,Water smells bad and children have stomach aches,New,Health worker,,-0.55574,6.91841
+60,2026-09-03,No water,Tap stand has been dry since Monday,In progress,Resident,,-0.47094,6.52088
+61,2026-08-14,Broken pump,Pump spout is cracked and water is spilling,In progress,Teacher,WP-002,-0.42261,5.82960
+62,2026-06-14,Leaking pipe,"Small leak at the tap stand, pressure is low",New,Water committee,,-0.40470,6.17376
+63,2026-09-13,No water,"Borehole is dry, women walk 3 km to the river",New,Resident,,-0.24988,6.04298
+64,2026-10-25,Dirty water,Water is brown after the rain,In progress,Health worker,,-0.13282,5.96706
+65,2026-09-22,Dirty water,Rust coloured water from the tap stand,Resolved,Community volunteer,,-0.07457,6.54168
+66,2026-07-14,Dirty water,Water looks cloudy in the morning,New,Health worker,,0.07724,6.77242
+67,2026-07-26,Broken pump,Pump has been out of order for two weeks,New,Water committee,WP-033,-0.38981,5.57753
+68,2026-06-16,Broken pump,"Hand pump handle is broken, nobody can draw water",Resolved,Resident,WP-033,-0.38872,5.61111
+69,2026-11-03,Leaking pipe,Leak at the storage tank joint,In progress,Teacher,,-0.21314,5.56186
+70,2026-07-31,Broken pump,Pump makes a grinding noise and gives no water,In progress,Water committee,WP-070,-0.11607,5.82308
+71,2026-08-23,Dirty water,Water smells bad and children have stomach aches,In progress,Community volunteer,,-0.08109,5.68927
+72,2026-06-20,Broken pump,"Hand pump handle is broken, nobody can draw water",In progress,Community volunteer,WP-061,0.06255,5.97942
+73,2026-10-20,Leaking pipe,Leak at the storage tank joint,New,Health worker,,0.06582,5.87401
+74,2026-11-09,Leaking pipe,"Small leak at the tap stand, pressure is low",New,Resident,,0.08763,5.76092
+75,2026-11-07,Broken pump,Pump has been out of order for two weeks,In progress,Resident,WP-094,0.19517,5.98330
+76,2026-05-17,Dirty water,Water is brown after the rain,New,Resident,,0.24911,5.84710
+77,2026-06-04,Broken pump,Pump spout is cracked and water is spilling,New,Water committee,WP-090,0.41713,5.82165
+78,2026-06-11,Dirty water,Water looks cloudy in the morning,New,Water committee,,-1.36207,10.14918
+79,2026-10-15,Dirty water,Water smells bad and children have stomach aches,New,Community volunteer,,-1.26332,10.08343
+80,2026-11-09,No water,Tap stand has been dry since Monday,In progress,Water committee,,-1.18415,10.25378
+81,2026-06-12,No water,Clinic has no running water,In progress,Teacher,,-0.88276,10.34059
+82,2026-08-17,Broken pump,Pump makes a grinding noise and gives no water,Resolved,Teacher,WP-011,-0.71533,10.62587
+83,2026-07-29,Dirty water,Water smells bad and children have stomach aches,In progress,Health worker,,-0.67912,10.51381
+84,2026-07-16,Leaking pipe,Main pipe is leaking near the market,New,Teacher,,-0.61388,10.25300
+85,2026-06-23,Broken pump,Pump spout is cracked and water is spilling,In progress,Resident,WP-080,-0.53151,10.33761
+86,2026-08-28,Dirty water,Water looks cloudy in the morning,In progress,Water committee,,-0.45243,10.56456
+87,2026-08-28,Broken pump,Pump has been out of order for two weeks,Resolved,Resident,WP-006,-0.33720,10.37328
+88,2026-08-12,Leaking pipe,Main pipe is leaking near the market,New,Resident,,-0.14107,10.29568
+89,2026-06-29,Leaking pipe,Leak at the storage tank joint,In progress,Resident,,-0.08495,10.43568
+90,2026-08-02,Leaking pipe,"Small leak at the tap stand, pressure is low",New,Teacher,,-0.02807,10.29265
+91,2026-07-25,No water,"Borehole is dry, women walk 3 km to the river",Resolved,Community volunteer,,0.08777,10.16267
+92,2026-07-05,Dirty water,Water is brown after the rain,Resolved,Health worker,,0.14206,10.49313
+93,2026-11-04,Broken pump,Pump spout is cracked and water is spilling,In progress,Health worker,WP-003,0.20476,10.07838
+94,2026-08-09,Dirty water,Water looks cloudy in the morning,In progress,Teacher,,0.34123,10.23304
+95,2026-06-02,No water,"Borehole is dry, women walk 3 km to the river",Resolved,Teacher,,-1.08856,9.83874
+96,2026-06-25,No water,Tap stand has been dry since Monday,Resolved,Water committee,,-0.83257,9.30007
+97,2026-10-13,Leaking pipe,Leak at the storage tank joint,New,Health worker,,-0.82840,9.74920
+98,2026-10-13,Dirty water,Water looks cloudy in the morning,Resolved,Resident,,-0.81936,9.50517
+99,2026-11-03,No water,"Borehole is dry, women walk 3 km to the river",New,Teacher,,-0.67895,9.87588
+100,2026-07-09,No water,Tap stand has been dry since Monday,New,Water committee,,-0.53703,9.67406
+101,2026-08-19,Broken pump,Pump spout is cracked and water is spilling,Resolved,Teacher,WP-091,-0.52706,10.18745
+102,2026-05-10,Dirty water,Water looks cloudy in the morning,Resolved,Community volunteer,,-0.39875,10.11248
+103,2026-06-07,No water,"Borehole is dry, women walk 3 km to the river",In progress,Water committee,,-0.37604,9.40637
+104,2026-10-31,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Teacher,WP-037,-0.33623,9.47534
+105,2026-06-22,No water,Clinic has no running water,Resolved,Community volunteer,,-0.29752,9.84129
+106,2026-05-12,Broken pump,Pump makes a grinding noise and gives no water,New,Resident,WP-059,-0.18051,9.12503
+107,2026-08-22,Dirty water,Water smells bad and children have stomach aches,New,Resident,,-0.13718,8.72069
+108,2026-05-19,Leaking pipe,Main pipe is leaking near the market,New,Teacher,,-0.07563,10.24277
+109,2026-11-09,No water,Clinic has no running water,In progress,Health worker,,-0.06785,9.35447
+110,2026-09-29,Dirty water,Water looks cloudy in the morning,New,Teacher,,-0.03442,8.52364
+111,2026-05-25,Broken pump,Pump has been out of order for two weeks,In progress,Water committee,WP-068,-0.02282,9.98599
+112,2026-08-11,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Resident,WP-031,-0.00374,9.52016
+113,2026-08-22,Dirty water,Rust coloured water from the tap stand,New,Water committee,,0.02983,9.02369
+114,2026-05-26,No water,No water at the school since the start of the term,New,Teacher,,0.13552,8.28253
+115,2026-10-02,Dirty water,Water smells bad and children have stomach aches,Resolved,Teacher,,0.18866,8.75436
+116,2026-05-16,Dirty water,Water is brown after the rain,In progress,Water committee,,0.22073,8.89303
+117,2026-07-29,Broken pump,Pump spout is cracked and water is spilling,Resolved,Resident,WP-031,0.23640,9.58164
+118,2026-07-23,Leaking pipe,"Small leak at the tap stand, pressure is low",Resolved,Resident,,0.36496,9.30201
+119,2026-08-15,No water,"Borehole is dry, women walk 3 km to the river",New,Health worker,,-0.10670,8.14831
+120,2026-06-04,Dirty water,Water is brown after the rain,Resolved,Teacher,,-0.07428,7.81731
+121,2026-08-06,Broken pump,Pump spout is cracked and water is spilling,Resolved,Community volunteer,WP-050,-0.00189,8.19926
+122,2026-05-29,Broken pump,Pump makes a grinding noise and gives no water,In progress,Community volunteer,WP-050,0.05131,7.93118
+123,2026-09-22,Leaking pipe,"Pipe burst on the road, water is running away",In progress,Health worker,,0.06448,7.56897
+124,2026-05-30,No water,Tap stand has been dry since Monday,New,Water committee,,0.29770,8.39222
+125,2026-08-13,Dirty water,Rust coloured water from the tap stand,Resolved,Resident,,0.35318,7.59913
+126,2026-07-25,Broken pump,Pump makes a grinding noise and gives no water,Resolved,Teacher,WP-001,0.40171,7.34451
+127,2026-06-15,Broken pump,Pump has been out of order for two weeks,Resolved,Water committee,WP-001,0.41545,7.39138
+128,2026-05-13,Dirty water,Water is brown after the rain,In progress,Water committee,,0.45494,7.54295
+129,2026-10-20,No water,Clinic has no running water,New,Resident,,0.48219,8.39808
+130,2026-06-10,Leaking pipe,"Small leak at the tap stand, pressure is low",New,Resident,,0.54926,8.05280
+131,2026-09-28,Dirty water,Water smells bad and children have stomach aches,Resolved,Resident,,-2.54726,8.90414
+132,2026-10-19,Dirty water,Water is brown after the rain,Resolved,Community volunteer,,-2.32287,9.58639
+133,2026-10-31,Dirty water,Rust coloured water from the tap stand,New,Health worker,,-2.26355,8.61521
+134,2026-07-24,No water,No water at the school since the start of the term,Resolved,Health worker,,-2.05942,8.99803
+135,2026-09-23,Leaking pipe,"Pipe burst on the road, water is running away",Resolved,Resident,,-1.98636,8.24137
+136,2026-09-29,No water,Tap stand has been dry since Monday,Resolved,Teacher,,-1.85653,9.57844
+137,2026-05-10,No water,Clinic has no running water,In progress,Community volunteer,,-1.76342,9.02255
+138,2026-05-29,Broken pump,Pump makes a grinding noise and gives no water,In progress,Health worker,WP-051,-1.51192,8.85739
+139,2026-08-16,Broken pump,Pump has been out of order for two weeks,Resolved,Resident,WP-045,-1.47757,9.89221
+140,2026-06-07,Leaking pipe,Main pipe is leaking near the market,Resolved,Water committee,,-1.32760,8.82759
+141,2026-08-22,Broken pump,Pump spout is cracked and water is spilling,New,Community volunteer,WP-107,-1.04353,8.92585
+142,2026-07-07,Broken pump,Pump makes a grinding noise and gives no water,New,Resident,WP-051,-1.00765,8.39817
+143,2026-09-17,Dirty water,Water smells bad and children have stomach aches,Resolved,Health worker,,-0.68172,8.54659
+144,2026-11-05,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Resident,WP-041,-0.64715,9.16566
+145,2026-11-06,Broken pump,Pump spout is cracked and water is spilling,New,Teacher,WP-037,-0.36232,9.05936
+146,2026-06-22,Leaking pipe,"Small leak at the tap stand, pressure is low",In progress,Teacher,,-0.18601,8.23908
+147,2026-09-01,Broken pump,Pump has been out of order for two weeks,New,Community volunteer,WP-028,-1.40950,10.49539
+148,2026-10-12,Leaking pipe,Main pipe is leaking near the market,Resolved,Water committee,,-1.37559,10.39938
+149,2026-09-27,Leaking pipe,Leak at the storage tank joint,Resolved,Teacher,,-1.32149,10.47405
+150,2026-05-31,Broken pump,Pump makes a grinding noise and gives no water,In progress,Resident,WP-028,-1.29982,10.69622
+151,2026-09-18,No water,"Borehole is dry, women walk 3 km to the river",Resolved,Community volunteer,,-1.26603,10.92536
+152,2026-08-18,No water,Tap stand has been dry since Monday,Resolved,Community volunteer,,-1.23969,10.44543
+153,2026-05-08,Broken pump,Pump spout is cracked and water is spilling,Resolved,Resident,WP-028,-1.11517,10.62465
+154,2026-09-16,No water,No water at the school since the start of the term,In progress,Health worker,,-1.07462,10.74201
+155,2026-09-08,Leaking pipe,"Pipe burst on the road, water is running away",In progress,Health worker,,-1.07306,10.60142
+156,2026-09-18,No water,Tap stand has been dry since Monday,New,Teacher,,-0.96734,10.59173
+157,2026-09-13,Broken pump,Pump spout is cracked and water is spilling,Resolved,Community volunteer,WP-102,-0.93313,10.93205
+158,2026-10-15,Broken pump,Pump makes a grinding noise and gives no water,Resolved,Water committee,WP-102,-0.83640,10.68850
+159,2026-06-05,Broken pump,Pump has been out of order for two weeks,New,Community volunteer,WP-102,-0.74083,10.87947
+160,2026-06-27,Dirty water,Water is brown after the rain,Resolved,Health worker,,-0.70364,10.81279
+161,2026-09-30,Broken pump,Pump spout is cracked and water is spilling,New,Resident,WP-011,-0.50731,10.86545
+162,2026-10-11,Dirty water,Water looks cloudy in the morning,New,Water committee,,-0.43002,10.87736
+163,2026-09-27,Dirty water,Water smells bad and children have stomach aches,New,Health worker,,-0.41623,10.99545
+164,2026-06-29,Dirty water,Water is brown after the rain,In progress,Resident,,-0.35719,10.88094
+165,2026-08-13,No water,Clinic has no running water,Resolved,Teacher,,-0.25302,10.88449
+166,2026-08-25,Dirty water,Water looks cloudy in the morning,In progress,Community volunteer,,-0.18951,10.67157
+167,2026-06-17,Broken pump,Pump has been out of order for two weeks,New,Resident,WP-095,-0.13430,10.78942
+168,2026-06-19,No water,Tap stand has been dry since Monday,In progress,Water committee,,-0.11425,10.94260
+169,2026-06-17,Broken pump,Pump spout is cracked and water is spilling,New,Teacher,WP-036,-2.85484,10.72463
+170,2026-10-10,Leaking pipe,"Small leak at the tap stand, pressure is low",Resolved,Teacher,,-2.66805,9.70493
+171,2026-09-04,Broken pump,Pump has been out of order for two weeks,New,Health worker,WP-036,-2.65153,10.34705
+172,2026-10-04,No water,Tap stand has been dry since Monday,Resolved,Community volunteer,,-2.64042,10.21798
+173,2026-08-13,No water,Clinic has no running water,Resolved,Resident,,-2.56860,9.88448
+174,2026-07-23,Broken pump,Pump makes a grinding noise and gives no water,In progress,Health worker,WP-101,-2.54953,10.15996
+175,2026-10-23,Leaking pipe,"Pipe burst on the road, water is running away",New,Teacher,,-2.35380,10.75369
+176,2026-10-17,Broken pump,"Hand pump handle is broken, nobody can draw water",Resolved,Community volunteer,WP-101,-2.32295,10.04688
+177,2026-07-03,Leaking pipe,Leak at the storage tank joint,In progress,Teacher,,-2.22588,10.49867
+178,2026-05-18,No water,No water at the school since the start of the term,New,Community volunteer,,-2.05493,9.83098
+179,2026-05-24,Dirty water,Water smells bad and children have stomach aches,Resolved,Community volunteer,,-2.04865,10.81133
+180,2026-06-14,Broken pump,"Hand pump handle is broken, nobody can draw water",Resolved,Resident,WP-116,-1.92727,10.28712
+181,2026-11-01,Broken pump,Pump spout is cracked and water is spilling,In progress,Health worker,WP-116,-1.83229,10.17895
+182,2026-08-16,Leaking pipe,"Small leak at the tap stand, pressure is low",New,Community volunteer,,-1.73893,9.85376
+183,2026-09-19,Broken pump,Pump has been out of order for two weeks,Resolved,Community volunteer,WP-065,-1.72395,10.83850
+184,2026-09-29,Broken pump,"Hand pump handle is broken, nobody can draw water",In progress,Teacher,WP-118,0.23124,6.33762
+185,2026-10-02,Dirty water,Rust coloured water from the tap stand,New,Teacher,,0.36388,6.89684
+186,2026-09-08,Dirty water,Water looks cloudy in the morning,Resolved,Health worker,,0.36438,6.68697
+187,2026-08-11,Broken pump,Pump has been out of order for two weeks,Resolved,Resident,WP-090,0.38605,5.97335
+188,2026-05-23,Leaking pipe,Main pipe is leaking near the market,Resolved,Water committee,,0.49867,6.95020
+189,2026-08-10,No water,Clinic has no running water,In progress,Resident,,0.58783,7.23768
+190,2026-06-17,No water,No water at the school since the start of the term,Resolved,Water committee,,0.61946,6.18724
+191,2026-08-04,Leaking pipe,"Pipe burst on the road, water is running away",Resolved,Resident,,0.62665,6.57025
+192,2026-09-04,Broken pump,"Hand pump handle is broken, nobody can draw water",New,Community volunteer,WP-114,0.86411,5.89124
+193,2026-09-12,Leaking pipe,Leak at the storage tank joint,New,Water committee,,0.97212,6.20694
+194,2026-10-04,No water,No water at the school since the start of the term,New,Community volunteer,,-2.68897,5.06560
+195,2026-05-06,Dirty water,Water smells bad and children have stomach aches,New,Health worker,,-2.44898,5.63557
+196,2026-09-23,Broken pump,"Hand pump handle is broken, nobody can draw water",In progress,Water committee,WP-062,-2.43162,5.66824
+197,2026-11-10,Dirty water,Rust coloured water from the tap stand,New,Health worker,,-2.41546,4.95651
+198,2026-06-17,Leaking pipe,"Small leak at the tap stand, pressure is low",In progress,Water committee,,-2.23091,6.03572
+199,2026-05-21,Broken pump,Pump has been out of order for two weeks,In progress,Community volunteer,WP-088,-2.13129,5.23546
+200,2026-09-06,Dirty water,Water is brown after the rain,New,Water committee,,-2.01571,5.27862
+201,2026-10-02,No water,Clinic has no running water,New,Resident,,-1.95303,5.56421
+202,2026-05-13,Dirty water,Water looks cloudy in the morning,New,Community volunteer,,-1.92015,4.85454
+203,2026-05-06,Dirty water,Water smells bad and children have stomach aches,In progress,Water committee,,-3.02052,6.10950
+204,2026-07-28,No water,Tap stand has been dry since Monday,Resolved,Community volunteer,,-3.01605,6.49833
+205,2026-08-27,Dirty water,Rust coloured water from the tap stand,In progress,Community volunteer,,-2.84513,5.96721
+206,2026-09-15,Leaking pipe,"Small leak at the tap stand, pressure is low",In progress,Community volunteer,,-2.78138,6.44145
+207,2026-08-01,Dirty water,Water smells bad and children have stomach aches,In progress,Water committee,,-2.75307,5.53563
+208,2026-05-17,Broken pump,"Hand pump handle is broken, nobody can draw water",Resolved,Health worker,WP-016,-2.72462,6.20503
+209,2026-08-07,Dirty water,Rust coloured water from the tap stand,In progress,Water committee,,-2.65764,6.22799
+210,2026-06-20,Dirty water,Water looks cloudy in the morning,New,Teacher,,-2.43844,6.27811
