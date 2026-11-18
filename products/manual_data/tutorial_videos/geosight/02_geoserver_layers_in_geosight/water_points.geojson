@@ -1,0 +1,2412 @@
+{
+ "type": "FeatureCollection",
+ "name": "water_points",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 1,
+    "code": "WP-001",
+    "name": "Well 001",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.41407,
+     6.88692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 2,
+    "code": "WP-002",
+    "name": "Standpipe 002",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.33102,
+     5.98119
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 3,
+    "code": "WP-003",
+    "name": "Borehole 003",
+    "type": "Borehole",
+    "status": "Needs repair",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.08686,
+     9.765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 4,
+    "code": "WP-004",
+    "name": "Well 004",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2017
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.41428,
+     7.79081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 5,
+    "code": "WP-005",
+    "name": "Standpipe 005",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.50082,
+     7.25156
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 6,
+    "code": "WP-006",
+    "name": "Well 006",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH08",
+    "region": "North East",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3021,
+     10.53669
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 7,
+    "code": "WP-007",
+    "name": "Standpipe 007",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.26197,
+     5.26989
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 8,
+    "code": "WP-008",
+    "name": "Well 008",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.40615,
+     7.77322
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 9,
+    "code": "WP-009",
+    "name": "Standpipe 009",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.96058,
+     7.71785
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 10,
+    "code": "WP-010",
+    "name": "Borehole 010",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.44429,
+     6.76603
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 11,
+    "code": "WP-011",
+    "name": "Borehole 011",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH12",
+    "region": "Upper East",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5758,
+     10.67384
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 12,
+    "code": "WP-012",
+    "name": "Borehole 012",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.62455,
+     7.6732
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 13,
+    "code": "WP-013",
+    "name": "Standpipe 013",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.01055,
+     5.7682
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 14,
+    "code": "WP-014",
+    "name": "Standpipe 014",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.43797,
+     7.84703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 15,
+    "code": "WP-015",
+    "name": "Standpipe 015",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2017
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.66526,
+     7.19955
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 16,
+    "code": "WP-016",
+    "name": "Standpipe 016",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH16",
+    "region": "Western North",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.88471,
+     6.34171
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 17,
+    "code": "WP-017",
+    "name": "Standpipe 017",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.33152,
+     7.17916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 18,
+    "code": "WP-018",
+    "name": "Standpipe 018",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.136,
+     6.3336
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 19,
+    "code": "WP-019",
+    "name": "Well 019",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.59504,
+     6.32464
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 20,
+    "code": "WP-020",
+    "name": "Borehole 020",
+    "type": "Borehole",
+    "status": "Needs repair",
+    "region_ucode": "GH16",
+    "region": "Western North",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.77287,
+     5.8549
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 21,
+    "code": "WP-021",
+    "name": "Standpipe 021",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2023
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.03332,
+     6.80264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 22,
+    "code": "WP-022",
+    "name": "Borehole 022",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH08",
+    "region": "North East",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.76903,
+     10.41527
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 23,
+    "code": "WP-023",
+    "name": "Borehole 023",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.56085,
+     6.12981
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 24,
+    "code": "WP-024",
+    "name": "Borehole 024",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2023
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.86448,
+     6.41102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 25,
+    "code": "WP-025",
+    "name": "Standpipe 025",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.35757,
+     8.08128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 26,
+    "code": "WP-026",
+    "name": "Borehole 026",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH10",
+    "region": "Oti",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.45013,
+     8.03913
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 27,
+    "code": "WP-027",
+    "name": "Standpipe 027",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.56365,
+     5.77918
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 28,
+    "code": "WP-028",
+    "name": "Well 028",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH12",
+    "region": "Upper East",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.28075,
+     10.62237
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 29,
+    "code": "WP-029",
+    "name": "Well 029",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.21582,
+     6.70606
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 30,
+    "code": "WP-030",
+    "name": "Well 030",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05141,
+     6.38447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 31,
+    "code": "WP-031",
+    "name": "Well 031",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.10016,
+     9.64462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 32,
+    "code": "WP-032",
+    "name": "Well 032",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.79121,
+     6.87579
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 33,
+    "code": "WP-033",
+    "name": "Standpipe 033",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.33558,
+     5.60331
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 34,
+    "code": "WP-034",
+    "name": "Borehole 034",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2009
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.34056,
+     5.64686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 35,
+    "code": "WP-035",
+    "name": "Well 035",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH01",
+    "region": "Ahafo",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.46523,
+     7.01365
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 36,
+    "code": "WP-036",
+    "name": "Borehole 036",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH13",
+    "region": "Upper West",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.50811,
+     10.63515
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 37,
+    "code": "WP-037",
+    "name": "Well 037",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.34035,
+     9.32578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 38,
+    "code": "WP-038",
+    "name": "Standpipe 038",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH16",
+    "region": "Western North",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.48825,
+     6.21081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 39,
+    "code": "WP-039",
+    "name": "Borehole 039",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3534,
+     6.48565
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 40,
+    "code": "WP-040",
+    "name": "Standpipe 040",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.11544,
+     6.92737
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 41,
+    "code": "WP-041",
+    "name": "Standpipe 041",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH11",
+    "region": "Savannah",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.65698,
+     9.16795
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 42,
+    "code": "WP-042",
+    "name": "Standpipe 042",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.97151,
+     4.93561
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 43,
+    "code": "WP-043",
+    "name": "Standpipe 043",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.69255,
+     5.10856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 44,
+    "code": "WP-044",
+    "name": "Borehole 044",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2020
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.74975,
+     5.27822
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 45,
+    "code": "WP-045",
+    "name": "Well 045",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2009
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.22382,
+     9.67915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 46,
+    "code": "WP-046",
+    "name": "Borehole 046",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH11",
+    "region": "Savannah",
+    "installed": 2018
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.47123,
+     9.38991
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 47,
+    "code": "WP-047",
+    "name": "Borehole 047",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.70947,
+     5.45806
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 48,
+    "code": "WP-048",
+    "name": "Borehole 048",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.55017,
+     7.14719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 49,
+    "code": "WP-049",
+    "name": "Standpipe 049",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.04439,
+     5.69909
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 50,
+    "code": "WP-050",
+    "name": "Standpipe 050",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH10",
+    "region": "Oti",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.27301,
+     8.19768
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 51,
+    "code": "WP-051",
+    "name": "Well 051",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5567,
+     8.58786
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 52,
+    "code": "WP-052",
+    "name": "Standpipe 052",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.88882,
+     5.61085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 53,
+    "code": "WP-053",
+    "name": "Standpipe 053",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2023
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7677,
+     5.99626
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 54,
+    "code": "WP-054",
+    "name": "Borehole 054",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH13",
+    "region": "Upper West",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7166,
+     10.4595
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 55,
+    "code": "WP-055",
+    "name": "Standpipe 055",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.95345,
+     7.40189
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 56,
+    "code": "WP-056",
+    "name": "Borehole 056",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.05437,
+     5.73967
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 57,
+    "code": "WP-057",
+    "name": "Standpipe 057",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.81771,
+     7.52729
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 58,
+    "code": "WP-058",
+    "name": "Standpipe 058",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.88309,
+     5.39531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 59,
+    "code": "WP-059",
+    "name": "Borehole 059",
+    "type": "Borehole",
+    "status": "Needs repair",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.15226,
+     9.34263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 60,
+    "code": "WP-060",
+    "name": "Standpipe 060",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH16",
+    "region": "Western North",
+    "installed": 2018
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.37081,
+     6.18222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 61,
+    "code": "WP-061",
+    "name": "Standpipe 061",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.07756,
+     5.85797
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 62,
+    "code": "WP-062",
+    "name": "Borehole 062",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2009
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.37313,
+     5.93108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 63,
+    "code": "WP-063",
+    "name": "Standpipe 063",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.59854,
+     6.63877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 64,
+    "code": "WP-064",
+    "name": "Standpipe 064",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.17665,
+     5.82983
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 65,
+    "code": "WP-065",
+    "name": "Standpipe 065",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH12",
+    "region": "Upper East",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.36005,
+     10.85221
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 66,
+    "code": "WP-066",
+    "name": "Standpipe 066",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.32657,
+     7.74461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 67,
+    "code": "WP-067",
+    "name": "Well 067",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.36976,
+     6.44934
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 68,
+    "code": "WP-068",
+    "name": "Borehole 068",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.15409,
+     9.99108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 69,
+    "code": "WP-069",
+    "name": "Standpipe 069",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.88294,
+     5.48461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 70,
+    "code": "WP-070",
+    "name": "Standpipe 070",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.09481,
+     5.73325
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 71,
+    "code": "WP-071",
+    "name": "Well 071",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6505,
+     8.30862
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 72,
+    "code": "WP-072",
+    "name": "Standpipe 072",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH04",
+    "region": "Bono East",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.73228,
+     7.99692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 73,
+    "code": "WP-073",
+    "name": "Borehole 073",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.12353,
+     5.68794
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 74,
+    "code": "WP-074",
+    "name": "Borehole 074",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.77245,
+     7.12263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 75,
+    "code": "WP-075",
+    "name": "Borehole 075",
+    "type": "Borehole",
+    "status": "Needs repair",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.12601,
+     7.35742
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 76,
+    "code": "WP-076",
+    "name": "Borehole 076",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH01",
+    "region": "Ahafo",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5522,
+     6.90846
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 77,
+    "code": "WP-077",
+    "name": "Standpipe 077",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.25206,
+     5.64264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 78,
+    "code": "WP-078",
+    "name": "Well 078",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2012
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.09687,
+     8.78572
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 79,
+    "code": "WP-079",
+    "name": "Standpipe 079",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH01",
+    "region": "Ahafo",
+    "installed": 2017
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.58911,
+     7.04815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 80,
+    "code": "WP-080",
+    "name": "Well 080",
+    "type": "Hand-dug well",
+    "status": "Needs repair",
+    "region_ucode": "GH08",
+    "region": "North East",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.58249,
+     10.45745
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 81,
+    "code": "WP-081",
+    "name": "Standpipe 081",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.21964,
+     5.68311
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 82,
+    "code": "WP-082",
+    "name": "Borehole 082",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2014
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.82411,
+     9.66103
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 83,
+    "code": "WP-083",
+    "name": "Well 083",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.50161,
+     5.87986
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 84,
+    "code": "WP-084",
+    "name": "Well 084",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.50244,
+     6.43067
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 85,
+    "code": "WP-085",
+    "name": "Standpipe 085",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH11",
+    "region": "Savannah",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.25518,
+     8.73041
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 86,
+    "code": "WP-086",
+    "name": "Borehole 086",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH10",
+    "region": "Oti",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.41372,
+     8.34141
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 87,
+    "code": "WP-087",
+    "name": "Borehole 087",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.53873,
+     6.52591
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 88,
+    "code": "WP-088",
+    "name": "Borehole 088",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.00166,
+     5.31518
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 89,
+    "code": "WP-089",
+    "name": "Borehole 089",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH10",
+    "region": "Oti",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.26261,
+     8.53056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 90,
+    "code": "WP-090",
+    "name": "Standpipe 090",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2015
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.41646,
+     5.87715
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 91,
+    "code": "WP-091",
+    "name": "Well 091",
+    "type": "Hand-dug well",
+    "status": "Needs repair",
+    "region_ucode": "GH08",
+    "region": "North East",
+    "installed": 2018
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.66396,
+     10.29347
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 92,
+    "code": "WP-092",
+    "name": "Standpipe 092",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2020
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.15191,
+     5.78836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 93,
+    "code": "WP-093",
+    "name": "Borehole 093",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH09",
+    "region": "Northern",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.05128,
+     9.47285
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 94,
+    "code": "WP-094",
+    "name": "Borehole 094",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.21002,
+     5.94431
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 95,
+    "code": "WP-095",
+    "name": "Borehole 095",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH12",
+    "region": "Upper East",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.16371,
+     10.7887
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 96,
+    "code": "WP-096",
+    "name": "Standpipe 096",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.93034,
+     6.7303
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 97,
+    "code": "WP-097",
+    "name": "Borehole 097",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH15",
+    "region": "Western",
+    "installed": 2023
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.14394,
+     5.39433
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 98,
+    "code": "WP-098",
+    "name": "Borehole 098",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH01",
+    "region": "Ahafo",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.71471,
+     6.75309
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 99,
+    "code": "WP-099",
+    "name": "Standpipe 099",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.15235,
+     5.86216
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 100,
+    "code": "WP-100",
+    "name": "Standpipe 100",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2020
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.54658,
+     5.58907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 101,
+    "code": "WP-101",
+    "name": "Borehole 101",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH13",
+    "region": "Upper West",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.34291,
+     10.00584
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 102,
+    "code": "WP-102",
+    "name": "Borehole 102",
+    "type": "Borehole",
+    "status": "Needs repair",
+    "region_ucode": "GH12",
+    "region": "Upper East",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.71348,
+     10.81014
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 103,
+    "code": "WP-103",
+    "name": "Standpipe 103",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.10719,
+     5.39465
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 104,
+    "code": "WP-104",
+    "name": "Standpipe 104",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.36598,
+     6.58593
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 105,
+    "code": "WP-105",
+    "name": "Standpipe 105",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2016
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.25056,
+     5.88142
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 106,
+    "code": "WP-106",
+    "name": "Standpipe 106",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH02",
+    "region": "Ashanti",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.64335,
+     6.78452
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 107,
+    "code": "WP-107",
+    "name": "Well 107",
+    "type": "Hand-dug well",
+    "status": "Needs repair",
+    "region_ucode": "GH11",
+    "region": "Savannah",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.10039,
+     9.1958
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 108,
+    "code": "WP-108",
+    "name": "Standpipe 108",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH16",
+    "region": "Western North",
+    "installed": 2008
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.07724,
+     6.47547
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 109,
+    "code": "WP-109",
+    "name": "Borehole 109",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2013
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.33546,
+     6.20437
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 110,
+    "code": "WP-110",
+    "name": "Standpipe 110",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.18807,
+     5.89059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 111,
+    "code": "WP-111",
+    "name": "Well 111",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.11765,
+     6.10083
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 112,
+    "code": "WP-112",
+    "name": "Borehole 112",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH13",
+    "region": "Upper West",
+    "installed": 2019
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.81476,
+     9.92409
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 113,
+    "code": "WP-113",
+    "name": "Standpipe 113",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH03",
+    "region": "Bono",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.15175,
+     7.79092
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 114,
+    "code": "WP-114",
+    "name": "Standpipe 114",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2024
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.90751,
+     5.92188
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 115,
+    "code": "WP-115",
+    "name": "Standpipe 115",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH07",
+    "region": "Greater Accra",
+    "installed": 2018
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.11864,
+     5.81312
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 116,
+    "code": "WP-116",
+    "name": "Borehole 116",
+    "type": "Borehole",
+    "status": "Functional",
+    "region_ucode": "GH13",
+    "region": "Upper West",
+    "installed": 2022
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8943,
+     10.31042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 117,
+    "code": "WP-117",
+    "name": "Standpipe 117",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH05",
+    "region": "Central",
+    "installed": 2023
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.41593,
+     5.55939
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 118,
+    "code": "WP-118",
+    "name": "Standpipe 118",
+    "type": "Standpipe",
+    "status": "Needs repair",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.22256,
+     6.24736
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 119,
+    "code": "WP-119",
+    "name": "Well 119",
+    "type": "Hand-dug well",
+    "status": "Functional",
+    "region_ucode": "GH06",
+    "region": "Eastern",
+    "installed": 2011
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.64246,
+     5.96078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 120,
+    "code": "WP-120",
+    "name": "Standpipe 120",
+    "type": "Standpipe",
+    "status": "Functional",
+    "region_ucode": "GH14",
+    "region": "Volta",
+    "installed": 2010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7839,
+     6.19357
+    ]
+   }
+  }
+ ]
+}
