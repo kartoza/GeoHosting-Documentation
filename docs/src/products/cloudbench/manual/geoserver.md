@@ -246,7 +246,6 @@ The following formats are accepted:
 
 <br>
 
-
 ### Connect to PostgreSQL
 
 If you already have a PostgreSQL connection configured in CloudBench, you can use it to create a PostGIS data store in your workspace.

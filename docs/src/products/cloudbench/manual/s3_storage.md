@@ -409,7 +409,7 @@ If a GeoPackage upload creates paired conversion jobs, cancelling one also cance
 
 ### Conversion Limitations
 
-**GeoPackage** conversion is currently not available in **On-Demand** mode. A GeoPackage may contain vector layers and raster tables, which are handled as separate conversion jobs. 
+**GeoPackage** conversion is currently not available in **On-Demand** mode. A GeoPackage may contain vector layers and raster tables, which are handled as separate conversion jobs.
 
 CloudBench needs to inspect the GeoPackage before presenting the available conversion options. That inspection step requires a processing environment, which is not currently available in the on-demand workflow.
 
@@ -430,8 +430,6 @@ In **Fixed (non-demand)** mode, the vector and raster conversion jobs use separa
 </div>
 
 <br>
-
-
 
 ## Troubleshooting
 
