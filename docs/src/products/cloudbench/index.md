@@ -15,11 +15,11 @@ context_id: nDU6LLGiXPTLADXY
 
 ## What is CloudBench?
 
-**CloudBench** is a geospatial data management and conversion platform that connects to services such as GeoServer, PostgreSQL/PostGIS, GeoNode, and S3-compatible storage.
+**CloudBench** is a geospatial data management and processing platform available through your GeoSpatialHosting account. It provides a central interface for working with hosted GeoServer, GeoNode, and PostgreSQL/PostGIS instances, as well as external S3-compatible storage services.
 
-It provides a central interface for managing these connections, uploading datasets, converting geospatial files into cloud-native formats, and previewing the resulting layers directly in a browser.
+Instead of logging in to each service separately, CloudBench brings several common geospatial workflows together in one place. Users can browse their data, manage resources, upload datasets, run conversions, and preview supported layers directly through a web interface.
 
-CloudBench helps simplify geospatial workflows by bringing data storage, format conversion, and visualisation together in one place. Instead of requiring a separate server for every dataset or format, supported cloud-native formats can be accessed directly from object storage.
+CloudBench also supports converting geospatial datasets into cloud-native formats, making it easier to store, access, and visualise large datasets without requiring a separate map server for every layer.
 
 <br>
 
@@ -31,67 +31,75 @@ CloudBench helps simplify geospatial workflows by bringing data storage, format 
 
 ## Key Capabilities
 
-- **Multiple Service Connections**
+- **GeoServer Management**
 
-    Connect to GeoServer, PostgreSQL/PostGIS, GeoNode, and S3-compatible storage services through a single interface.
-
-    <br>
-
-- **Geospatial Data Uploads**
-
-    Upload supported vector, raster, and point cloud datasets to connected storage locations and geospatial services.
+    Browse workspaces, data stores, coverage stores, layers, styles, and layer groups. Edit layer metadata, including titles, abstracts, keywords, and attribution.
 
     <br>
 
-- **Cloud-Native Format Conversion**
+- **Interactive Map Preview**
 
-    Convert supported datasets into formats optimised for cloud-based access, including COGs, PMTiles, GeoParquet, and Cloud Optimized Point Cloud (COPC).
-
-    <br>
-
-- **Browser-Based Layer Preview**
-
-    Preview supported geospatial datasets directly in CloudBench without requiring a separate map server for cloud-native outputs.
+    Preview supported layers on an interactive map using WMS and WMTS services before using them elsewhere.
 
     <br>
 
-- **Raster Data Processing**
+- **GeoWebCache Management**
 
-    Convert GeoTIFF files into COGs and create mosaics from multiple raster tiles for streamlined access.
-
-    <br>
-
-- **Vector Data Processing**
-
-    Generate PMTiles for map visualisation and GeoParquet for accessing vector features and their associated attributes.
+    Seed, reseed, and truncate cached tiles for layers, with progress displayed during the operation.
 
     <br>
 
-- **LiDAR Point Cloud Support**
+- **Server Synchronisation**
 
-    Convert LAS and LAZ point cloud files into COPC for efficient streaming and 3D visualisation.
+    Replicate GeoServer resources, including workspaces, stores, layers, and styles, between different GeoServer instances.
+
+    <br>
+
+- **PostgreSQL & PostGIS Integration**
+
+    Connect to hosted databases, browse schemas and tables, and execute SQL queries.
+
+    <br>
+
+- **Geospatial File Uploads**
+
+    Upload supported geospatial files to connected services and storage locations, with upload progress tracking.
+
+    <br>
+
+- **S3 Storage Management**
+
+    Browse and manage datasets stored in S3-compatible object storage, including cloud-native geospatial formats.
+
+    <br>
+
+- **Cloud-Native Data Conversion**
+
+    Convert supported raster, vector, and point cloud datasets into formats such as COG, PMTiles, GeoParquet, and COPC.
 
     <br>
 
 - **GeoNode Integration**
 
-    Upload supported datasets to a connected GeoNode site, with options to specify titles and descriptive abstracts.
+    Upload supported datasets to connected GeoNode sites and provide dataset titles and abstracts.
 
     <br>
 
-- **Cloud Storage Integration**
+- **QGIS Server & 3D Visualisation**
 
-    Work with S3-compatible object storage platforms, including AWS S3, MinIO, and DigitalOcean Spaces.
+    Manage and preview supported QGIS Server projects and explore compatible datasets using an interactive 3D globe.
 
 <br>
 
 ## How CloudBench Works
 
-CloudBench uses saved **connections** to communicate with external geospatial services and storage locations.
+CloudBench connects to your existing geospatial services through saved connections.
 
-Users configure or select a connection, upload or access data, and perform supported operations through the interface. When a dataset is converted into a cloud-native format, CloudBench uses CloudNativeGIS to process the data and publishes the resulting files to the connected storage location.
+When accessed through GeoSpatialHosting, CloudBench automatically uses your account to identify the hosted instances available to you. Connections to these instances are generally configured already, so you can start browsing your resources without setting them up manually.
 
-The resulting datasets can then be previewed in CloudBench or accessed by compatible GIS tools and applications.
+You can also add connections to other supported services and storage locations.
+
+Once connected, you can browse your data, upload files, perform supported operations, and preview the resulting layers directly through the CloudBench interface.
 
 <br>
 
@@ -101,9 +109,9 @@ The resulting datasets can then be previewed in CloudBench or accessed by compat
 
 <br>
 
-## Supported Cloud-Native Formats
+## Supported Services & Formats
 
-CloudBench supports several cloud-native formats designed for efficient access to different types of geospatial data.
+CloudBench works with several geospatial services and storage solutions.
 
 <table class="my-table-style">
   <thead>
@@ -114,27 +122,32 @@ CloudBench supports several cloud-native formats designed for efficient access t
   </thead>
   <tbody>
     <tr>
-      <td>Cloud Optimized GeoTIFF</td>
-      <td>For storing raster data, including satellite imagery and digital elevation models.</td>
+      <td>GeoServer</td>
+      <td>Manage workspaces, data stores, layers, styles, and cached tiles.</td>
     </tr>
     <tr>
-      <td>PMTiles</td>
-      <td>For storing and serving vector tiles from a single file without a separate tile server.</td>
+      <td>PostGIS</td>
+      <td>Browse spatial databases, schemas, and tables, and execute SQL queries.</td>
     </tr>
     <tr>
-      <td>GeoParquet</td>
-      <td>For storing vector features and attributes in a columnar format for efficient data querying.</td>
+      <td>GeoNode</td>
+      <td>Upload and manage geospatial datasets on a connected GeoNode site.</td>
     </tr>
     <tr>
-      <td>Cloud Optimized Point Cloud</td>
-      <td>For storing, streaming, and visualising LiDAR point cloud datasets.</td>
+      <td>S3 Storage</td>
+      <td>Store, browse, and convert geospatial datasets in object storage.</td>
     </tr>
   </tbody>
 </table>
 
 <br>
 
-The available conversion depends on the input data type. Vector uploads can produce both PMTiles and GeoParquet, while raster and point cloud uploads use their corresponding formats.
+CloudBench also supports several cloud-native output formats:
+
+- **COGs** - For raster datasets such as imagery and elevation models.
+- **PMTiles** - For serving vector tiles from a single file.
+- **GeoParquet** - For storing and querying vector features and their attributes.
+- **COPCs** - For streaming and visualising LiDAR point clouds.
 
 <br>
 
@@ -142,25 +155,27 @@ The available conversion depends on the input data type. Vector uploads can prod
 
 CloudBench can support a range of geospatial data workflows, including:
 
-- Connecting to existing geospatial services and databases.
-- Uploading datasets to S3-compatible object storage.
-- Converting raster data into cloud-optimised formats.
-- Preparing vector datasets for map visualisation and data analysis.
-- Converting LiDAR point clouds for browser-based 3D viewing.
+- Browsing and managing resources across connected GeoServer instances.
+- Previewing published layers before using them in other applications.
+- Managing cached map tiles through GeoWebCache.
+- Synchronising resources between GeoServer instances.
+- Browsing and querying PostgreSQL/PostGIS databases.
 - Uploading datasets to GeoNode.
-- Previewing converted datasets without deploying a separate server for each output.
+- Uploading geospatial files to S3-compatible storage.
+- Converting raster, vector, and point cloud datasets into cloud-native formats.
+- Previewing converted datasets on a map, in a table, or in a 3D viewer.
 
 <br>
 
-CloudBench is particularly useful when organisations need to prepare and access geospatial data efficiently, especially when working with large datasets or cloud-based mapping applications.
+CloudBench is particularly useful for organisations that work with multiple geospatial services and want a central place to manage their data and common GIS workflows.
 
 <br>
 
 ## Getting Started & Resources
 
-To begin using CloudBench, start by adding or selecting a connection to the service or storage location you want to work with.
+CloudBench is available directly through your GeoSpatialHosting account. You do not need to create a separate CloudBench instance or register for another account.
 
-From there, you can upload supported datasets, perform available conversions, and preview the resulting layers.
+If you are accessing CloudBench for the first time, start with the First Log In guide.
 
 <br>
 
@@ -169,10 +184,10 @@ Use the guides and resources below to get started:
 <div class="cards-grid">
   <div class="card">
     <div class="card-header">
-      🔗 <a href="./guide/connections/">Managing Connections</a>
+      🔐 <a href="./guide/first_login/">First Log In</a>
     </div>
     <div class="card-body">
-      Connect CloudBench to GeoServer, PostgreSQL/PostGIS, GeoNode, and S3-compatible storage services.
+      Access CloudBench through your GSH account and familiarise yourself with the initial setup.
     </div>
   </div>
 
