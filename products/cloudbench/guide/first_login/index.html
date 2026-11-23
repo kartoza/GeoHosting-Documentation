@@ -16,6 +16,8 @@
         <link rel="prev" href="../../overview/">
       
       
+        <link rel="next" href="../quickstart/">
+      
       
         
       
@@ -4458,6 +4460,8 @@
       
         
       
+        
+      
     
     
     
@@ -4548,6 +4552,8 @@
   
     
     
+      
+        
       
         
       
@@ -4724,6 +4730,214 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8_4" id="__nav_4_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manual
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Manual
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/postgis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PostgreSQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/geoserver/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GeoServer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/geonode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GeoNode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/s3_storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S3 Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -4853,8 +5067,8 @@
 <p>Once logged in, you will be taken to your GeoSpatialHosting dashboard.</p>
 <ol>
 <li>Open the <a href="https://geospatialhosting.com/">GeoSpatialHosting website</a>.</li>
-<li>Navigate to the dashboard.</li>
 <li>Log in using your existing GSH account credentials.</li>
+<li>Navigate to the dashboard.</li>
 </ol>
 <p><br></p>
 <div class="image-with-caption">
@@ -4865,9 +5079,8 @@
 <h2 id="step-2-open-cloudbench">Step 2: Open CloudBench<a class="headerlink" href="#step-2-open-cloudbench" title="Permanent link">¶</a></h2>
 <p>CloudBench uses your existing GeoSpatialHosting authentication, so you do not need to enter your login credentials again.</p>
 <ol>
-<li>Locate the <span class="ui-page-label">CloudBench</span> option in your GSH dashboard.</li>
+<li>Locate the <span class="ui-page-label">CloudBench</span> tab in your GSH dashboard.</li>
 <li>Select <span class="ui-generic-label">CloudBench</span> to open the application.</li>
-<li>Wait for CloudBench to load.</li>
 </ol>
 <p><br></p>
 <div class="image-with-caption">
@@ -4896,12 +5109,33 @@
 <p>The left-hand panel contains a connection tree where you can browse the services and resources available to your account.</p>
 <p><br></p>
 <p>Depending on your GeoSpatialHosting setup, you may see connections for:</p>
-<ul>
-<li><strong>GeoServer</strong> - Browse workspaces, data stores, layers, styles, and other GeoServer resources.</li>
-<li><strong>PostgreSQL/PostGIS</strong> - Browse database schemas and tables and execute SQL queries.</li>
-<li><strong>GeoNode</strong> - Access datasets available through your connected GeoNode site.</li>
-<li><strong>S3 Storage</strong> - Browse and manage files stored in connected object storage buckets.</li>
-</ul>
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Connection</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GeoServer</td>
+      <td>Browse workspaces, data stores, layers, styles, and other GeoServer resources.</td>
+    </tr>
+    <tr>
+      <td>PostgreSQL/PostGIS</td>
+      <td>Browse database schemas and tables and execute SQL queries.</td>
+    </tr>
+    <tr>
+      <td>GeoNode</td>
+      <td>Access datasets available through your connected GeoNode site.</td>
+    </tr>
+    <tr>
+      <td>S3 Storage</td>
+      <td>Browse and manage files stored in connected object storage buckets.</td>
+    </tr>
+  </tbody>
+</table>
+
 <p><br></p>
 <p>Expand a connection in the tree to see the available resources.</p>
 <p><br></p>
@@ -4913,7 +5147,6 @@
 <h2 id="step-5-check-your-connections">Step 5: Check Your Connections<a class="headerlink" href="#step-5-check-your-connections" title="Permanent link">¶</a></h2>
 <p>When using CloudBench through GeoSpatialHosting, connections to your hosted instances are generally configured automatically.</p>
 <p>Before getting started, check that your expected services are visible in the connection tree. If you have additional services or external storage locations you want to use, you can add your own connections.</p>
-<p>For more information, see <a href="connections.md">Managing Connections</a>.</p>
 <p><br></p>
 <hr>
 <p><strong>Next up:</strong> Follow the Quickstart to get familiar with the complete workflow.</p>
@@ -4973,6 +5206,22 @@
             </div>
           </a>
         
+        
+          
+          <a href="../quickstart/" class="md-footer__link md-footer__link--next" aria-label="Next: Quickstart">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quickstart
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
