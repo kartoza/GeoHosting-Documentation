@@ -22,8 +22,8 @@ Unlike some of the other GeoSpatialHosting products, CloudBench does not require
 Once logged in, you will be taken to your GeoSpatialHosting dashboard.
 
 1. Open the [GeoSpatialHosting website](https://geospatialhosting.com/).
-2. Navigate to the dashboard.
-3. Log in using your existing GSH account credentials.
+2. Log in using your existing GSH account credentials.
+3. Navigate to the dashboard.
 
 <br>
 
@@ -37,9 +37,8 @@ Once logged in, you will be taken to your GeoSpatialHosting dashboard.
 
 CloudBench uses your existing GeoSpatialHosting authentication, so you do not need to enter your login credentials again.
 
-1. Locate the <span class="ui-page-label">CloudBench</span> option in your GSH dashboard.
+1. Locate the <span class="ui-page-label">CloudBench</span> tab in your GSH dashboard.
 2. Select <span class="ui-generic-label">CloudBench</span> to open the application.
-3. Wait for CloudBench to load.
 
 <br>
 
@@ -80,10 +79,32 @@ The left-hand panel contains a connection tree where you can browse the services
 
 Depending on your GeoSpatialHosting setup, you may see connections for:
 
-- **GeoServer** - Browse workspaces, data stores, layers, styles, and other GeoServer resources.
-- **PostgreSQL/PostGIS** - Browse database schemas and tables and execute SQL queries.
-- **GeoNode** - Access datasets available through your connected GeoNode site.
-- **S3 Storage** - Browse and manage files stored in connected object storage buckets.
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Connection</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GeoServer</td>
+      <td>Browse workspaces, data stores, layers, styles, and other GeoServer resources.</td>
+    </tr>
+    <tr>
+      <td>PostgreSQL/PostGIS</td>
+      <td>Browse database schemas and tables and execute SQL queries.</td>
+    </tr>
+    <tr>
+      <td>GeoNode</td>
+      <td>Access datasets available through your connected GeoNode site.</td>
+    </tr>
+    <tr>
+      <td>S3 Storage</td>
+      <td>Browse and manage files stored in connected object storage buckets.</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -102,8 +123,6 @@ Expand a connection in the tree to see the available resources.
 When using CloudBench through GeoSpatialHosting, connections to your hosted instances are generally configured automatically.
 
 Before getting started, check that your expected services are visible in the connection tree. If you have additional services or external storage locations you want to use, you can add your own connections.
-
-For more information, see [Managing Connections](connections.md).
 
 <br>
 
